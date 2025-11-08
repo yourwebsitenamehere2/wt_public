@@ -1,0 +1,128 @@
+
+# .github/workflows/squash-and-deploy-pages.yml
+
+name: Squash and Deploy to GitHub Pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_branch:
+        description: 'The branch to squash and then deploy to GitHub Pages.'
+        required: true
+        default: 'main' # Or 'gh-pages' if that's your usual source branch
+        type: string
+      squash_commit_message:
+        description: 'The commit message for the squashed commit.'
+        required: true
+        default: 'docs: Regenerate site from latest content (squashed)'
+        type: string
+      site_path:
+        description: 'Path to the directory containing your built site files (e.g., ., ./_site, ./dist).'
+        required: true
+        default: '.' # Default for sites with no build step, files at root
+        type: string
+
+jobs:
+  squash_and_deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }} # To show the deployed URL
+
+    permissions:
+      contents: write   # To checkout, squash, push, and read content for Pages
+      pages: write    # To deploy to Pages
+      id-token: write # To authenticate with OIDC for Pages deployment
+
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          egress-policy: audit # Configure as needed
+
+      - name: Checkout the target branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.target_branch }}
+          fetch-depth: 0 # IMPORTANT: Needed for squash operation (orphan branch)
+
+      - name: Configure Git User
+        run: |
+          git config user.name "GitHub Action Bot"
+          git config user.email "actions-bot@users.noreply.github.com"
+
+      - name: Perform the Squash Operation
+        env:
+          BRANCH_TO_SQUASH: ${{ github.event.inputs.target_branch }}
+          NEW_COMMIT_MESSAGE: ${{ github.event.inputs.squash_commit_message }}
+        run: |
+          set -e # Exit immediately if a command exits with a non-zero status
+
+          echo "ℹ️ Information: About to squash all history on branch '$BRANCH_TO_SQUASH'"
+          echo "This will replace all existing commits with a single new commit: '$NEW_COMMIT_MESSAGE'"
+          echo "Current HEAD on '$BRANCH_TO_SQUASH' is $(git rev-parse HEAD)"
+
+          # Create a new orphan branch from the current state of BRANCH_TO_SQUASH
+          git checkout --orphan temp_squash_branch
+          
+          # Stage all files from the working directory (which is the state of BRANCH_TO_SQUASH)
+          git add -A
+          
+          # Commit them as a single new commit
+          git commit -m "$NEW_COMMIT_MESSAGE"
+          
+          # Delete the old local BRANCH_TO_SQUASH
+          git branch -D "$BRANCH_TO_SQUASH"
+          
+          # Rename the current temp_squash_branch to BRANCH_TO_SQUASH
+          git branch -m "$BRANCH_TO_SQUASH"
+          
+          echo "Force pushing '$BRANCH_TO_SQUASH' to origin..."
+          git push -f origin "$BRANCH_TO_SQUASH"
+
+          echo "✅ History for branch '$BRANCH_TO_SQUASH' has been squashed."
+          echo "New HEAD on '$BRANCH_TO_SQUASH' is $(git rev-parse HEAD)"
+
+      - name: Verify Squash (Optional)
+        env:
+          BRANCH_TO_VERIFY: ${{ github.event.inputs.target_branch }}
+        run: |
+          # Checkout again to ensure we get the fresh state from remote after push
+          # This might seem redundant but ensures the subsequent steps work on the truly squashed branch
+          # git fetch origin "$BRANCH_TO_VERIFY" # Fetch latest state
+          # git checkout "$BRANCH_TO_VERIFY"     # Checkout the squashed branch
+          
+          COMMIT_COUNT=$(git rev-list --count HEAD) # HEAD should be the squashed branch
+          echo "Number of commits on $BRANCH_TO_VERIFY after squash: $COMMIT_COUNT"
+          if [ "$COMMIT_COUNT" -ne 1 ]; then
+            COMMITS_AHEAD_ORIGIN=$(git rev-list --count origin/$BRANCH_TO_VERIFY..HEAD)
+            if [ "$COMMITS_AHEAD_ORIGIN" -eq 1 ]; then
+                echo "Verification: Branch has 1 new commit locally after squash. This is expected."
+            else
+                echo "Warning: Expected 1 commit after squash, but found $COMMIT_COUNT locally."
+                echo "This might be okay if the branch history was already 1 commit before squash, or if there's a discrepancy."
+                echo "Check git log for details."
+                # Consider exiting with an error if strict verification is needed:
+                # exit 1
+            fi
+          else
+            echo "Verification successful: Branch has 1 commit."
+          fi
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+        # No specific configuration usually needed if deploying from root of the branch
+        # to root of gh-pages site and your repository settings are correct.
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Path to the directory containing your built site files.
+          path: ${{ github.event.inputs.site_path }}
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        # This will deploy the artifact uploaded in the previous step.
+        # Ensure your repository's Pages settings are configured to deploy from "GitHub Actions".
