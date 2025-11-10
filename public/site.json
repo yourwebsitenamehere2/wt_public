@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2025-11-08T11:27:52.156Z",
+  "lastUpdate": "2025-11-10T11:54:38.847Z",
   "siteName": "webTuyo ",
   "siteDomain": "https://Your.Domain",
   "siteIcon": "favicon-32x32.png",
@@ -4782,7 +4782,7 @@
               ""
             ],
             "subtitle$L": [
-              "Bringing ideas to life, one pixel at a time.<br><br><span style=\"font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;;\">create your website with webTuyo!&nbsp;</span>",
+              "Bringing ideas to life, one pixel at a time.",
               ""
             ],
             "description$PL": [
@@ -5011,8 +5011,7 @@
             "blockEntityId": "32",
             "delayAnimation": "500",
             "dataStructureId": 8,
-            "component_type": "custom_section_block",
-            "enableOnlyAfterCookieConsent": false
+            "component_type": "custom_section_block"
           }
         },
         {
@@ -5069,8 +5068,7 @@
             "delayAnimation": 0,
             "component_type": "custom_section_block",
             "blockEntityId": 40,
-            "dataStructureId": 9,
-            "enableOnlyAfterCookieConsent": false
+            "dataStructureId": 9
           }
         }
       ],
@@ -5889,10 +5887,7 @@
             "themeId": 0,
             "id": 0,
             "blockEntityId": 0,
-            "generalSlotName": "mainLinks.this",
-            "langCode": "en",
-            "themeSwitchCustom": "dark",
-            "enableOnlyAfterCookieConsent": false
+            "generalSlotName": "mainLinks.this"
           },
           {
             "text$L": [
@@ -5915,10 +5910,7 @@
             "themeId": 0,
             "id": 1,
             "blockEntityId": 0,
-            "generalSlotName": "mainLinks.this",
-            "langCode": "en",
-            "themeSwitchCustom": "dark",
-            "enableOnlyAfterCookieConsent": false
+            "generalSlotName": "mainLinks.this"
           },
           {
             "text$L": [
@@ -5941,10 +5933,7 @@
             "themeId": 0,
             "id": 2,
             "blockEntityId": 0,
-            "generalSlotName": "mainLinks.this",
-            "langCode": "en",
-            "themeSwitchCustom": "dark",
-            "enableOnlyAfterCookieConsent": false
+            "generalSlotName": "mainLinks.this"
           }
         ],
         "rightLinks": [
@@ -5969,19 +5958,16 @@
             "themeId": 0,
             "id": 0,
             "blockEntityId": 0,
-            "generalSlotName": "rightLinks.this",
-            "langCode": "en",
-            "themeSwitchCustom": "dark",
-            "enableOnlyAfterCookieConsent": false
+            "generalSlotName": "rightLinks.this"
           }
         ],
-        "themeId": "2",
+        "themeId": 1,
         "blockEntityId": "23",
         "lazyLoading": false,
         "delayAnimation": 0,
-        "enableOnlyAfterCookieConsent": false,
         "component_type": "custom_section_block",
-        "dataStructureId": 5
+        "dataStructureId": 5,
+        "enableOnlyAfterCookieConsent": false
       }
     }
   },
