@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2025-11-10T13:09:25.787Z",
+  "lastUpdate": "2025-11-10T16:11:24.653Z",
   "siteName": "myWebsiteName",
   "siteDomain": "https://Your.Domain",
   "siteIcon": "favicon-32x32.png",
@@ -4782,7 +4782,7 @@
               ""
             ],
             "subtitle$L": [
-              "Bringing ideas to life, one pixel at a time.",
+              "Bringing ideas to life, one pixel at a time.<br><br>Create your website with webTuyo!",
               ""
             ],
             "description$PL": [
