@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2025-11-13T13:53:49.941Z",
+  "lastUpdate": "2025-11-13T14:13:21.881Z",
   "siteName": "webTuyo ",
   "siteDomain": "https://Your.Domain",
   "siteIcon": "favicon-32x32.png",
@@ -9311,7 +9311,7 @@
           "slotName": "default",
           "component": {
             "anchorName": "contact",
-            "url": "https://contact-form.dev-a5a.workers.dev",
+            "url": "https://",
             "title$L": [
               "Begin Your Story",
               "",
@@ -9327,7 +9327,7 @@
               ""
             ],
             "description$PL": [
-              "I accept a limited number of commissions each year to ensure I can provide the highest level of service and attention to each couple. Let's start a conversation about your vision. Updated!",
+              "I accept a limited number of commissions each year to ensure I can provide the highest level of service and attention to each couple. Let's start a conversation about your vision.&nbsp;",
               "",
               "",
               "",
@@ -9363,7 +9363,7 @@
                 "required$B": true,
                 "fullWidth$B": "",
                 "name$L": [
-                  "Wedding Date",
+                  "Event's Date",
                   "",
                   "",
                   "",
@@ -9375,7 +9375,7 @@
                 "required$B": true,
                 "fullWidth$B": "",
                 "name$L": [
-                  "Wedding Location",
+                  "Location",
                   "",
                   "",
                   "",
@@ -9399,7 +9399,7 @@
                 "required$B": true,
                 "fullWidth$B": true,
                 "name$L": [
-                  "I understand that collections begin at €4,500 and typically include 8-10 hours of coverage.",
+                  "I would like to schedule an appointment",
                   "",
                   "",
                   "",
