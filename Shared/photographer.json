@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2025-11-13T14:13:21.881Z",
+  "lastUpdate": "2025-11-13T14:18:49.768Z",
   "siteName": "webTuyo ",
   "siteDomain": "https://Your.Domain",
   "siteIcon": "favicon-32x32.png",
@@ -8502,7 +8502,7 @@
               ""
             ],
             "subtitle$L": [
-              "Luxury Wedding Photography with Editorial Flair",
+              "<span class=\"fontwt-default\" style=\"color: rgb(255, 255, 255);\">Luxury Wedding Photography with Editorial Flair</span>",
               "",
               "",
               "",
@@ -8516,7 +8516,7 @@
               ""
             ],
             "image": {
-              "imagePath": "https://readdy.ai/api/search-image?query=Luxury%20wedding%20photography%20scene%20in%20Puglia%2C%20Italy%20with%20golden%20sunset%20light%20filtering%20through%20olive%20trees.%20A%20bride%20in%20an%20elegant%20gown%20stands%20in%20soft%20focus%20against%20a%20stunning%20Apulian%20landscape%20with%20ancient%20stone%20buildings.%20The%20image%20has%20a%20cinematic%2C%20editorial%20quality%20with%20warm%20tones%20and%20artistic%20composition.%20Professional%20fine%20art%20photography%20with%20perfect%20lighting.&width=1920&height=1080&seq=1&orientation=landscape",
+              "imagePath": "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
               "altText$L": [
                 "",
                 "",
@@ -10789,6 +10789,177 @@
       ],
       "deferSections": 99,
       "lazyLoading": true
+    },
+    "7": {
+      "title$L": [
+        "Contact",
+        "Contact",
+        "Contact",
+        "Contact",
+        "Contact"
+      ],
+      "jsonSEO$L": [
+        "{}",
+        "{}",
+        "{}",
+        "{}",
+        "{}"
+      ],
+      "pathFolderId": 0,
+      "metaData": [
+        {
+          "isProperty": false,
+          "nameOrProperty$L": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "content$L": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "pageLayoutId": 0,
+      "id": 7,
+      "sections": [
+        {
+          "id": 1,
+          "slotName": "default",
+          "component": {
+            "anchorName": "section1",
+            "url": "https://",
+            "title$L": [
+              "Begin Your Story",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "subtitle$L": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "description$PL": [
+              "I accept a limited number of commissions each year to ensure I can provide the highest level of service and attention to each couple. Let's start a conversation about your vision.",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "fields": [
+              {
+                "type": "text",
+                "required$B": true,
+                "fullWidth$B": "",
+                "name$L": [
+                  "Name",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "type": "email",
+                "required$B": true,
+                "fullWidth$B": "",
+                "name$L": [
+                  "Email",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "type": "date",
+                "required$B": true,
+                "fullWidth$B": "",
+                "name$L": [
+                  "Event's Date",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "type": "text",
+                "required$B": true,
+                "fullWidth$B": "",
+                "name$L": [
+                  "Event's Location",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "type": "textarea",
+                "required$B": true,
+                "fullWidth$B": true,
+                "name$L": [
+                  "Your Vision",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "type": "checkbox",
+                "required$B": true,
+                "fullWidth$B": true,
+                "name$L": [
+                  "I would like to schedule an appointment",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "type": "checkbox",
+                "required$B": true,
+                "fullWidth$B": true,
+                "name$L": [
+                  "I consent to the collection and use of my personal data for the purpose of processing my request, in accordance with the Privacy Policy.\"",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "submit$L": [
+              "Send Inquiry",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "themeId": "0",
+            "lazyLoading": false,
+            "enableOnlyAfterCookieConsent": false,
+            "delayAnimation": 0,
+            "blockEntityId": 63,
+            "component_type": "custom_section_block",
+            "dataStructureId": 20
+          }
+        }
+      ],
+      "deferSections": 99,
+      "lazyLoading": true
     }
   },
   "pagesIds": [
@@ -10797,7 +10968,8 @@
     3,
     4,
     5,
-    6
+    6,
+    7
   ],
   "currentLanguage": "en",
   "languagesEntityMap": {
@@ -11436,7 +11608,7 @@
       "id": 2,
       "block": {
         "anchorName": "section",
-        "webSiteName": "Fotografo",
+        "webSiteName": "photographer",
         "description$PL": [
           "Your Website Descriptions here ",
           "",
@@ -11483,7 +11655,7 @@
           },
           {
             "text$L": [
-              "Services",
+              "Porfolio",
               "",
               "",
               "",
@@ -11508,11 +11680,14 @@
             "themeId": 0,
             "id": 1,
             "blockEntityId": 52,
-            "generalSlotName": "links.this"
+            "generalSlotName": "links.this",
+            "langCode": "en",
+            "themeSwitchCustom": "dark",
+            "enableOnlyAfterCookieConsent": false
           },
           {
             "text$L": [
-              "Products",
+              "Blog",
               "",
               "",
               "",
@@ -11537,7 +11712,10 @@
             "themeId": 0,
             "id": 2,
             "blockEntityId": 52,
-            "generalSlotName": "links.this"
+            "generalSlotName": "links.this",
+            "langCode": "en",
+            "themeSwitchCustom": "dark",
+            "enableOnlyAfterCookieConsent": false
           }
         ],
         "themeId": "0",
@@ -11564,7 +11742,7 @@
             ""
           ]
         },
-        "logoText": "Fotografo",
+        "logoText": "photographer",
         "mainLinks": [
           {
             "text$L": [
@@ -11727,7 +11905,7 @@
         },
         "themeLight": {
           "text$L": [
-            "Luce di Puglia",
+            "Light",
             "",
             "",
             "",
@@ -11756,20 +11934,6 @@
           "generalSlotName": "themeLight"
         },
         "themeDark": {
-          "text$L": [
-            "Notte Salentina",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "description$L": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
           "typeL": "themeSwitchCustom",
           "externalLink": "",
           "page": 0,
@@ -11783,7 +11947,21 @@
           "enableOnlyAfterCookieConsent": false,
           "id": 0,
           "blockEntityId": 54,
-          "generalSlotName": "themeDark"
+          "generalSlotName": "themeDark",
+          "text$L": [
+            "Dark",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "description$L": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
         },
         "themeId": 1,
         "blockEntityId": "54",
