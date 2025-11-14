@@ -1,7 +1,7 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2025-11-11T11:38:36.915Z",
-  "siteName": "myWebsiteName",
+  "lastUpdate": "2025-11-14T10:45:53.341Z",
+  "siteName": "webTuyo ",
   "siteDomain": "https://Your.Domain",
   "siteIcon": "favicon-32x32.png",
   "gitHubOwner": "yourwebsitenamehere2",
@@ -4782,12 +4782,12 @@
               ""
             ],
             "subtitle$L": [
-              "Bringing ideas to life, one pixel at a time.<br><br>Create your website with webTuyo!!!!",
+              "Bringing ideas to life, one pixel at a time.",
               ""
             ],
             "description$PL": [
               "Elevate your online presence with custom web designs tailored to your brand. Blend creativity and technology to craft websites that leave lasting impressions and drive results.\n\n\n",
-              ""
+              "Elevate your online presence with custom web designs tailored to your brand. Blend creativity and technology to craft websites that leave lasting impressions and drive results.\n\n\n"
             ],
             "image": {
               "imagePath": "https://images.pexels.com/photos/417458/pexels-photo-417458.jpeg",
@@ -5646,7 +5646,7 @@
     5,
     6
   ],
-  "currentLanguage": "en",
+  "currentLanguage": "it",
   "languagesEntityMap": {
     "1": {
       "id": 1,
