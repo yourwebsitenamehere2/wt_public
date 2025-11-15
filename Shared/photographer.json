@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2025-11-15T17:10:34.234Z",
+  "lastUpdate": "2025-11-15T20:57:23.978Z",
   "siteName": "webTuyo ",
   "siteDomain": "https://Your.Domain",
   "siteIcon": "favicon-32x32.png",
@@ -14,7 +14,7 @@
   "globalCSSEntityMap": {
     "1": {
       "fileName": "Default",
-      "cssCode": "@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sixtyfour+Convergence&family=Sigmar&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');\n\n/* --- Available Fonts & Fallbacks --- */\n/* 'Pacifico', cursive; */\n/* 'Sixtyfour Convergence', system-ui; */\n/* 'Sigmar', sans-serif; */\n/* 'Kanit', sans-serif; */\n/* 'Cormorant Garamond', serif; */\n/* 'Montserrat', sans-serif; */\n\n\nh1, h2, h3, h4, h5, h6 {\n    font-family: 'Cormorant Garamond', serif;\n    font-weight: 300;\n}\n\nh1 {\n    letter-spacing: 0.05em;\n}\n\n.primaryColors {\n    @apply stonePrimary;\n} \n\n.secondaryColors {\n    @apply graySecondary;\n} \n\n.neutralColors{\n    @apply slateNeutral;\n}\n\n.background-section {\n  background-color: var(--color-neutral-100);\n}\n\n.dark .background-section {\n  background-color: var(--color-neutral-950);\n}\n\n.background-card {\n  background-color: var(--color-neutral-200);\n}\n\n.dark .background-card {\n  background-color: var(--color-neutral-900);\n}\n\np, label {\n  color: var(--color-neutral-600);\n  font-family: 'Montserrat', sans-serif;\n\n}\n\n.dark p, .dark label {\n  color: var(--color-neutral-400);\n}\n\n:host a {\n  color: var(--color-neutral-700);\n  font-family: 'Montserrat', sans-serif;\n}\n\n:host a:hover {\n  color: var(--color-neutral-800);\n}\n\n.dark a {\n  color: var(--color-neutral-300);\n}\n\n.dark a:hover {\n  color: var(--color-neutral-200);\n}\n\n:host button {\n  font-family: 'Montserrat', sans-serif;\n  background-color: var(--color-primary-400);\n  color: var(--color-neutral-100);\n}\n\n:host button:hover {\n  background-color: var(--color-primary-500);\n  color: var(--color-neutral-50);\n}\n\n.dark button {\n  background-color: var(--color-primary-700);\n  color: var(--color-neutral-300);\n}\n\n.dark button:hover {\n  background-color: var(--color-primary-800);\n  color: var(--color-neutral-200);\n}\n\nh1 {\n  color: var(--color-neutral-800);\n}\n\n.dark h1 {\n  color: var(--color-neutral-100);\n}\n\nh2, h3, h4, h5, h6 {\n  color: var(--color-neutral-700);\n}\n\n.dark h2,\n.dark h3,\n.dark h4,\n.dark h5,\n.dark h6 {\n  color: var(--color-neutral-200);\n}\n\nh1 {\n    letter-spacing: 0.05em;\n}\n\n.theme-switcher {\n  transition: all 0.3s ease-in-out;\n  border-radius: 9999px; \n  padding: 0.5rem; \n}\n\n.theme-switcher-theme{\n  color: var(--color-primary-700);\n}\n\n.theme-switcher-theme:hover{\n  color: var(--color-primary-900);\n}\n\n.dark .theme-switcher-theme{\n  color: var(--color-primary-200);\n}\n\n.dark .theme-switcher-theme:hover{\n  color: var(--color-primary-50);\n}\n\n.language-button {\n  display: inline-flex;\n  justify-content: center;\n  padding: 0.625rem; \n  border-radius: 9999px; \n  cursor: pointer;\n}\n\n.language-button-theme {\n  background-color: transparent;\n  color: var(--color-primary-500);\n  border-color: transparent;\n}\n\n.dark .language-button-theme {\n  background-color: transparent;\n  color: var(--color-primary-900);\n  border-color: transparent;\n}\n\n.language-button-icon {\n  height: 1.25rem; \n  width: 1.25rem; \n  border-radius: 9999px; \n}\n\n.language-menu {\n  z-index: 100; \n  margin-top: 1rem; \n  margin-bottom: 1rem; \n  font-size: 1rem; \n  line-height: 1.5rem; \n  list-style: none; \n  border-radius: 0.25rem; \n  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1); \n}\n\n.language-menu-theme {\n  background-color: var(--color-primary-500);\n}\n\n.dark .language-menu-theme {\n  background-color: var(--color-primary-950);\n}\n\n.language-menu-link {\n  display: flex; \n  align-items: center; \n  padding-top: 0.5rem; \n  padding-bottom: 0.5rem; \n  padding-left: 1rem; \n  padding-right: 1rem; \n  margin: 0.25rem; \n  border-radius: 0.25rem; \n  text-align: left; \n  cursor: pointer;\n}\n\n.language-menu-link-theme {\n  color: var(--color-primary-50);\n}\n\n.dark .language-menu-link-theme {\n  color: var(--color-primary-100);\n}\n\n.language-menu-link-theme:hover {\n  background-color: var(--color-primary-600);\n  color: var(--color-primary-100);\n}\n\n.dark .language-menu-link-theme:hover {\n  background-color: var(--color-primary-500);\n  color: var(--color-primary-50);\n}\n\n.language-menu-icon {\n  display: inline-flex;\n  align-items: center;\n  height: 0.875rem; \n  width: 0.875rem; \n  border-radius: 9999px; \n  margin-top: 0.25rem; \n  margin-right: 0.5rem; \n}\n\n.language-menu-text {\n  font-size: 0.875rem; \n  line-height: 1.25rem; \n  font-weight: 600; \n}\n\n.modal {\n    --modal-bg: #F8FAFC;\n    --modal-bg-dark: #334155;\n    --modal-btn: #777777;\n    --modal-btn-hover: #1f2733;\n    --modal-btn-dark:#aaaaaa;\n    --modal-btn-dark-hover:#FFFFFF;\n}\n",
+      "cssCode": "@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sixtyfour+Convergence&family=Sigmar&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');\n\n/* --- Available Fonts & Fallbacks --- */\n/* 'Pacifico', cursive; */\n/* 'Sixtyfour Convergence', system-ui; */\n/* 'Sigmar', sans-serif; */\n/* 'Kanit', sans-serif; */\n/* 'Cormorant Garamond', serif; */\n/* 'Montserrat', sans-serif; */\n\n\nh1, h2, h3, h4, h5, h6 {\n    font-family: 'Cormorant Garamond', serif;\n    font-weight: 300;\n}\n\nh1 {\n    letter-spacing: 0.05em;\n}\n\n.primaryColors {\n    @apply stonePrimary;\n} \n\n.secondaryColors {\n    @apply graySecondary;\n} \n\n.neutralColors{\n    @apply slateNeutral;\n}\n\n.background-section {\n  background-color: var(--color-neutral-100);\n}\n\n.dark .background-section {\n  background-color: var(--color-neutral-950);\n}\n\n.background-card {\n  background-color: var(--color-neutral-200);\n}\n\n.dark .background-card {\n  background-color: var(--color-neutral-900);\n}\n\np, label {\n  color: var(--color-neutral-600);\n  font-family: 'Montserrat', sans-serif;\n\n}\n\n.dark p, .dark label {\n  color: var(--color-neutral-400);\n}\n\n:host a {\n  color: var(--color-neutral-700);\n  font-family: 'Montserrat', sans-serif;\n}\n\n:host a:hover {\n  color: var(--color-neutral-800);\n}\n\n.dark a {\n  color: var(--color-neutral-300);\n}\n\n.dark a:hover {\n  color: var(--color-neutral-200);\n}\n\n:host button {\n  font-family: 'Montserrat', sans-serif;\n  background-color: var(--color-primary-400);\n  color: var(--color-neutral-100);\n}\n\n:host button:hover {\n  background-color: var(--color-primary-500);\n  color: var(--color-neutral-50);\n}\n\n.dark button {\n  background-color: var(--color-primary-700);\n  color: var(--color-neutral-300);\n}\n\n.dark button:hover {\n  background-color: var(--color-primary-800);\n  color: var(--color-neutral-200);\n}\n\nh1 {\n  color: var(--color-neutral-800);\n}\n\n.dark h1 {\n  color: var(--color-neutral-100);\n}\n\nh2, h3, h4, h5, h6 {\n  color: var(--color-neutral-700);\n}\n\n.dark h2,\n.dark h3,\n.dark h4,\n.dark h5,\n.dark h6 {\n  color: var(--color-neutral-200);\n}\n\nh1 {\n    letter-spacing: 0.05em;\n}\n\n.theme-switcher {\n  transition: all 0.3s ease-in-out;\n  border-radius: 9999px; \n  padding: 0.5rem; \n}\n\n.theme-switcher-theme{\n  color: var(--color-primary-700);\n}\n\n.theme-switcher-theme:hover{\n  color: var(--color-primary-900);\n}\n\n.dark .theme-switcher-theme{\n  color: var(--color-primary-200);\n}\n\n.dark .theme-switcher-theme:hover{\n  color: var(--color-primary-50);\n}\n\n/* .language-button {\n  display: inline-flex;\n  justify-content: center;\n  padding: 0.625rem; \n  border-radius: 9999px; \n  cursor: pointer;\n}\n\n .language-button-theme {\n  background-color: transparent;\n  color: var(--color-primary-500);\n  border-color: transparent;\n}\n\n.dark .language-button-theme {\n  background-color: transparent;\n  color: var(--color-primary-900);\n  border-color: transparent;\n}\n\n.language-button-icon {\n  height: 1.25rem; \n  width: 1.25rem; \n  border-radius: 9999px; \n}\n\n.language-menu {\n  z-index: 100; \n  margin-top: 1rem; \n  margin-bottom: 1rem; \n  font-size: 1rem; \n  line-height: 1.5rem; \n  list-style: none; \n  border-radius: 0.25rem; \n  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1); \n}\n\n.language-menu-theme {\n  background-color: var(--color-primary-500);\n}\n\n.dark .language-menu-theme {\n  background-color: var(--color-primary-950);\n}\n\n.language-menu-link {\n  display: flex; \n  align-items: center; \n  padding-top: 0.5rem; \n  padding-bottom: 0.5rem; \n  padding-left: 1rem; \n  padding-right: 1rem; \n  margin: 0.25rem; \n  border-radius: 0.25rem; \n  text-align: left; \n  cursor: pointer;\n}\n\n.language-menu-link-theme {\n  color: var(--color-primary-50);\n}\n\n.dark .language-menu-link-theme {\n  color: var(--color-primary-100);\n}\n\n.language-menu-link-theme:hover {\n  background-color: var(--color-primary-600);\n  color: var(--color-primary-100);\n}\n\n.dark .language-menu-link-theme:hover {\n  background-color: var(--color-primary-500);\n  color: var(--color-primary-50);\n}\n\n.language-menu-icon {\n  display: inline-flex;\n  align-items: center;\n  height: 0.875rem; \n  width: 0.875rem; \n  border-radius: 9999px; \n  margin-top: 0.25rem; \n  margin-right: 0.5rem; \n}\n\n.language-menu-text {\n  font-size: 0.875rem; \n  line-height: 1.25rem; \n  font-weight: 600; \n} */\n\n.modal {\n    --modal-bg: #F8FAFC;\n    --modal-bg-dark: #334155;\n    --modal-btn: #777777;\n    --modal-btn-hover: #1f2733;\n    --modal-btn-dark:#aaaaaa;\n    --modal-btn-dark-hover:#FFFFFF;\n}\n",
       "id": 1
     },
     "7": {
@@ -2896,8 +2896,8 @@
     "36": {
       "blockName": "Blog Content Text 2 buttons",
       "blockType": 13,
-      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors custom-font  background py-16 px-8\">\r\n  <div class=\"container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16\">\r\n    <div class=\"flex flex-col justify-center\">\r\n      <h2 onview-animate=\"fade-right visible\" class=\"invisible titleColor themeFont-1 text-4xl sm:text-5xl font-bold leading-tight mb-6\">\r\n        {{title$L}}\r\n      </h2>\r\n      <p onview-animate=\"fade-right visible\" class=\"invisible subTitleColor themeFont-2 text-lg mb-8\">\r\n        {{subtitle$L}}\r\n      </p>\r\n      <div class=\"flex flex-col sm:flex-row gap-4\">\r\n       \r\n      </div>\r\n    </div>\r\n    <div class=\"flex flex-col justify-center space-y-6\">\r\n       <p onview-animate=\"fade-left visible\" class=\"invisible descriptionColor themeFont-3 text-lg leading-relaxed\">\r\n         {{description$PL}}\r\n       </p>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n\r\n\r\n",
-      "cssCode": "\r\n.background {\r\n  background-color: var(--color-neutral-400);\r\n}\r\n\r\n.dark .background {\r\n  background-color: var(--color-neutral-950);\r\n}\r\n\r\n.themeFont-1{\r\n    @apply font-extrabold tracking-tight leading-none;\r\n}\r\n\r\n.titleColor{\r\n    color: var(--color-primary-700);\r\n}\r\n\r\n.dark .titleColor{\r\n    color: var(--color-primary-200);\r\n}\r\n\r\n.subTitleColor{\r\n    color: var(--color-primary-950);\r\n}\r\n\r\n.dark .subTitleColor{\r\n    color: var(--color-primary-100);\r\n}\r\n\r\n.descriptionColor{\r\n    color: var(--color-primary-950);\r\n}\r\n\r\n.dark .descriptionColor{\r\n    color: var(--color-primary-100);\r\n}\r\n\r\n.buttonColor {\r\n    color: var(--color-primary-700);\r\n    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;\r\n}\r\n\r\n.buttonColor:hover {\r\n    color: var(--color-secondary-700);\r\n}\r\n\r\n.buttonColor:focus {\r\n    outline: 2px solid var(--color-primary-300);\r\n    box-shadow: 0 0 0 4px var(--color-primary-200);\r\n}\r\n\r\n\r\n.dark .buttonColor {\r\n    color: var(--color-secondary-200);\r\n}\r\n\r\n.dark .buttonColor:hover {\r\n    color: var(--color-secondary-50);\r\n}\r\n\r\n.dark .buttonColor:focus {\r\n    outline: 2px solid var(--color-primary-200);\r\n    outline-offset: 2px;\r\n    box-shadow: 0 0 0 4px var(--color-primary-100);\r\n}\r\n\r\n",
+      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors custom-font background-section py-16 px-8\">\r\n  <div class=\"container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16\">\r\n    <div class=\"flex flex-col justify-center\">\r\n      <h2 onview-animate=\"fade-right visible\" class=\"invisible titleColor themeFont-1 text-4xl sm:text-5xl font-bold leading-tight mb-6\">\r\n        {{title$L}}\r\n      </h2>\r\n      <p onview-animate=\"fade-right visible\" class=\"invisible subTitleColor themeFont-2 text-lg mb-8\">\r\n        {{subtitle$L}}\r\n      </p>\r\n      <div class=\"flex flex-col sm:flex-row gap-4\">\r\n       \r\n      </div>\r\n    </div>\r\n    <div class=\"flex flex-col justify-center space-y-6\">\r\n       <p onview-animate=\"fade-left visible\" class=\"invisible descriptionColor themeFont-3 text-lg leading-relaxed\">\r\n         {{description$PL}}\r\n       </p>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n\r\n\r\n",
+      "cssCode": "\r\n\r\n.themeFont-1{\r\n    @apply font-extrabold tracking-tight leading-none;\r\n}\r\n\r\n.titleColor{\r\n    color: var(--color-primary-700);\r\n}\r\n\r\n.dark .titleColor{\r\n    color: var(--color-primary-200);\r\n}\r\n\r\n.subTitleColor{\r\n    color: var(--color-primary-950);\r\n}\r\n\r\n.dark .subTitleColor{\r\n    color: var(--color-primary-100);\r\n}\r\n\r\n.descriptionColor{\r\n    color: var(--color-primary-950);\r\n}\r\n\r\n.dark .descriptionColor{\r\n    color: var(--color-primary-100);\r\n}\r\n\r\n.buttonColor {\r\n    color: var(--color-primary-700);\r\n    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;\r\n}\r\n\r\n.buttonColor:hover {\r\n    color: var(--color-secondary-700);\r\n}\r\n\r\n.buttonColor:focus {\r\n    outline: 2px solid var(--color-primary-300);\r\n    box-shadow: 0 0 0 4px var(--color-primary-200);\r\n}\r\n\r\n\r\n.dark .buttonColor {\r\n    color: var(--color-secondary-200);\r\n}\r\n\r\n.dark .buttonColor:hover {\r\n    color: var(--color-secondary-50);\r\n}\r\n\r\n.dark .buttonColor:focus {\r\n    outline: 2px solid var(--color-primary-200);\r\n    outline-offset: 2px;\r\n    box-shadow: 0 0 0 4px var(--color-primary-100);\r\n}\r\n\r\n",
       "id": 36,
       "objectPreview": {
         "id": -1,
@@ -5802,8 +5802,8 @@
     "54": {
       "blockName": "Header Main",
       "blockType": 1,
-      "htmlCode": "<header class=\"primaryColors secondaryColors neutralColors background \">\n\n        \n        <div class=\"container mx-auto px-6 py-1.5 flex justify-between items-center\">\n            <a  class=\"text-3xl font-['Pacifico'] text-primary my-auto mx-4\">{{logoText}}</a>\n\n            \n            <nav class=\"hidden lg:flex items-center gap-8\">\n                {{#each mainLinks}}\n                    {{mainLinks.this;<a class=\"transition-colors mainLinkColor mainLinkColorEffect\">[text]</a>}}\n                {{/each mainLinks}}\n\n                {{contact;<a class=\"rightLinkColor px-6 py-2.5 mr-8 rounded-lg\">[text]</a>}}\n\n\n\n            </nav>\n            \n            <div>\n                {{themeLight;<a class=\"flex px-6 py-1 rounded-lg mainLinkColor\"><span class=\"\">[icon]</span><span class=\"my-auto text-sm\">[text]</span></a>}}\n                {{themeDark;<a class=\"flex px-6 py-1 rounded-lg mainLinkColor\"><span >[icon]</span><span class=\"my-auto text-sm\">[text]</span></a>}}\n            </div>\n\n        </div>\n\n</header>",
-      "cssCode": ".background {\n  background-color: var(--color-neutral-100);\n}\n\n.dark .background {\n  background-color: var(--color-neutral-900);\n}\n\n.logoText{\n    color: var(--color-primary-700);\n}\n.dark .logoText{\n    color: var(--color-primary-300);\n}\n\n.mainLinkColor{\n    position: relative;\n    color:var(--color-primary-500); \n}\n\n.mainLinkColor:hover{\n    color:var(--color-primary-700);\n}\n\n.dark .mainLinkColor{\n    color:var(--color-primary-100);\n}\n\n.dark .mainLinkColor:hover{\n    color:var(--color-primary-300);\n}\n\n\n.rightLinkColor{\n    background-color: var(--color-primary-100);\n    color:var(--color-primary-500);\n}\n\n.rightLinkColor:hover{\n    background-color: var(--color-primary-200);\n    color:var(--color-primary-700);\n}\n\n\n.dark .rightLinkColor{\n    background-color: var(--color-primary-900);\n    color:var(--color-primary-100);\n}\n\n.dark .rightLinkColor:hover{\n    background-color: var(--color-primary-800);\n    color:var(--color-primary-50);\n}\n\n\n.mainLinkColorEffect::after {\n    content: '';\n    position: absolute;\n    bottom: -4px;\n    left: 0;\n    width: 0;\n    height: 1px;\n    background-color: var(--color-primary-700);\n    transition: width 0.3s ease;\n}\n\n.dark .mainLinkColorEffect::after {\n    background-color: var(--color-primary-300);\n}\n\n.mainLinkColorEffect:hover::after,\n.mainLinkColorEffect.active::after {\n    width: 100%;\n}\n\n\n\n\n.buttonColor {\n    background-color: var(--color-primary-500);\n    color: var(--color-secondary-100);\n    border-color: var(--color-primary-600);\n    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;\n}\n\n.buttonColor:hover {\n    background-color: var(--color-primary-600);\n    color: var(--color-secondary-50);\n    border-color: var(--color-primary-900);\n}\n\n.buttonColor:focus {\n    outline: 2px solid var(--color-primary-300);\n    box-shadow: 0 0 0 4px var(--color-primary-200);\n}\n\n\n.dark .buttonColor {\n    background-color: var(--color-primary-400);\n    border-color: var(--color-primary-600);\n    color: var(--color-secondary-100);\n}\n\n.dark .buttonColor:hover {\n    background-color: var(--color-primary-600);\n    border-color: var(--color-primary-400);\n    color: var(--color-secondary-50);\n}\n\n.dark .buttonColor:focus {\n    outline: 2px solid var(--color-primary-200);\n    outline-offset: 2px;\n    box-shadow: 0 0 0 4px var(--color-primary-100);\n}\n\n    ",
+      "htmlCode": "<header class=\"primaryColors secondaryColors neutralColors background \">\n\n        \n        <div class=\"container mx-auto px-6 py-1.5 flex justify-between items-center\">\n            <a class=\"text-3xl font-['Pacifico'] logoText my-auto mx-4\">{{logoText}}</a>\n\n            \n            <nav class=\"hidden lg:flex items-center gap-8\">\n                {{#each mainLinks}}\n                    {{mainLinks.this;<a class=\"transition-colors mainLinkColor mainLinkColorEffect\">[text]</a>}}\n                {{/each mainLinks}}\n\n                {{contact;<a class=\"rightLinkColor px-6 py-2.5 mr-8 rounded-lg\">[text]</a>}}\n\n\n\n            </nav>\n            \n            <div class=\"flex my-auto\">\n                {{themeLight;<a class=\"flex px-6 py-1 rounded-lg mainLinkColor\"><span class=\"\">[icon]</span><span class=\"my-auto text-sm\">[text]</span></a>}}\n                {{themeDark;<a class=\"flex px-6 py-1 rounded-lg mainLinkColor\"><span >[icon]</span><span class=\"my-auto text-sm\">[text]</span></a>}}\n                <span class=\"my-auto\">{{langMenu}}</span>\n            </div>\n            \n        </div>\n\n</header>",
+      "cssCode": ".background {\n  background-color: var(--color-neutral-100);\n}\n\n.dark .background {\n  background-color: var(--color-neutral-900);\n}\n\n.logoText{\n    color: var(--color-primary-700);\n}\n.dark .logoText{\n    color: var(--color-primary-300);\n}\n\n.mainLinkColor{\n    position: relative;\n    color:var(--color-primary-500); \n}\n\n.mainLinkColor:hover{\n    color:var(--color-primary-700);\n}\n\n.dark .mainLinkColor{\n    color:var(--color-primary-100);\n}\n\n.dark .mainLinkColor:hover{\n    color:var(--color-primary-300);\n}\n\n\n.rightLinkColor{\n    background-color: var(--color-primary-100);\n    color:var(--color-primary-500);\n}\n\n.rightLinkColor:hover{\n    background-color: var(--color-primary-200);\n    color:var(--color-primary-700);\n}\n\n\n.dark .rightLinkColor{\n    background-color: var(--color-primary-900);\n    color:var(--color-primary-100);\n}\n\n.dark .rightLinkColor:hover{\n    background-color: var(--color-primary-800);\n    color:var(--color-primary-50);\n}\n\n\n.mainLinkColorEffect::after {\n    content: '';\n    position: absolute;\n    bottom: -4px;\n    left: 0;\n    width: 0;\n    height: 1px;\n    background-color: var(--color-primary-700);\n    transition: width 0.3s ease;\n}\n\n.dark .mainLinkColorEffect::after {\n    background-color: var(--color-primary-300);\n}\n\n.mainLinkColorEffect:hover::after,\n.mainLinkColorEffect.active::after {\n    width: 100%;\n}\n\n\n\n\n.buttonColor {\n    background-color: var(--color-primary-500);\n    color: var(--color-secondary-100);\n    border-color: var(--color-primary-600);\n    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;\n}\n\n.buttonColor:hover {\n    background-color: var(--color-primary-600);\n    color: var(--color-secondary-50);\n    border-color: var(--color-primary-900);\n}\n\n.buttonColor:focus {\n    outline: 2px solid var(--color-primary-300);\n    box-shadow: 0 0 0 4px var(--color-primary-200);\n}\n\n\n.dark .buttonColor {\n    background-color: var(--color-primary-400);\n    border-color: var(--color-primary-600);\n    color: var(--color-secondary-100);\n}\n\n.dark .buttonColor:hover {\n    background-color: var(--color-primary-600);\n    border-color: var(--color-primary-400);\n    color: var(--color-secondary-50);\n}\n\n.dark .buttonColor:focus {\n    outline: 2px solid var(--color-primary-200);\n    outline-offset: 2px;\n    box-shadow: 0 0 0 4px var(--color-primary-100);\n}\n\n:host button.language-button {\n  margin-top: auto;\n  margin-bottom: auto;\n  background-color: transparent;\n  color: var(--color-primary-500);\n  display: inline-flex;\n  justify-content: center;\n  cursor: pointer;\n  border-radius: 0px;\n}\n\n :host button.language-button:hover {\n  background-color: transparent;\n  color: var(--color-primary-700);\n}\n\n:host .language-button-theme {\n  margin-top:auto;\n  margin-bottom: auto;\n  background-color: transparent;\n  border-color: var(--color-primary-500);\n}\n\n:host .dark .language-button-theme {\n  background-color: transparent;\n  color: var(--color-primary-200);\n  border-color: var(--color-primary-600);\n}\n\n:host .dark .language-button-theme:hover {\n  background-color: transparent;\n  color: var(--color-primary-50);\n  border-color: var(--color-primary-600);\n}\n\n:host .language-menu-theme {\n  background-color: var(--color-neutral-100);\n}\n\n:host .dark .language-menu-theme {\n  background-color: var(--color-neutral-900);\n}\n\n:host .language-menu-link-theme:hover {\n  background-color: var(--color-primary-600);\n  color: var(--color-primary-50);\n}\n\n:host .dark .language-menu-link-theme:hover {\n  background-color: var(--color-primary-400);\n  color: var(--color-primary-50);\n}\n\n    ",
       "id": 54,
       "objectPreview": {
         "id": -1,
@@ -5952,20 +5952,6 @@
             "generalSlotName": "contact"
           },
           "themeLight": {
-            "text$L": [
-              "Luce di Puglia",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "description$L": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
             "typeL": "themeSwitchCustom",
             "externalLink": "",
             "page": 0,
@@ -5979,11 +5965,25 @@
             "enableOnlyAfterCookieConsent": false,
             "id": 0,
             "blockEntityId": 54,
-            "generalSlotName": "themeLight"
+            "generalSlotName": "themeLight",
+            "text$L": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "description$L": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
           },
           "themeDark": {
             "text$L": [
-              "Notte Salentina",
+              "",
               "",
               "",
               "",
@@ -6025,7 +6025,7 @@
     "55": {
       "blockName": "Hero Main",
       "blockType": 4,
-      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors custom-font background-section relative h-screen w-full overflow-hidden\" \nstyle=\"background-image: url('{{image}}'); background-size: cover; background-position: center;\">\n    <div class=\"absolute inset-0 bg-black bg-opacity-20\"></div>\n    <div class=\"container mx-auto px-6 h-full flex items-center\">\n        <div class=\"w-full max-w-2xl text-white z-10\">\n            <h1 onview-animate=\"fade-right visible\" class=\"invisible text-white text-5xl md:text-6xl mb-4 font-light italic\">{{title$L}}</h1>\n            <p onview-animate=\"fade-down animation-delay-010 visible\" class=\"invisible text-white subtitle text-xl md:text-2xl mb-8\">{{subtitle$L}}</p>\n            <div class=\"flex flex-col sm:flex-row gap-4\">\n                {{link1;<a onview-animate=\"fade-up animation-delay-10 visible\" class=\"invisible text-white bg-primary px-8 py-3 !rounded-button whitespace-nowrap hover:bg-opacity-90 transition-colors text-center\">[text]</a>}}\n                {{link2;<a onview-animate=\"fade-up animation-delay-15 visible\" class=\"invisible text-white border border-white px-8 py-3 !rounded-button whitespace-nowrap hover:bg-white hover:bg-opacity-10 transition-colors text-center\">[text]</a>}}\n            </div>\n        </div>\n    </div>\n</section>",
+      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors custom-font background-section relative h-screen w-full overflow-hidden\" \nstyle=\"background-image: url('{{image}}'); background-size: cover; background-position: center;\">\n    <div class=\"absolute inset-0 bg-black bg-opacity-20\"></div>\n    <div class=\"container mx-auto px-6 h-full flex items-center\">\n        <div class=\"w-full max-w-2xl text-white z-10\">\n            <h1 onview-animate=\"fade-right visible\" class=\"invisible !text-white text-5xl md:text-6xl mb-4 font-light italic\">{{title$L}}</h1>\n            <p onview-animate=\"fade-down animation-delay-010 visible\" class=\"invisible !text-white subtitle text-xl md:text-2xl mb-8\">{{subtitle$L}}</p>\n            <div class=\"flex flex-col sm:flex-row gap-4\">\n                {{link1;<a onview-animate=\"fade-up animation-delay-10 visible\" class=\"invisible !text-white bg-primary px-8 py-3 !rounded-button whitespace-nowrap hover:bg-opacity-90 transition-colors text-center\">[text]</a>}}\n                {{link2;<a onview-animate=\"fade-up animation-delay-15 visible\" class=\"invisible !text-white border border-white px-8 py-3 !rounded-button whitespace-nowrap hover:bg-white hover:bg-opacity-10 transition-colors text-center\">[text]</a>}}\n            </div>\n        </div>\n    </div>\n</section>",
       "cssCode": ":host a.text-white{\n    color:white;\n}\n\n:host a.text-white:hover{\n    color:white;\n}",
       "id": 55,
       "objectPreview": {
@@ -11569,6 +11569,20 @@
             "generalSlotName": "mainLinks.this"
           },
           {
+            "text$L": [
+              "Experience",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "description$L": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
             "typeL": "internal",
             "externalLink": "",
             "page": 0,
@@ -11584,21 +11598,7 @@
             "enableOnlyAfterCookieConsent": false,
             "id": 1,
             "blockEntityId": 54,
-            "generalSlotName": "mainLinks.this",
-            "text$L": [
-              "Experience",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "description$L": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ]
+            "generalSlotName": "mainLinks.this"
           },
           {
             "text$L": [
@@ -11696,20 +11696,6 @@
           "generalSlotName": "contact"
         },
         "themeLight": {
-          "text$L": [
-            "Light",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "description$L": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
           "typeL": "themeSwitchCustom",
           "externalLink": "",
           "page": 0,
@@ -11723,11 +11709,9 @@
           "enableOnlyAfterCookieConsent": false,
           "id": 0,
           "blockEntityId": 54,
-          "generalSlotName": "themeLight"
-        },
-        "themeDark": {
+          "generalSlotName": "themeLight",
           "text$L": [
-            "Dark",
+            "",
             "",
             "",
             "",
@@ -11739,7 +11723,9 @@
             "",
             "",
             ""
-          ],
+          ]
+        },
+        "themeDark": {
           "typeL": "themeSwitchCustom",
           "externalLink": "",
           "page": 0,
@@ -11753,7 +11739,21 @@
           "enableOnlyAfterCookieConsent": false,
           "id": 0,
           "blockEntityId": 54,
-          "generalSlotName": "themeDark"
+          "generalSlotName": "themeDark",
+          "text$L": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "description$L": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
         },
         "themeId": 1,
         "blockEntityId": "54",
