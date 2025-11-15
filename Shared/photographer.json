@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2025-11-13T14:18:49.768Z",
+  "lastUpdate": "2025-11-15T16:14:17.372Z",
   "siteName": "webTuyo ",
   "siteDomain": "https://Your.Domain",
   "siteIcon": "favicon-32x32.png",
@@ -14,7 +14,7 @@
   "globalCSSEntityMap": {
     "1": {
       "fileName": "Default",
-      "cssCode": "@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sixtyfour+Convergence&family=Sigmar&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');\n\n/* --- Available Fonts & Fallbacks --- */\n/* 'Pacifico', cursive; */\n/* 'Sixtyfour Convergence', system-ui; */\n/* 'Sigmar', sans-serif; */\n/* 'Kanit', sans-serif; */\n/* 'Cormorant Garamond', serif; */\n/* 'Montserrat', sans-serif; */\n\n\nh1, h2, h3, h4, h5, h6 {\n    font-family: 'Cormorant Garamond', serif;\n    font-weight: 300;\n}\n\nh1 {\n    letter-spacing: 0.05em;\n}\n\n.primaryColors {\n    @apply stonePrimary;\n} \n\n.secondaryColors {\n    @apply pinkSecondary;\n} \n\n.neutralColors{\n    @apply slateNeutral;\n}\n\n.background-section {\n  background-color: var(--color-neutral-100);\n}\n\n.dark .background-section {\n  background-color: var(--color-neutral-950);\n}\n\n.background-card {\n  background-color: var(--color-neutral-200);\n}\n\n.dark .background-card {\n  background-color: var(--color-neutral-900);\n}\n\np, label {\n  color: var(--color-neutral-600);\n  font-family: 'Montserrat', sans-serif;\n\n}\n\n.dark p, .dark label {\n  color: var(--color-neutral-400);\n}\n\n:host a {\n  color: var(--color-neutral-700);\n  font-family: 'Montserrat', sans-serif;\n}\n\n:host a:hover {\n  color: var(--color-neutral-800);\n}\n\n.dark a {\n  color: var(--color-neutral-300);\n}\n\n.dark a:hover {\n  color: var(--color-neutral-200);\n}\n\n:host button {\n  font-family: 'Montserrat', sans-serif;\n  background-color: var(--color-primary-400);\n  color: var(--color-neutral-100);\n}\n\n:host button:hover {\n  background-color: var(--color-primary-500);\n  color: var(--color-neutral-50);\n}\n\n.dark button {\n  background-color: var(--color-primary-700);\n  color: var(--color-neutral-300);\n}\n\n.dark button:hover {\n  background-color: var(--color-primary-800);\n  color: var(--color-neutral-200);\n}\n\nh1 {\n  color: var(--color-neutral-800);\n}\n\n.dark h1 {\n  color: var(--color-neutral-100);\n}\n\nh2, h3, h4, h5, h6 {\n  color: var(--color-neutral-700);\n}\n\n.dark h2,\n.dark h3,\n.dark h4,\n.dark h5,\n.dark h6 {\n  color: var(--color-neutral-200);\n}\n\nh1 {\n    letter-spacing: 0.05em;\n}\n\n.theme-switcher {\n  transition: all 0.3s ease-in-out;\n  border-radius: 9999px; \n  padding: 0.5rem; \n}\n\n.theme-switcher-theme{\n  color: var(--color-primary-700);\n}\n\n.theme-switcher-theme:hover{\n  color: var(--color-primary-900);\n}\n\n.dark .theme-switcher-theme{\n  color: var(--color-primary-200);\n}\n\n.dark .theme-switcher-theme:hover{\n  color: var(--color-primary-50);\n}\n\n.language-button {\n  display: inline-flex;\n  justify-content: center;\n  padding: 0.625rem; \n  border-radius: 9999px; \n  cursor: pointer;\n}\n\n.language-button-theme {\n  background-color: transparent;\n  color: var(--color-primary-500);\n  border-color: transparent;\n}\n\n.dark .language-button-theme {\n  background-color: transparent;\n  color: var(--color-primary-900);\n  border-color: transparent;\n}\n\n.language-button-icon {\n  height: 1.25rem; \n  width: 1.25rem; \n  border-radius: 9999px; \n}\n\n.language-menu {\n  z-index: 100; \n  margin-top: 1rem; \n  margin-bottom: 1rem; \n  font-size: 1rem; \n  line-height: 1.5rem; \n  list-style: none; \n  border-radius: 0.25rem; \n  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1); \n}\n\n.language-menu-theme {\n  background-color: var(--color-primary-500);\n}\n\n.dark .language-menu-theme {\n  background-color: var(--color-primary-950);\n}\n\n.language-menu-link {\n  display: flex; \n  align-items: center; \n  padding-top: 0.5rem; \n  padding-bottom: 0.5rem; \n  padding-left: 1rem; \n  padding-right: 1rem; \n  margin: 0.25rem; \n  border-radius: 0.25rem; \n  text-align: left; \n  cursor: pointer;\n}\n\n.language-menu-link-theme {\n  color: var(--color-primary-50);\n}\n\n.dark .language-menu-link-theme {\n  color: var(--color-primary-100);\n}\n\n.language-menu-link-theme:hover {\n  background-color: var(--color-primary-600);\n  color: var(--color-primary-100);\n}\n\n.dark .language-menu-link-theme:hover {\n  background-color: var(--color-primary-500);\n  color: var(--color-primary-50);\n}\n\n.language-menu-icon {\n  display: inline-flex;\n  align-items: center;\n  height: 0.875rem; \n  width: 0.875rem; \n  border-radius: 9999px; \n  margin-top: 0.25rem; \n  margin-right: 0.5rem; \n}\n\n.language-menu-text {\n  font-size: 0.875rem; \n  line-height: 1.25rem; \n  font-weight: 600; \n}\n\n.modal {\n    --modal-bg: #F8FAFC;\n    --modal-bg-dark: #334155;\n    --modal-btn: #777777;\n    --modal-btn-hover: #1f2733;\n    --modal-btn-dark:#aaaaaa;\n    --modal-btn-dark-hover:#FFFFFF;\n}\n",
+      "cssCode": "@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sixtyfour+Convergence&family=Sigmar&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');\n\n/* --- Available Fonts & Fallbacks --- */\n/* 'Pacifico', cursive; */\n/* 'Sixtyfour Convergence', system-ui; */\n/* 'Sigmar', sans-serif; */\n/* 'Kanit', sans-serif; */\n/* 'Cormorant Garamond', serif; */\n/* 'Montserrat', sans-serif; */\n\n\nh1, h2, h3, h4, h5, h6 {\n    font-family: 'Cormorant Garamond', serif;\n    font-weight: 300;\n}\n\nh1 {\n    letter-spacing: 0.05em;\n}\n\n.primaryColors {\n    @apply stonePrimary;\n} \n\n.secondaryColors {\n    @apply graySecondary;\n} \n\n.neutralColors{\n    @apply slateNeutral;\n}\n\n.background-section {\n  background-color: var(--color-neutral-100);\n}\n\n.dark .background-section {\n  background-color: var(--color-neutral-950);\n}\n\n.background-card {\n  background-color: var(--color-neutral-200);\n}\n\n.dark .background-card {\n  background-color: var(--color-neutral-900);\n}\n\np, label {\n  color: var(--color-neutral-600);\n  font-family: 'Montserrat', sans-serif;\n\n}\n\n.dark p, .dark label {\n  color: var(--color-neutral-400);\n}\n\n:host a {\n  color: var(--color-neutral-700);\n  font-family: 'Montserrat', sans-serif;\n}\n\n:host a:hover {\n  color: var(--color-neutral-800);\n}\n\n.dark a {\n  color: var(--color-neutral-300);\n}\n\n.dark a:hover {\n  color: var(--color-neutral-200);\n}\n\n:host button {\n  font-family: 'Montserrat', sans-serif;\n  background-color: var(--color-primary-400);\n  color: var(--color-neutral-100);\n}\n\n:host button:hover {\n  background-color: var(--color-primary-500);\n  color: var(--color-neutral-50);\n}\n\n.dark button {\n  background-color: var(--color-primary-700);\n  color: var(--color-neutral-300);\n}\n\n.dark button:hover {\n  background-color: var(--color-primary-800);\n  color: var(--color-neutral-200);\n}\n\nh1 {\n  color: var(--color-neutral-800);\n}\n\n.dark h1 {\n  color: var(--color-neutral-100);\n}\n\nh2, h3, h4, h5, h6 {\n  color: var(--color-neutral-700);\n}\n\n.dark h2,\n.dark h3,\n.dark h4,\n.dark h5,\n.dark h6 {\n  color: var(--color-neutral-200);\n}\n\nh1 {\n    letter-spacing: 0.05em;\n}\n\n.theme-switcher {\n  transition: all 0.3s ease-in-out;\n  border-radius: 9999px; \n  padding: 0.5rem; \n}\n\n.theme-switcher-theme{\n  color: var(--color-primary-700);\n}\n\n.theme-switcher-theme:hover{\n  color: var(--color-primary-900);\n}\n\n.dark .theme-switcher-theme{\n  color: var(--color-primary-200);\n}\n\n.dark .theme-switcher-theme:hover{\n  color: var(--color-primary-50);\n}\n\n.language-button {\n  display: inline-flex;\n  justify-content: center;\n  padding: 0.625rem; \n  border-radius: 9999px; \n  cursor: pointer;\n}\n\n.language-button-theme {\n  background-color: transparent;\n  color: var(--color-primary-500);\n  border-color: transparent;\n}\n\n.dark .language-button-theme {\n  background-color: transparent;\n  color: var(--color-primary-900);\n  border-color: transparent;\n}\n\n.language-button-icon {\n  height: 1.25rem; \n  width: 1.25rem; \n  border-radius: 9999px; \n}\n\n.language-menu {\n  z-index: 100; \n  margin-top: 1rem; \n  margin-bottom: 1rem; \n  font-size: 1rem; \n  line-height: 1.5rem; \n  list-style: none; \n  border-radius: 0.25rem; \n  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1); \n}\n\n.language-menu-theme {\n  background-color: var(--color-primary-500);\n}\n\n.dark .language-menu-theme {\n  background-color: var(--color-primary-950);\n}\n\n.language-menu-link {\n  display: flex; \n  align-items: center; \n  padding-top: 0.5rem; \n  padding-bottom: 0.5rem; \n  padding-left: 1rem; \n  padding-right: 1rem; \n  margin: 0.25rem; \n  border-radius: 0.25rem; \n  text-align: left; \n  cursor: pointer;\n}\n\n.language-menu-link-theme {\n  color: var(--color-primary-50);\n}\n\n.dark .language-menu-link-theme {\n  color: var(--color-primary-100);\n}\n\n.language-menu-link-theme:hover {\n  background-color: var(--color-primary-600);\n  color: var(--color-primary-100);\n}\n\n.dark .language-menu-link-theme:hover {\n  background-color: var(--color-primary-500);\n  color: var(--color-primary-50);\n}\n\n.language-menu-icon {\n  display: inline-flex;\n  align-items: center;\n  height: 0.875rem; \n  width: 0.875rem; \n  border-radius: 9999px; \n  margin-top: 0.25rem; \n  margin-right: 0.5rem; \n}\n\n.language-menu-text {\n  font-size: 0.875rem; \n  line-height: 1.25rem; \n  font-weight: 600; \n}\n\n.modal {\n    --modal-bg: #F8FAFC;\n    --modal-bg-dark: #334155;\n    --modal-btn: #777777;\n    --modal-btn-hover: #1f2733;\n    --modal-btn-dark:#aaaaaa;\n    --modal-btn-dark-hover:#FFFFFF;\n}\n",
       "id": 1
     },
     "7": {
@@ -2614,8 +2614,8 @@
     "34": {
       "blockName": "Hero Big Image Center Animated",
       "blockType": 4,
-      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors background overflow-hidden pt-8 lg:pt-32 bg-center bg-cover\">\r\n  <div class=\"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center\">\r\n    <div onview-animate=\"fade-down visible\" class=\"invisible border border-indigo-600 p-1 w-fit mx-auto rounded-full flex items-center justify-between mb-4\">\r\n      <span class=\"subTitleColor themeFont-2 font-inter text-xs font-medium mx-3\">{{subtitle$L}}</span>\r\n      {{button1; <button class=\"buttonColor pl-6 pr-2 h-8 rounded-full flex justify-center items-center\">[text][icon] </button>}}\r\n    </div> \r\n    <h1 onview-animate=\"fade-right animation-delay-020 visible\" class=\"invisible titleColor max-w-2xl mx-auto text-center font-manrope font-bold text-4xl mb-5 md:text-5xl leading-[50px]\"> {{title$L}}</h1>\r\n    <p onview-animate=\"fade-down animation-delay-050 visible\" class=\"invisible descriptionColor themeFont-3 max-w-sm mx-auto text-center text-base font-normal leading-7 mb-9\"> {{description$PL}}</p>\r\n    {{button2; <button onview-animate=\"fade-up animation-delay-080 visible\" class=\"invisible buttonColor w-full md:w-auto mb-14 inline-flex items-center justify-center py-1 px-7 text-base font-semibold text-center rounded-full shadow-xs\">[text][icon]  </button>}}\r\n    <div class=\"flex justify-center\"> \r\n      <img src=\"{{image}}\" alt=\"Dashboard image\" onview-animate=\"fade-up animation-delay-020 visible\" class=\"invisible rounded-t-3xl h-auto object-cover\"/>\r\n    </div>\r\n  </div>\r\n</section>\r\n                                        ",
-      "cssCode": "\r\n.background {\r\n  background-color: var(--color-neutral-200);\r\n  background: radial-gradient(circle at top left, var(--color-primary-200), transparent 90%),\r\n              radial-gradient(circle at bottom right, var(--color-secondary-200), transparent 90%);\r\n}\r\n\r\n.dark .background {\r\n  background-color: var(--color-neutral-700);\r\n  background: radial-gradient(circle at top left, var(--color-primary-700), transparent 60%),\r\n              radial-gradient(circle at bottom right, var(--color-secondary-700), transparent 60%);\r\n}\r\n\r\n.themeFont-1{\r\n    @apply font-extrabold tracking-tight leading-none;\r\n}\r\n\r\n.titleColor{\r\n    color: var(--color-neutral-950);\r\n}\r\n\r\n.dark .titleColor{\r\n    color: var(--color-neutral-50);\r\n}\r\n\r\n.primary{\r\n    color: var(--color-primary-700);\r\n}\r\n\r\n.dark .primary{\r\n    color: var(--color-primary-300);\r\n}\r\n\r\n.secondary{\r\n    color: var(--color-secondary-700);\r\n}\r\n\r\n.dark .secondary{\r\n    color: var(--color-secondary-300);\r\n}\r\n\r\n.subTitleColor{\r\n    color: var(--color-primary-700);\r\n}\r\n\r\n.dark .subTitleColor{\r\n    color: var(--color-primary-500);\r\n}\r\n\r\n.descriptionColor{\r\n    color: var(--color-primary-950);\r\n}\r\n\r\n.dark .descriptionColor{\r\n    color: var(--color-primary-100);\r\n}\r\n\r\n.buttonColor {\r\n    background-color: var(--color-primary-700);\r\n    color: var(--color-secondary-100);\r\n    border-color: var(--color-primary-600);\r\n    transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;\r\n}\r\n\r\n.buttonColor:hover {\r\n    background-color: var(--color-primary-600);\r\n    color: var(--color-secondary-50);\r\n    border-color: var(--color-primary-900);\r\n}\r\n\r\n.buttonColor:focus {\r\n    outline: 2px solid var(--color-primary-300);\r\n    box-shadow: 0 0 0 4px var(--color-primary-200);\r\n}\r\n\r\n\r\n.dark .buttonColor {\r\n    background-color: var(--color-primary-500);\r\n    border-color: var(--color-primary-600);\r\n    color: var(--color-secondary-100);\r\n}\r\n\r\n.dark .buttonColor:hover {\r\n    background-color: var(--color-primary-600);\r\n    border-color: var(--color-primary-400);\r\n    color: var(--color-secondary-50);\r\n}\r\n\r\n.dark .buttonColor:focus {\r\n    outline: 2px solid var(--color-primary-200);\r\n    outline-offset: 2px;\r\n    box-shadow: 0 0 0 4px var(--color-primary-100);\r\n}\r\n\r\n",
+      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors background overflow-hidden pt-8 lg:pt-32 bg-center bg-cover\">\r\n  <div class=\"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center\">\r\n    <div onview-animate=\"fade-down visible\" class=\"invisible p-1 w-fit mx-auto rounded-full flex items-center justify-between mb-4\">\r\n      <span class=\"subTitleColor font-inter text-sm font-medium mx-3\">{{subtitle$L}}</span>\r\n      \r\n    </div> \r\n    <h1 onview-animate=\"fade-right animation-delay-020 visible\" class=\"invisible titleColor max-w-2xl mx-auto text-center font-manrope font-bold text-4xl mb-5 md:text-5xl leading-[50px]\"> {{title$L}}</h1>\r\n    <p onview-animate=\"fade-down animation-delay-050 visible\" class=\"invisible descriptionColor themeFont-3 max-w-sm mx-auto text-center text-base font-normal leading-7 mb-9\"> {{description$PL}}</p>\r\n    {{button1; <button onview-animate=\"fade-up animation-delay-080 visible\" class=\"invisible buttonColor w-full md:w-auto mb-14 inline-flex items-center justify-center py-1 px-7 text-base font-semibold text-center rounded-full shadow-xs\">[text][icon]  </button>}}\r\n    <div class=\"flex justify-center\"> \r\n      <img src=\"{{image}}\" alt=\"Dashboard image\" onview-animate=\"fade-up animation-delay-020 visible\" class=\"invisible rounded-t-3xl h-auto object-cover\"/>\r\n    </div>\r\n  </div>\r\n</section>\r\n                                        ",
+      "cssCode": "\r\n.background {\r\n  background-color: var(--color-neutral-200);\r\n  background: radial-gradient(circle at top left, var(--color-neutral-200), transparent 90%),\r\n              radial-gradient(circle at bottom right, var(--color-neutral-200), transparent 90%);\r\n}\r\n\r\n.dark .background {\r\n  background-color: var(--color-neutral-700);\r\n  background: radial-gradient(circle at top left, var(--color-neutral-700), transparent 100%),\r\n              radial-gradient(circle at bottom right, var(--color-neutral-700), transparent 100%);\r\n}\r\n\r\n\r\n.titleColor{\r\n    color: var(--color-neutral-950);\r\n}\r\n\r\n.dark .titleColor{\r\n    color: var(--color-neutral-50);\r\n}\r\n\r\n.subTitleColor{\r\n    color: var(--color-primary-700);\r\n}\r\n\r\n.dark .subTitleColor{\r\n    color: var(--color-primary-300);\r\n}\r\n\r\n.descriptionColor{\r\n    color: var(--color-primary-950);\r\n}\r\n\r\n.dark .descriptionColor{\r\n    color: var(--color-primary-100);\r\n}\r\n\r\n.buttonColor {\r\n    background-color: var(--color-primary-700);\r\n    color: var(--color-secondary-100);\r\n    border-color: var(--color-primary-600);\r\n    transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;\r\n}\r\n\r\n.buttonColor:hover {\r\n    background-color: var(--color-primary-600);\r\n    color: var(--color-secondary-50);\r\n    border-color: var(--color-primary-900);\r\n}\r\n\r\n.buttonColor:focus {\r\n    outline: 2px solid var(--color-primary-300);\r\n    box-shadow: 0 0 0 4px var(--color-primary-200);\r\n}\r\n\r\n\r\n.dark .buttonColor {\r\n    background-color: var(--color-primary-700);\r\n    border-color: var(--color-primary-700);\r\n    color: var(--color-secondary-100);\r\n}\r\n\r\n.dark .buttonColor:hover {\r\n    background-color: var(--color-primary-800);\r\n    border-color: var(--color-primary-800);\r\n    color: var(--color-secondary-50);\r\n}\r\n\r\n.dark .buttonColor:focus {\r\n    outline: 2px solid var(--color-primary-200);\r\n    outline-offset: 2px;\r\n    box-shadow: 0 0 0 4px var(--color-primary-100);\r\n}\r\n\r\n",
       "id": 34,
       "objectPreview": {
         "id": -1,
@@ -2680,7 +2680,10 @@
             "themeId": 0,
             "id": 0,
             "blockEntityId": 1,
-            "generalSlotName": "button1"
+            "generalSlotName": "button1",
+            "langCode": "en",
+            "themeSwitchCustom": "dark",
+            "enableOnlyAfterCookieConsent": false
           },
           "button2": {
             "text$L": [
@@ -2709,15 +2712,20 @@
             "themeId": 0,
             "id": 0,
             "blockEntityId": 1,
-            "generalSlotName": "button2"
+            "generalSlotName": "button2",
+            "langCode": "en",
+            "themeSwitchCustom": "dark",
+            "enableOnlyAfterCookieConsent": false
           },
-          "themeId": "2",
+          "themeId": "0",
           "lazyLoading": false,
           "delayAnimation": 0,
+          "enableOnlyAfterCookieConsent": false,
           "dataStructureId": 8,
           "component_type": "custom_section_block",
           "blockEntityId": 34
-        }
+        },
+        "_$preventResendToIframe": true
       },
       "dataStructureId": "8"
     },
@@ -2888,7 +2896,7 @@
     "36": {
       "blockName": "Blog Content Text 2 buttons",
       "blockType": 13,
-      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors custom-font  background py-16 px-8\">\r\n  <div class=\"container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16\">\r\n    <div class=\"flex flex-col justify-center\">\r\n      <h2 class=\"titleColor themeFont-1 text-4xl sm:text-5xl font-bold leading-tight mb-6\">\r\n        {{title$L}}\r\n      </h2>\r\n      <p class=\"subTitleColor themeFont-2 text-lg mb-8\">\r\n        {{subtitle$L}}\r\n      </p>\r\n      <div class=\"flex flex-col sm:flex-row gap-4\">\r\n       \r\n      </div>\r\n    </div>\r\n    <div class=\"flex flex-col justify-center space-y-6\">\r\n       <p class=\"descriptionColor themeFont-3 text-lg leading-relaxed\">\r\n         {{description$PL}}\r\n       </p>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n\r\n\r\n",
+      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors custom-font  background py-16 px-8\">\r\n  <div class=\"container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16\">\r\n    <div class=\"flex flex-col justify-center\">\r\n      <h2 onview-animate=\"fade-right visible\" class=\"invisible titleColor themeFont-1 text-4xl sm:text-5xl font-bold leading-tight mb-6\">\r\n        {{title$L}}\r\n      </h2>\r\n      <p onview-animate=\"fade-right visible\" class=\"invisible subTitleColor themeFont-2 text-lg mb-8\">\r\n        {{subtitle$L}}\r\n      </p>\r\n      <div class=\"flex flex-col sm:flex-row gap-4\">\r\n       \r\n      </div>\r\n    </div>\r\n    <div class=\"flex flex-col justify-center space-y-6\">\r\n       <p onview-animate=\"fade-left visible\" class=\"invisible descriptionColor themeFont-3 text-lg leading-relaxed\">\r\n         {{description$PL}}\r\n       </p>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n\r\n\r\n",
       "cssCode": "\r\n.background {\r\n  background-color: var(--color-neutral-400);\r\n}\r\n\r\n.dark .background {\r\n  background-color: var(--color-neutral-950);\r\n}\r\n\r\n.themeFont-1{\r\n    @apply font-extrabold tracking-tight leading-none;\r\n}\r\n\r\n.titleColor{\r\n    color: var(--color-primary-700);\r\n}\r\n\r\n.dark .titleColor{\r\n    color: var(--color-primary-200);\r\n}\r\n\r\n.subTitleColor{\r\n    color: var(--color-primary-950);\r\n}\r\n\r\n.dark .subTitleColor{\r\n    color: var(--color-primary-100);\r\n}\r\n\r\n.descriptionColor{\r\n    color: var(--color-primary-950);\r\n}\r\n\r\n.dark .descriptionColor{\r\n    color: var(--color-primary-100);\r\n}\r\n\r\n.buttonColor {\r\n    color: var(--color-primary-700);\r\n    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;\r\n}\r\n\r\n.buttonColor:hover {\r\n    color: var(--color-secondary-700);\r\n}\r\n\r\n.buttonColor:focus {\r\n    outline: 2px solid var(--color-primary-300);\r\n    box-shadow: 0 0 0 4px var(--color-primary-200);\r\n}\r\n\r\n\r\n.dark .buttonColor {\r\n    color: var(--color-secondary-200);\r\n}\r\n\r\n.dark .buttonColor:hover {\r\n    color: var(--color-secondary-50);\r\n}\r\n\r\n.dark .buttonColor:focus {\r\n    outline: 2px solid var(--color-primary-200);\r\n    outline-offset: 2px;\r\n    box-shadow: 0 0 0 4px var(--color-primary-100);\r\n}\r\n\r\n",
       "id": 36,
       "objectPreview": {
@@ -5558,9 +5566,8 @@
     "52": {
       "blockName": "Footer Small",
       "blockType": 2,
-      "htmlCode": " <footer class=\"primaryColors secondaryColors neutralColors background p-4 md:p-8 lg:p-10\">\r\n  <div class=\"mx-auto max-w-screen-xl text-center\">\r\n      <a href=\"#\" class=\"flex justify-center items-center text-2xl font-semibold titleColor\">\r\n          <svg class=\"logoText mx-2\" xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"25\" viewBox=\"0 0 89 76\" fill=\"none\">\r\n                <g filter=\"url(#filter0_b_19_123)\">\r\n                <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M88.2232 9.53572C77.5707 18.9727 62.0764 24 48.7126 24C29.9902 24 13.2047 15.7237 0.42189 1.95576C-0.546492 0.873208 0.292836 -0.596711 1.51932 0.254032C15.2706 9.84519 32.2499 15.5691 49.81 15.5691C61.6245 15.5691 74.6654 12.6299 86.6736 6.51917C88.4807 5.66843 89.9662 7.98885 88.2232 9.53572Z\" fill=\"currentColor\"/>\r\n                </g>\r\n                <path d=\"M36.2258 28.0001C36.2258 28.0001 42.458 29.366 46.6129 29.366C50.7677 29.366 57 28.9107 57 28.9107L55.4419 75.8061C55.4419 75.8061 41.8045 77.1851 39.7784 72.5884C37.7523 67.9916 35.2259 27.9246 36.2258 28.0001Z\" fill=\"currentColor\"/>\r\n                <defs>\r\n                <filter id=\"filter0_b_19_123\" x=\"-4\" y=\"-4\" width=\"97.0002\" height=\"32\" filterUnits=\"userSpaceOnUse\" color-interpolation-filters=\"sRGB\">\r\n                <feflood flood-opacity=\"0\" result=\"BackgroundImageFix\"/>\r\n                <fegaussianblur in=\"BackgroundImageFix\" stdDeviation=\"2\"/>\r\n                <fecomposite in2=\"SourceAlpha\" operator=\"in\" result=\"effect1_backgroundBlur_19_123\"/>\r\n                <feblend mode=\"normal\" in=\"SourceGraphic\" in2=\"effect1_backgroundBlur_19_123\" result=\"shape\"/>\r\n                </filter>\r\n                </defs>\r\n            </svg>{{webSiteName}}\r\n      </a>\r\n      <p class=\"my-6 descriptionColor\">\r\n          {{description$PL}}\r\n      </p>\r\n      <ul class=\"flex flex-wrap justify-center items-center mb-6 linkColor\">\r\n          {{#each links}}\r\n          <li>\r\n              {{links.this;<a class=\"mr-4 cursor-pointer hover:underline md:mr-6 \">[text]</a>}}\r\n          </li>\r\n          {{/each links}}\r\n      </ul>\r\n      <span class=\"text-sm copyrightColor sm:text-center\">\r\n           <a href=\"#\" class=\"hover:underline\">{{webSiteName}}</a> - {{copyrights$PL}}\r\n      </span>\r\n  </div>\r\n</footer>",
+      "htmlCode": " <footer class=\"primaryColors secondaryColors neutralColors background p-4 md:p-8 lg:p-10\">\r\n  <div class=\"mx-auto max-w-screen-xl text-center\">\r\n      <a href=\"#\" class=\"flex justify-center items-center text-2xl font-semibold titleColor\">\r\n        <svg class=\"mr-4\" xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#e3e3e3\"><path d=\"M480-260q75 0 127.5-52.5T660-440q0-75-52.5-127.5T480-620q-75 0-127.5 52.5T300-440q0 75 52.5 127.5T480-260Zm0-80q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM160-120q-33 0-56.5-23.5T80-200v-480q0-33 23.5-56.5T160-760h126l74-80h240l74 80h126q33 0 56.5 23.5T880-680v480q0 33-23.5 56.5T800-120H160Zm0-80h640v-480H638l-73-80H395l-73 80H160v480Zm320-240Z\"/></svg>\r\n        {{webSiteName}}\r\n      </a>\r\n      <p class=\"my-6 descriptionColor\">\r\n          {{description$PL}}\r\n      </p>\r\n      <ul class=\"flex flex-wrap justify-center items-center mb-6 linkColor\">\r\n          {{#each links}}\r\n          <li>\r\n              {{links.this;<a class=\"mr-4 cursor-pointer hover:underline md:mr-6 \">[text]</a>}}\r\n          </li>\r\n          {{/each links}}\r\n      </ul>\r\n      <span class=\"text-sm copyrightColor sm:text-center\">\r\n           <a href=\"#\" class=\"hover:underline\">{{webSiteName}}</a> - {{copyrights$PL}}\r\n      </span>\r\n  </div>\r\n</footer>",
       "cssCode": ".background {\r\n  background-color: var(--color-neutral-100);\r\n}\r\n\r\n.dark .background {\r\n  background-color: var(--color-neutral-800);\r\n}\r\n\r\n.logoText{\r\n    color: var(--color-primary-500);\r\n}\r\n\r\n.titleColor {\r\n  color: var(--color-neutral-900);\r\n}\r\n\r\n.dark .titleColor {\r\n  color: var(--color-neutral-100);\r\n}\r\n\r\n.descriptionColor {\r\n  color: var(--color-neutral-600);\r\n}\r\n\r\n.dark .descriptionColor {\r\n  color: var(--color-neutral-400);\r\n}\r\n\r\n.linkColor {\r\n  color: var(--color-neutral-900);\r\n}\r\n\r\n.dark .linkColor {\r\n  color: var(--color-neutral-100);\r\n}\r\n\r\n.linkColor a:hover {\r\n  color: var(--color-primary-600);\r\n}\r\n\r\n.dark .linkColor a:hover {\r\n  color: var(--color-primary-400);\r\n}\r\n\r\n.copyrightColor {\r\n  color: var(--color-neutral-500);\r\n}\r\n\r\n.dark .copyrightColor {\r\n  color: var(--color-neutral-400);\r\n}\r\n\r\n.copyrightColor a {\r\n color: var(--color-neutral-700);\r\n}\r\n\r\n.dark .copyrightColor a {\r\n color: var(--color-neutral-300);\r\n}\r\n\r\n.copyrightColor a:hover {\r\n  color: var(--color-primary-600);\r\n}\r\n\r\n.dark .copyrightColor a:hover {\r\n  color: var(--color-primary-400);\r\n}",
-      "dataStructureId": "13",
       "id": 52,
       "objectPreview": {
         "id": -1,
@@ -5676,9 +5683,11 @@
           "delayAnimation": 0,
           "component_type": "custom_section_block",
           "blockEntityId": 52,
-          "dataStructureId": 13
+          "dataStructureId": 13,
+          "enableOnlyAfterCookieConsent": false
         }
-      }
+      },
+      "dataStructureId": "13"
     },
     "53": {
       "blockName": "Default",
@@ -5793,7 +5802,7 @@
     "54": {
       "blockName": "Header Main",
       "blockType": 1,
-      "htmlCode": "<header class=\"primaryColors secondaryColors neutralColors background \">\n        <div class=\"container mx-auto px-6 py-1.5 flex justify-between items-center\">\n            <a  class=\"text-3xl font-['Pacifico'] text-primary\">{{logoText}}</a>\n\n            \n            <nav class=\"hidden lg:flex items-center space-x-8\">\n                {{#each mainLinks}}\n                    {{mainLinks.this;<a class=\"transition-colors mainLinkColor mainLinkColorEffect mr-8\">[text]</a>}}\n                {{/each mainLinks}}\n\n                {{contact;<a class=\"rightLinkColor px-6 py-2.5 mr-8 rounded-lg\">[text]</a>}}\n\n\n\n            </nav>\n            \n            <div>\n                {{themeLight;<a class=\"flex px-6 py-1 rounded-lg mainLinkColor\"><span class=\"\">[icon]</span><span class=\"my-auto text-sm\">[text]</span></a>}}\n                {{themeDark;<a class=\"flex px-6 py-1 rounded-lg mainLinkColor\"><span >[icon]</span><span class=\"my-auto text-sm\">[text]</span></a>}}\n            </div>\n\n        </div>\n        \n    </header>",
+      "htmlCode": "<header class=\"primaryColors secondaryColors neutralColors background \">\n\n        \n        <div class=\"container mx-auto px-6 py-1.5 flex justify-between items-center\">\n            <a  class=\"text-3xl font-['Pacifico'] text-primary my-auto mx-4\">{{logoText}}</a>\n\n            \n            <nav class=\"hidden lg:flex items-center gap-8\">\n                {{#each mainLinks}}\n                    {{mainLinks.this;<a class=\"transition-colors mainLinkColor mainLinkColorEffect\">[text]</a>}}\n                {{/each mainLinks}}\n\n                {{contact;<a class=\"rightLinkColor px-6 py-2.5 mr-8 rounded-lg\">[text]</a>}}\n\n\n\n            </nav>\n            \n            <div>\n                {{themeLight;<a class=\"flex px-6 py-1 rounded-lg mainLinkColor\"><span class=\"\">[icon]</span><span class=\"my-auto text-sm\">[text]</span></a>}}\n                {{themeDark;<a class=\"flex px-6 py-1 rounded-lg mainLinkColor\"><span >[icon]</span><span class=\"my-auto text-sm\">[text]</span></a>}}\n            </div>\n\n        </div>\n\n</header>",
       "cssCode": ".background {\n  background-color: var(--color-neutral-100);\n}\n\n.dark .background {\n  background-color: var(--color-neutral-900);\n}\n\n.logoText{\n    color: var(--color-primary-700);\n}\n.dark .logoText{\n    color: var(--color-primary-300);\n}\n\n.mainLinkColor{\n    position: relative;\n    color:var(--color-primary-500); \n}\n\n.mainLinkColor:hover{\n    color:var(--color-primary-700);\n}\n\n.dark .mainLinkColor{\n    color:var(--color-primary-100);\n}\n\n.dark .mainLinkColor:hover{\n    color:var(--color-primary-300);\n}\n\n\n.rightLinkColor{\n    background-color: var(--color-primary-100);\n    color:var(--color-primary-500);\n}\n\n.rightLinkColor:hover{\n    background-color: var(--color-primary-200);\n    color:var(--color-primary-700);\n}\n\n\n.dark .rightLinkColor{\n    background-color: var(--color-primary-900);\n    color:var(--color-primary-100);\n}\n\n.dark .rightLinkColor:hover{\n    background-color: var(--color-primary-800);\n    color:var(--color-primary-50);\n}\n\n\n.mainLinkColorEffect::after {\n    content: '';\n    position: absolute;\n    bottom: -4px;\n    left: 0;\n    width: 0;\n    height: 1px;\n    background-color: var(--color-primary-700);\n    transition: width 0.3s ease;\n}\n\n.dark .mainLinkColorEffect::after {\n    background-color: var(--color-primary-300);\n}\n\n.mainLinkColorEffect:hover::after,\n.mainLinkColorEffect.active::after {\n    width: 100%;\n}\n\n\n\n\n.buttonColor {\n    background-color: var(--color-primary-500);\n    color: var(--color-secondary-100);\n    border-color: var(--color-primary-600);\n    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;\n}\n\n.buttonColor:hover {\n    background-color: var(--color-primary-600);\n    color: var(--color-secondary-50);\n    border-color: var(--color-primary-900);\n}\n\n.buttonColor:focus {\n    outline: 2px solid var(--color-primary-300);\n    box-shadow: 0 0 0 4px var(--color-primary-200);\n}\n\n\n.dark .buttonColor {\n    background-color: var(--color-primary-400);\n    border-color: var(--color-primary-600);\n    color: var(--color-secondary-100);\n}\n\n.dark .buttonColor:hover {\n    background-color: var(--color-primary-600);\n    border-color: var(--color-primary-400);\n    color: var(--color-secondary-50);\n}\n\n.dark .buttonColor:focus {\n    outline: 2px solid var(--color-primary-200);\n    outline-offset: 2px;\n    box-shadow: 0 0 0 4px var(--color-primary-100);\n}\n\n    ",
       "id": 54,
       "objectPreview": {
@@ -5815,7 +5824,7 @@
           "mainLinks": [
             {
               "text$L": [
-                "Portfolio",
+                "Link 1",
                 "",
                 "",
                 "",
@@ -5847,7 +5856,7 @@
             },
             {
               "text$L": [
-                "The Experience",
+                "Link 2",
                 "",
                 "",
                 "",
@@ -5879,7 +5888,7 @@
             },
             {
               "text$L": [
-                "Journal",
+                "Link 3",
                 "",
                 "",
                 "",
@@ -5906,38 +5915,6 @@
               "themeId": 0,
               "enableOnlyAfterCookieConsent": false,
               "id": 2,
-              "blockEntityId": 54,
-              "generalSlotName": "mainLinks.this"
-            },
-            {
-              "text$L": [
-                "Artist's Manifesto",
-                "",
-                "",
-                "",
-                ""
-              ],
-              "description$L": [
-                "",
-                "",
-                "",
-                "",
-                ""
-              ],
-              "typeL": "internal",
-              "externalLink": "",
-              "page": 0,
-              "section": "",
-              "langCode": "en",
-              "themeSwitchCustom": "dark",
-              "icon": {
-                "id": 1,
-                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                "themeId": 1
-              },
-              "themeId": 0,
-              "enableOnlyAfterCookieConsent": false,
-              "id": 3,
               "blockEntityId": 54,
               "generalSlotName": "mainLinks.this"
             }
@@ -6627,7 +6604,7 @@
           "images": [
             {
               "image": {
-                "imagePath": "https://readdy.ai/api/search-image?query=Luxury%20Masseria%20wedding%20in%20Puglia%20with%20elegant%20bride%20and%20groom.%20Fine%20art%20photography%20style%20with%20soft%20natural%20lighting.%20The%20couple%20stands%20in%20front%20of%20ancient%20stone%20walls%20with%20olive%20trees%20in%20background.%20Cinematic%20composition%20with%20editorial%20quality.%20Neutral%20color%20palette%20with%20subtle%20textures.%20Professional%20wedding%20photography%20with%20artistic%20vision.&width=600&height=800&seq=2&orientation=portrait",
+                "imagePath": "https://images.pexels.com/photos/712651/pexels-photo-712651.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
                 "altText$L": [
                   "",
                   "",
@@ -6669,7 +6646,7 @@
                 "generalSlotName": "images.link"
               },
               "title$L": [
-                "Luxury Masseria Weddings",
+                "Title 1",
                 "",
                 "",
                 "",
@@ -6685,7 +6662,7 @@
             },
             {
               "image": {
-                "imagePath": "https://readdy.ai/api/search-image?query=Intimate%20Puglia%20elopement%20with%20couple%20in%20olive%20grove%20at%20golden%20hour.%20Fine%20art%20photography%20style%20with%20dreamy%20light.%20The%20couple%20embraces%20with%20ancient%20trulli%20houses%20visible%20in%20distance.%20Editorial%20composition%20with%20artistic%20quality.%20Warm%20color%20palette%20with%20natural%20textures.%20Professional%20wedding%20photography%20with%20romantic%20atmosphere.&width=600&height=800&seq=3&orientation=portrait",
+                "imagePath": "https://images.pexels.com/photos/1023233/pexels-photo-1023233.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
                 "altText$L": [
                   "",
                   "",
@@ -6743,7 +6720,7 @@
             },
             {
               "image": {
-                "imagePath": "https://readdy.ai/api/search-image?query=Fine%20art%20wedding%20story%20in%20Puglia%20with%20bride%20in%20elegant%20dress%20against%20limestone%20architecture.%20Editorial%20photography%20style%20with%20perfect%20composition.%20The%20scene%20captures%20authentic%20emotion%20with%20beautiful%20Italian%20coastal%20backdrop.%20Artistic%20quality%20with%20perfect%20lighting.%20Elegant%20color%20palette%20with%20subtle%20details.%20Professional%20wedding%20photography%20with%20timeless%20aesthetic.&width=600&height=800&seq=4&orientation=portrait",
+                "imagePath": "https://images.pexels.com/photos/2253867/pexels-photo-2253867.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
                 "altText$L": [
                   "",
                   "",
@@ -6807,7 +6784,8 @@
           "dataStructureId": 10,
           "component_type": "custom_section_block",
           "blockEntityId": 58
-        }
+        },
+        "_$preventResendToIframe": true
       },
       "dataStructureId": 10
     },
@@ -7226,7 +7204,6 @@
       "blockType": 6,
       "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors themeFonts background-section py-20\">\n    <div class=\"container mx-auto px-6\">\n        <h2 onview-animate=\"fade-down visible\" class=\"invisible text-4xl mb-12 font-light text-center\">{{title$L}}</h2>\n        <div class=\"max-w-4xl mx-auto\">\n            {{#each images}}\n            <div onview-animate=\"fade-up animation-delay-0{{@index}}0 visible\" class=\"invisible background-card p-8 rounded-md shadow-sm mb-8\">\n                <div class=\"flex items-center mb-6\">\n                    <div class=\"w-16 h-16 rounded-full overflow-hidden mr-4 shrink-0\">\n                        <img src=\"{{images.image}}\" class=\"w-full h-full object-cover object-top\">\n                    </div>\n                    <div>\n                        <h3 class=\"text-xl font-light\">{{images.title$L}}</h3>\n                        <p class=\"text-sm details-color\">{{images.subtitle$L}}</p>\n                    </div>\n                </div>\n                <p class=\"italic text-base leading-relaxed\">{{images.description$L}}</p>\n            </div>\n            {{/each images}}\n        </div>\n    </div>\n</section>",
       "cssCode": ".background-section {\n  background-color: var(--color-stone-100);\n}\n.dark .background-section {\n  background-color: var(--color-neutral-950);\n}\n.background-card {\n  background-color: var(--color-neutral-50);\n}\n.dark .background-card {\n  background-color: var(--color-neutral-800);\n}\n.details-color {\n  color: var(--color-neutral-600);\n}\n.dark .details-color {\n  color: var(--color-neutral-400);\n}",
-      "dataStructureId": 18,
       "id": 61,
       "objectPreview": {
         "id": -1,
@@ -7234,7 +7211,7 @@
         "component": {
           "anchorName": "section",
           "title$L": [
-            "Client Reflections",
+            "My Clients",
             "",
             "",
             "",
@@ -7313,7 +7290,7 @@
                 ""
               ],
               "description$L": [
-                "\"Our wedding photographs transcend mere documentation—they are true works of art that capture not just how our day&nbsp; looked, but how it felt. The way you worked with Puglia's distinctive light and textures created images that feel both timeless and completely authentic to our experience.\"&nbsp;",
+                "\"Our wedding photographs transcend mere documentation—they are true works of art that capture not just how our day&nbsp; looked, but how it felt. The way you worked with New York's distinctive light and textures created images that feel both timeless and completely authentic to our experience.\"&nbsp;",
                 "",
                 "",
                 "",
@@ -7378,7 +7355,7 @@
                 ""
               ],
               "description$L": [
-                "\"We were drawn to your editorial style and the way you balance artistic composition with authentic emotion. The result is a collection of images that feel both elevated and deeply personal—exactly what we hoped for when we chose to celebrate in Puglia.\"",
+                "\"We were drawn to your editorial style and the way you balance artistic composition with authentic emotion. The result is a collection of images that feel both elevated and deeply personal—exactly what we hoped for when we chose to celebrate in New York.\"",
                 "",
                 "",
                 "",
@@ -7395,7 +7372,8 @@
           "dataStructureId": 18
         },
         "_$preventResendToIframe": true
-      }
+      },
+      "dataStructureId": 18
     },
     "62": {
       "blockName": "Hero Image Left Animated copy",
@@ -7512,7 +7490,7 @@
     "63": {
       "blockName": "Form Main",
       "blockType": 14,
-      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors themeFonts background-section py-20\">\n    <div class=\"container mx-auto px-6\">\n        <div class=\"max-w-4xl mx-auto\">\n            <h2 onview-animate=\"fade-down visible\" class=\"invisible text-4xl mb-6 font-light text-center\">{{title$L}}</h2>\n            <p onview-animate=\"fade-down animation-delay-020 visible\" class=\"invisible text-center mb-12 max-w-2xl mx-auto\">{{description$PL}}</p>\n            <div onview-animate=\"fade-up animation-delay-040 visible\" class=\"invisible background-card p-8 rounded-md shadow-sm\">\n                <form id=\"contact-form\"> \n                    <div id=\"form-div\">\n                        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-8 mb-8\">\n                            {{#each fields}}\n                                <div class=\"{{IF(fields.fullWidth$B==true);'col-span-2'}} field-div\"> \n                                    <label for=\"{{fields.name$L}}\" class=\"{{IF(fields.type=='checkbox');'hidden'}} block text-sm mb-2\">{{fields.name$L}}</label>\n                                    <label class=\"{{IF(fields.type!='checkbox');'hidden'}} flex items-center h-full cursor-pointer\">\n                                        <input \n                                            id=\"fieldc-{{@index}}\" \n                                            required=\"{{IF(fields.type=='checkbox' && fields.required$B==true);'true'}}\" \n                                            type=\"checkbox\" \n                                            name=\"{{IF(fields.type=='checkbox');fields.name$L}}\" \n                                            class=\"{{IF(fields.type!='checkbox');'hidden'}} sr-only peer\">\n                                        <span class=\"custom-checkbox\"></span>\n                                        <span class=\"ml-3 text-sm\">{{fields.name$L}}</span>\n                                    </label>\n                                    <input \n                                        id=\"field-{{@index}}\" \n                                        type=\"{{fields.type}}\"\n                                        required=\"{{IF(fields.type!='textarea' && fields.type!='checkbox' && fields.required$B==true);'true'}}\" \n                                        name=\"{{IF(fields.type!='textarea' && fields.type!='checkbox');fields.name$L}}\" \n                                        class=\"{{IF(fields.type=='textarea' || fields.type=='checkbox');'hidden'}} contact-input\">\n                                    <textarea \n                                        id=\"fieldt-{{@index}}\" \n                                        required=\"{{IF(fields.type=='textarea' && fields.required$B==true);'true'}}\" \n                                        name=\"{{IF(fields.type=='textarea');fields.name$L}}\" \n                                        class=\"{{IF(fields.type!='textarea');'hidden'}} contact-input h-[250px]\"></textarea>\n                                </div>   \n                            {{/each fields}}\n                        </div> \n                        <div class=\"text-center\">\n                            <button type=\"submit\" class=\"px-8 py-3 rounded-md\">{{submit$L}}</button>\n                        </div>\n                    </div>\n                    <p class=\"text-center text-lg status-color p-2 rounded-lg\" id=\"status\"></p>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>\n\n\n<script>\n    const workerUrl=\"{{url}}\"+\"/send-form\";\n    const form = document.getElementById(\"contact-form\");\n    const formDiv = document.getElementById(\"form-div\");\n    const status = document.getElementById(\"status\");\n\n    form.addEventListener(\"submit\", async (e) => {\n        e.preventDefault();\n\n        const formData = new FormData(e.target);\n        const data = Object.fromEntries(formData.entries());\n\n        try {\n            const res = await fetch(workerUrl, {\n                method: \"POST\",\n                headers: { \"Content-Type\": \"application/json\" },\n                body: JSON.stringify(data),\n            });\n\n            const result = await res.text();\n            status.textContent = result;\n\n            // ✅ Reset form fields after successful submission\n            form.reset();\n            //hide form \n            formDiv.classList.add(\"hidden\");\n        } catch (error) {\n            status.textContent = \"Something went wrong. Please try again.\";\n            console.error(error);\n        }\n    });\n</script>",
+      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors themeFonts background-section py-20\">\n    <div class=\"container mx-auto px-6\">\n        <div class=\"max-w-4xl mx-auto\">\n            <h2 onview-animate=\"fade-down visible\" class=\"invisible text-4xl mb-6 font-light text-center\">{{title$L}}</h2>\n            <p onview-animate=\"fade-down animation-delay-020 visible\" class=\"invisible text-center mb-12 max-w-2xl mx-auto\">{{description$PL}}</p>\n            <div onview-animate=\"fade-up animation-delay-040 visible\" class=\"invisible background-card p-8 rounded-md shadow-sm\">\n                <form id=\"contact-form\"> \n                    <div id=\"form-div\">\n                        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-8 mb-8\">\n                            {{#each fields}}\n                                <div class=\"{{IF(fields.fullWidth$B==true);'col-span-2'}} field-div\"> \n                                    <label for=\"{{fields.name$L}}\" class=\"{{IF(fields.type=='checkbox');'hidden'}} block text-sm mb-2\">{{fields.name$L}}</label>\n                                    <label class=\"{{IF(fields.type!='checkbox');'hidden'}} flex items-center h-full cursor-pointer\">\n                                        <input \n                                            id=\"fieldc-{{@index}}\" \n                                            required=\"{{IF(fields.type=='checkbox' && fields.required$B==true);'true'}}\" \n                                            type=\"checkbox\" \n                                            name=\"{{IF(fields.type=='checkbox');fields.name$L}}\" \n                                            class=\"{{IF(fields.type!='checkbox');'hidden'}} sr-only peer\">\n                                        <span class=\"custom-checkbox\"></span>\n                                        <span class=\"ml-3 text-sm\">{{fields.name$L}}</span>\n                                    </label>\n                                    <input \n                                        id=\"field-{{@index}}\" \n                                        type=\"{{fields.type}}\"\n                                        required=\"{{IF(fields.type!='textarea' && fields.type!='checkbox' && fields.required$B==true);'true'}}\" \n                                        name=\"{{IF(fields.type!='textarea' && fields.type!='checkbox');fields.name$L}}\" \n                                        class=\"{{IF(fields.type=='textarea' || fields.type=='checkbox');'hidden'}} contact-input\">\n                                    <textarea \n                                        id=\"fieldt-{{@index}}\" \n                                        required=\"{{IF(fields.type=='textarea' && fields.required$B==true);'true'}}\" \n                                        name=\"{{IF(fields.type=='textarea');fields.name$L}}\" \n                                        class=\"{{IF(fields.type!='textarea');'hidden'}} contact-input h-[250px]\"></textarea>\n                                </div>   \n                            {{/each fields}}\n                        </div> \n                        <div class=\"text-center\">\n                            <button type=\"submit\" class=\"px-8 py-3 rounded-md\">{{submit$L}}</button>\n                        </div>\n                    </div>\n                    <p class=\"text-center text-lg status-color p-2 rounded-lg\" id=\"status\"></p>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>\n\n\n<script>\n    const workerUrl=\"{{url}}\";\n    const form = document.getElementById(\"contact-form\");\n    const formDiv = document.getElementById(\"form-div\");\n    const status = document.getElementById(\"status\");\n\n    form.addEventListener(\"submit\", async (e) => {\n        e.preventDefault();\n\n        const formData = new FormData(e.target);\n        const data = Object.fromEntries(formData.entries());\n\n        try {\n            const res = await fetch(workerUrl, {\n                method: \"POST\",\n                headers: { \"Content-Type\": \"application/json\" },\n                body: JSON.stringify(data),\n            });\n\n            const result = await res.text();\n            status.textContent = result;\n\n            // ✅ Reset form fields after successful submission\n            form.reset();\n            //hide form \n            formDiv.classList.add(\"hidden\");\n        } catch (error) {\n            status.textContent = \"Something went wrong. Please try again.\";\n            console.error(error);\n        }\n    });\n</script>",
       "cssCode": ".status-color{\n    color: var(--color-primary-700);\n}\n\n.dark .status-color{\n    color: var(--color-primary-300);\n}\n\n\n.background-section {\n    background-color: #F2F4EF;\n}\n.dark .background-section {\n    background-color: var(--color-neutral-950);\n}\n.contact-input {\n    width: 100%;\n    /*padding: 0.75rem 1rem;*/\n    padding: 0.5rem; /* ensures text starts at top */\n    border-radius: 0.375rem;\n    border: 1px solid var(--color-neutral-300);\n    background-color: var(--color-neutral-50);\n    color: var(--color-neutral-800);\n    transition: border-color 0.2s, box-shadow 0.2s;\n}\n.contact-input:focus {\n    outline: none;\n    border-color: var(--color-primary-500);\n    box-shadow: 0 0 0 2px var(--color-primary-200);\n}\n.dark .contact-input {\n    background-color: var(--color-neutral-700);\n    border-color: var(--color-neutral-600); \n    color: var(--color-neutral-100);\n}\n.dark .contact-input:focus {\n    border-color: var(--color-primary-400);\n    box-shadow: 0 0 0 2px var(--color-primary-900);\n}\n.custom-checkbox {\n    display: inline-block;\n    width: 1.25rem;\n    height: 1.25rem;\n    border: 2px solid var(--color-neutral-400);\n    border-radius: 0.25rem;\n    transition: background-color 0.2s;\n    flex-shrink: 0;\n}\n.dark .custom-checkbox {\n    border-color: var(--color-neutral-500);\n}\ninput[type=\"checkbox\"]:checked + .custom-checkbox {\n    background-color: var(--color-primary-500);\n    border-color: var(--color-primary-500);\n    background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e\");\n    background-size: 100% 100%;\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\ninput[type=\"textarea\"] {\n    height: 250px;\n    grid-column: span 2 / span 2;\n    box-sizing: border-box;\n    /* optional for consistent font and line-height */\n    font-family: inherit;\n    line-height: 1.2;\n}   \n\n.field-div:has(input[type=\"textarea\"]) {\n  /* Tailwind equivalent */\n  /* If using plain CSS */\n  grid-column: span 2;\n}\n\n",
       "id": 63,
       "objectPreview": {
@@ -7520,7 +7498,7 @@
         "slotName": "default",
         "component": {
           "anchorName": "section",
-          "url": "https://instandem.com/send-form",
+          "url": "https://",
           "title$L": [
             "Begin Your Story",
             "",
@@ -7608,7 +7586,7 @@
               "required$B": true,
               "fullWidth$B": true,
               "name$L": [
-                "I understand that collections begin at €4,500 and typically include 8-10 hours of coverage.",
+                "I would like to book an appointment",
                 "",
                 "",
                 "",
@@ -8478,9 +8456,6 @@
   ],
   "pagesEntityMap": {
     "0": {
-      "id": 0,
-      "pathFolderId": 0,
-      "pageLayoutId": 0,
       "title$L": [
         "home",
         "home",
@@ -8488,114 +8463,143 @@
         "home",
         "home"
       ],
+      "jsonSEO$L": [
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"ProfessionalService\",\n  \"name\": \"Professional Photography Portfolio\",\n  \"image\": \"https://images.pexels.com/photos/1024968/pexels-photo-1024968.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900\",\n  \"description\": \"A professional photographer specializing in landscapes, portraits, and events. I turn ordinary moments into extraordinary memories, with a focus on editorial sophistication and authentic emotion for weddings in New York and Puglia.\",\n  \"url\": \"https://www.yourwebsite.com\",\n  \"provider\": {\n    \"@type\": \"Person\",\n    \"name\": \"Photographer's Name\",\n    \"image\": \"https://images.pexels.com/photos/1686451/pexels-photo-1686451.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=800&w=600\",\n    \"url\": \"https://www.yourwebsite.com/#manifesto\"\n  },\n  \"areaServed\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"New York\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"New York\",\n        \"addressCountry\": \"US\"\n      }\n    }\n  ],\n  \"hasOfferCatalog\": {\n    \"@type\": \"OfferCatalog\",\n    \"name\": \"Wedding Photography Services\",\n    \"itemListElement\": [\n      {\n        \"@type\": \"Offer\",\n        \"itemOffered\": {\n          \"@type\": \"Service\",\n          \"name\": \"Luxury Masseria Weddings\"\n        }\n      },\n      {\n        \"@type\": \"Offer\",\n        \"itemOffered\": {\n          \"@type\": \"Service\",\n          \"name\": \"Private-Villa Weddings\"\n        }\n      },\n      {\n        \"@type\": \"Offer\",\n        \"itemOffered\": {\n          \"@type\": \"Service\",\n          \"name\": \"Hotel Resort Weddings\"\n        }\n      }\n    ]\n  },\n  \"review\": [\n    {\n      \"@type\": \"Review\",\n      \"reviewBody\": \"Your wedding photography exceeded our wildest dreams. The images are not merely snapshots; they are a profound visual narrative of our love, expertly framed by Puglia's breathtaking scenery. Every photo radiates with emotion, making us relive the magic of our day again and again.\",\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"Sophia & Alessandro\"\n      }\n    },\n    {\n      \"@type\": \"Review\",\n      \"reviewBody\": \"We chose you for your documentary-style approach, confident that you would capture the authentic spirit of our celebration. The photos seamlessly blend artistic composition with raw, heartfelt moments, exceeding our expectations and perfectly reflecting our dream Puglian wedding.\",\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"Emma & James\"\n      }\n    }\n  ],\n  \"contactPoint\": {\n    \"@type\": \"ContactPoint\",\n    \"contactType\": \"customer service\",\n    \"url\": \"https://www.yourwebsite.com/#contact\"\n  }\n}",
+        "{}",
+        "{}",
+        "{}",
+        "{}"
+      ],
+      "pathFolderId": 0,
+      "metaData": [
+        {
+          "isProperty": false,
+          "nameOrProperty$L": [
+            "description",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "content$L": [
+            "Professional photographer specializing in timeless wedding, landscape, and portrait photography. Explore a stunning portfolio capturing authentic emotions and timeless moments in New York.",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "pageLayoutId": 0,
+      "id": 0,
       "sections": [
         {
           "id": 6,
           "slotName": "default",
           "component": {
-            "anchorName": "section6",
             "title$L": [
-              "Capturing Puglia's Timeless Elegance",
-              "",
-              "",
-              "",
-              ""
+              "Professional Photography Portfolio",
+              "Portafoglio fotografico professionale",
+              "Professionelles Fotografie-Portfolio",
+              "Portafolio de fotografía profesional",
+              "Portefeuille de photographie professionnelle"
             ],
             "subtitle$L": [
-              "<span class=\"fontwt-default\" style=\"color: rgb(255, 255, 255);\">Luxury Wedding Photography with Editorial Flair</span>",
-              "",
-              "",
-              "",
-              ""
+              "<span class=\"fontwt-default\" style=\"color: rgb(255, 255, 255);\">Capturing Moments That Last Forever</span>",
+              "Catturare Momenti Che Durano Per Sempre",
+              "Momente Einfangen, Die Für Immer Bleiben",
+              "Capturando Momentos Que Duran Para Siempre",
+              "Capturer des Moments Qui Durent pour Toujours"
             ],
             "description$PL": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Explore my stunning collection of photographs from around the world. As a professional photographer, I specialize in landscapes, portraits, and events, turning ordinary moments into extraordinary memories.",
+              "Esplora la mia straordinaria collezione di fotografie da tutto il mondo. Come fotografo professionista, mi specializzo in paesaggi, ritratti ed eventi, trasformando momenti ordinari in ricordi straordinari.",
+              "Entdecken Sie meine atemberaubende Sammlung von Fotos aus der ganzen Welt. Als professioneller Fotograf spezialisiere ich mich auf Landschaften, Porträts und Veranstaltungen und verwandle gewöhnliche Momente in außergewöhnliche Erinnerungen.",
+              "Explora mi impresionante colección de fotografías de todo el mundo. Como fotógrafo profesional, me especializo en paisajes, retratos y eventos, convirtiendo momentos ordinarios en recuerdos extraordinarios.",
+              "Explorez ma superbe collection de photographies du monde entier. En tant que photographe professionnel, je me spécialise dans les paysages, les portraits et les événements, transformant des moments ordinaires en souvenirs extraordinaires."
             ],
             "image": {
-              "imagePath": "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
+              "imagePath": "https://images.pexels.com/photos/1024968/pexels-photo-1024968.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
               "altText$L": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Professional Photographer at Work",
+                "Fotografo Professionista al Lavoro",
+                "Professioneller Fotograf bei der Arbeit",
+                "Fotógrafo Profesional en Acción",
+                "Photographe Professionnel au Travail"
               ]
             },
             "link1": {
               "text$L": [
                 "View Portfolio",
-                "",
-                "",
-                "",
-                ""
+                "Visualizza Portafoglio",
+                "Portfolio Ansehen",
+                "Ver Portafolio",
+                "Voir le Portefeuille"
               ],
               "description$L": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Browse my latest works and galleries.",
+                "Sfoglia le mie ultime opere e gallerie.",
+                "Durchsuchen Sie meine neuesten Werke und Galerien.",
+                "Explora mis últimas obras y galerías.",
+                "Parcourez mes dernières œuvres et galeries."
               ],
               "typeL": "internal",
               "externalLink": "",
               "page": 0,
               "section": "portfolio",
-              "langCode": "en",
-              "themeSwitchCustom": "dark",
               "icon": {
                 "id": 1,
                 "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
                 "themeId": 1
               },
               "themeId": 0,
-              "enableOnlyAfterCookieConsent": false,
               "id": 0,
               "blockEntityId": 55,
-              "generalSlotName": "link1"
+              "generalSlotName": "link1",
+              "langCode": "en",
+              "themeSwitchCustom": "dark",
+              "enableOnlyAfterCookieConsent": false
             },
             "link2": {
               "text$L": [
-                "Begin Your Story",
-                "",
-                "",
-                "",
-                ""
+                "Contact Me",
+                "Contattami",
+                "Kontaktieren Sie Mich",
+                "Contáctame",
+                "Contactez-Moi"
               ],
               "description$L": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Get in touch for bookings and inquiries.",
+                "Contattami per prenotazioni e informazioni.",
+                "Kontaktieren Sie mich für Buchungen und Anfragen.",
+                "Ponte en contacto para reservas e inquiries.",
+                "Contactez-moi pour les réservations et les demandes."
               ],
               "typeL": "internal",
               "externalLink": "",
               "page": 0,
               "section": "contact",
-              "langCode": "en",
-              "themeSwitchCustom": "dark",
               "icon": {
                 "id": 1,
                 "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
                 "themeId": 1
               },
               "themeId": 0,
-              "enableOnlyAfterCookieConsent": false,
               "id": 0,
               "blockEntityId": 55,
-              "generalSlotName": "link2"
+              "generalSlotName": "link2",
+              "langCode": "en",
+              "themeSwitchCustom": "dark",
+              "enableOnlyAfterCookieConsent": false
             },
             "themeId": 1,
-            "lazyLoading": false,
-            "enableOnlyAfterCookieConsent": false,
-            "delayAnimation": 0,
             "blockEntityId": 55,
             "component_type": "custom_section_block",
-            "dataStructureId": 14
+            "dataStructureId": 14,
+            "anchorName": "",
+            "lazyLoading": false,
+            "enableOnlyAfterCookieConsent": false,
+            "delayAnimation": 0
           }
         },
         {
@@ -8644,7 +8648,7 @@
           }
         },
         {
-          "id": 8,
+          "id": 16,
           "slotName": "default",
           "component": {
             "anchorName": "portfolio",
@@ -8656,7 +8660,7 @@
               ""
             ],
             "subTitle$L": [
-              "",
+              "@L{ExplorePortfolio} ",
               "",
               "",
               "",
@@ -8672,7 +8676,7 @@
             "images": [
               {
                 "image": {
-                  "imagePath": "https://readdy.ai/api/search-image?query=Luxury%20Masseria%20wedding%20in%20Puglia%20with%20elegant%20bride%20and%20groom.%20Fine%20art%20photography%20style%20with%20soft%20natural%20lighting.%20The%20couple%20stands%20in%20front%20of%20ancient%20stone%20walls%20with%20olive%20trees%20in%20background.%20Cinematic%20composition%20with%20editorial%20quality.%20Neutral%20color%20palette%20with%20subtle%20textures.%20Professional%20wedding%20photography%20with%20artistic%20vision.&width=600&height=800&seq=2&orientation=portrait",
+                  "imagePath": "https://images.pexels.com/photos/712651/pexels-photo-712651.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
                   "altText$L": [
                     "",
                     "",
@@ -8730,7 +8734,7 @@
               },
               {
                 "image": {
-                  "imagePath": "https://readdy.ai/api/search-image?query=Intimate%20Puglia%20elopement%20with%20couple%20in%20olive%20grove%20at%20golden%20hour.%20Fine%20art%20photography%20style%20with%20dreamy%20light.%20The%20couple%20embraces%20with%20ancient%20trulli%20houses%20visible%20in%20distance.%20Editorial%20composition%20with%20artistic%20quality.%20Warm%20color%20palette%20with%20natural%20textures.%20Professional%20wedding%20photography%20with%20romantic%20atmosphere.&width=600&height=800&seq=3&orientation=portrait",
+                  "imagePath": "https://images.pexels.com/photos/1023233/pexels-photo-1023233.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
                   "altText$L": [
                     "",
                     "",
@@ -8772,7 +8776,7 @@
                   "generalSlotName": "images.link"
                 },
                 "title$L": [
-                  "Private Villa Weddings",
+                  "Private-Villa Weddings",
                   "",
                   "",
                   "",
@@ -8788,7 +8792,7 @@
               },
               {
                 "image": {
-                  "imagePath": "https://readdy.ai/api/search-image?query=Fine%20art%20wedding%20story%20in%20Puglia%20with%20bride%20in%20elegant%20dress%20against%20limestone%20architecture.%20Editorial%20photography%20style%20with%20perfect%20composition.%20The%20scene%20captures%20authentic%20emotion%20with%20beautiful%20Italian%20coastal%20backdrop.%20Artistic%20quality%20with%20perfect%20lighting.%20Elegant%20color%20palette%20with%20subtle%20details.%20Professional%20wedding%20photography%20with%20timeless%20aesthetic.&width=600&height=800&seq=4&orientation=portrait",
+                  "imagePath": "https://images.pexels.com/photos/2253867/pexels-photo-2253867.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
                   "altText$L": [
                     "",
                     "",
@@ -9020,7 +9024,7 @@
           "slotName": "default",
           "globalBlockId": "4",
           "globalBlockSettings": {
-            "anchorName": "section15",
+            "anchorName": "journal",
             "themeId": 1,
             "blockEntityId": 60,
             "delayAnimation": 0,
@@ -9034,13 +9038,13 @@
           "id": 12,
           "slotName": "default",
           "component": {
-            "anchorName": "testimonial",
+            "anchorName": "",
             "title$L": [
-              "Client Reflections",
-              "",
-              "",
-              "",
-              ""
+              "Client Stories",
+              "Riflessioni dei Clienti",
+              "Kundenberichte",
+              "Reflexiones de Clientes",
+              "Témoignages des Clients"
             ],
             "subTitle$L": [
               "",
@@ -9059,7 +9063,7 @@
             "images": [
               {
                 "image": {
-                  "imagePath": "https://readdy.ai/api/search-image?query=Elegant%20bride%20portrait%20with%20sophisticated%20styling.%20Fine%20art%20photography%20style%20with%20soft%20lighting.%20Close-up%20portrait%20showing%20genuine%20emotion%20and%20refined%20beauty.%20Editorial%20quality%20with%20artistic%20composition.%20Neutral%20color%20palette%20with%20subtle%20details.%20Professional%20wedding%20photography%20with%20timeless%20aesthetic.&width=200&height=200&seq=8&orientation=squarish",
+                  "imagePath": "https://images.pexels.com/photos/32113395/pexels-photo-32113395.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
                   "altText$L": [
                     "",
                     "",
@@ -9070,11 +9074,11 @@
                 },
                 "link": {
                   "text$L": [
-                    "Read More",
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Learn More",
+                    "Scopri di più",
+                    "Mehr erfahren",
+                    "Aprender más",
+                    "En savoir plus"
                   ],
                   "description$L": [
                     "",
@@ -9102,29 +9106,29 @@
                 },
                 "title$L": [
                   "Sophia &amp; Alessandro",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Sophia e Alessandro",
+                  "Sophia & Alessandro",
+                  "Sophia y Alessandro",
+                  "Sophia et Alessandro"
                 ],
                 "subtitle$L": [
-                  "Masseria Potenti, June 2025",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "June 2025",
+                  "Masseria Potenti, Giugno 2025",
+                  "Masseria Potenti, Juni 2025",
+                  "Masseria Potenti, Junio 2025",
+                  "Masseria Potenti, Juin 2025"
                 ],
                 "description$L": [
-                  "\"Our wedding photographs transcend mere documentation—they are true works of art that capture not just how our day&nbsp; looked, but how it felt. The way you worked with Puglia's distinctive light and textures created images that feel both timeless and completely authentic to our experience.\"&nbsp;",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "\"Your wedding photography exceeded our wildest dreams. The images are not merely snapshots; they are a profound visual narrative of our love, expertly framed by New York's breathtaking scenery. Every photo radiates with emotion, making us relive the magic of our day again and again.\"",
+                  "\"La vostra fotografia di matrimonio ha superato i nostri sogni più sfrenati. Le immagini non sono semplici istantanee; sono una profonda narrazione visiva del nostro amore, sapientemente incorniciata dallo scenario mozzafiato della Puglia. Ogni foto irradia emozione, facendoci rivivere la magia del nostro giorno ancora e ancora.\"",
+                  "\"Ihre Hochzeitsfotografie übertraf unsere wildesten Träume. Die Bilder sind nicht nur Schnappschüsse; sie sind eine tiefgründige visuelle Erzählung unserer Liebe, gekonnt umrahmt von der atemberaubenden Landschaft Apuliens. Jedes Foto strahlt Emotionen aus und lässt uns die Magie unseres Tages immer wieder neu erleben.\"",
+                  "\"Su fotografía de boda superó nuestros sueños más salvajes. Las imágenes no son meras instantáneas; son una profunda narrativa visual de nuestro amor, enmarcada expertamente por el impresionante paisaje de Puglia. Cada foto irradia emoción, haciéndonos revivir la magia de nuestro día una y otra vez.\"",
+                  "\"Votre photographie de mariage a dépassé nos rêves les plus fous. Les images ne sont pas de simples instantanés ; elles sont un profond récit visuel de notre amour, habilement encadré par les paysages à couper le souffle des Pouilles. Chaque photo irradie d'émotion, nous faisant revivre la magie de notre journée encore et encore.\""
                 ]
               },
               {
                 "image": {
-                  "imagePath": "https://readdy.ai/api/search-image?query=Elegant%20couple%20portrait%20with%20sophisticated%20styling.%20Fine%20art%20photography%20style%20with%20perfect%20lighting.%20Portrait%20showing%20genuine%20connection%20between%20well-dressed%20couple.%20Editorial%20quality%20with%20artistic%20composition.%20Neutral%20color%20palette%20with%20subtle%20details.%20Professional%20wedding%20photography%20with%20timeless%20aesthetic.&width=200&height=200&seq=9&orientation=squarish",
+                  "imagePath": "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
                   "altText$L": [
                     "",
                     "",
@@ -9135,11 +9139,11 @@
                 },
                 "link": {
                   "text$L": [
-                    "Read More",
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Learn More",
+                    "Scopri di più",
+                    "Mehr erfahren",
+                    "Aprender más",
+                    "En savoir plus"
                   ],
                   "description$L": [
                     "",
@@ -9167,24 +9171,24 @@
                 },
                 "title$L": [
                   "Emma &amp; James",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Emma e James",
+                  "Emma & James",
+                  "Emma y James",
+                  "Emma et James"
                 ],
                 "subtitle$L": [
+                  "September 2024",
+                  "Borgo Egnazia, Settembre 2024",
                   "Borgo Egnazia, September 2024",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Borgo Egnazia, Septiembre 2024",
+                  "Borgo Egnazia, Septembre 2024"
                 ],
                 "description$L": [
-                  "\"We were drawn to your editorial style and the way you balance artistic composition with authentic emotion. The result is a collection of images that feel both elevated and deeply personal—exactly what we hoped for when we chose to celebrate in Puglia.\"",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "\"We chose you for your documentary-style approach, confident that you would capture the authentic spirit of our celebration. The photos seamlessly blend artistic composition with raw, heartfelt moments, exceeding our expectations and perfectly reflecting our dream wedding.\"",
+                  "\"Vi abbiamo scelto per il vostro approccio in stile documentario, fiduciosi che avreste catturato lo spirito autentico della nostra celebrazione. Le foto fondono armoniosamente la composizione artistica con momenti crudi e sentiti, superando le nostre aspettative e riflettendo perfettamente il nostro matrimonio da sogno in Puglia.\"",
+                  "\"Wir haben Sie aufgrund Ihres dokumentarischen Ansatzes ausgewählt, in der Gewissheit, dass Sie den authentischen Geist unserer Feier einfangen würden. Die Fotos vereinen nahtlos künstlerische Komposition mit rohen, herzlichen Momenten, übertreffen unsere Erwartungen und spiegeln unsere Traumhochzeit in Apulien perfekt wider.\"",
+                  "\"Te elegimos por tu enfoque de estilo documental, confiados en que capturarías el espíritu auténtico de nuestra celebración. Las fotos combinan a la perfección la composición artística con momentos crudos y sinceros, superando nuestras expectativas y reflejando a la perfección nuestra soñada boda pugliese.\"",
+                  "\"Nous vous avons choisis pour votre approche de style documentaire, confiants que vous captureriez l'esprit authentique de notre célébration. Les photos mêlent harmonieusement composition artistique et moments bruts et sincères, dépassant nos attentes et reflétant parfaitement notre mariage de rêve dans les Pouilles.\""
                 ]
               }
             ],
@@ -9203,28 +9207,28 @@
           "component": {
             "anchorName": "manifesto",
             "title$L": [
-              "Artist's Manifesto",
-              "",
-              "",
-              "",
-              ""
+              "Photographer's Manifesto",
+              "Manifesto del Fotografo di New York",
+              "Manifest des New Yorker Fotografen",
+              "Manifiesto del Fotógrafo de Nueva York",
+              "Manifeste du Photographe de New York"
             ],
             "subtitle$L": [
-              "Bringing ideas to life, one pixel at a time.",
-              "",
-              "",
-              "",
-              ""
+              "Capturing the heart of New York, one frame at a time.",
+              "Catturando il cuore di New York, un frame alla volta.",
+              "Das Herz von New York einfangen, ein Frame nach dem anderen.",
+              "Capturando el corazón de Nueva York, un cuadro a la vez.",
+              "Capturer le cœur de New York, un cadre à la fois."
             ],
             "description$PL": [
-              "My approach to wedding photography is rooted in a deep appreciation for Puglia's distinctive light, textures, and atmosphere. Having spent years immersed in this enchanting region, I've developed an intimate understanding of how to capture its essence in relation to the human stories that unfold here.<br><br>I believe that truly exceptional wedding photography exists at the intersection of editorial sophistication and authentic emotion. My work aims to create a visual legacy that feels both timeless and deeply personal—images that will resonate as powerfully decades from now as they do today.<br><br>When I'm not documenting weddings, you'll find me exploring Puglia's hidden corners, studying the quality of light at different times of day, and drawing inspiration from the region's rich artistic heritage.",
-              "",
-              "",
-              "",
-              ""
+              "My approach to wedding photography is rooted in a deep appreciation for New York's distinctive light, textures, and atmosphere. Having spent years immersed in this vibrant city, I've developed an intimate understanding of how to capture its essence in relation to the human stories that unfold here.<br><br>I believe that truly exceptional wedding photography exists at the intersection of editorial sophistication and authentic emotion. My work aims to create a visual legacy that feels both timeless and deeply personal—images that will resonate as powerfully decades from now as they do today.<br><br>When I'm not documenting weddings, you'll find me exploring New York's hidden corners, studying the quality of light at different times of day, and drawing inspiration from the city's rich artistic heritage.",
+              "Il mio approccio alla fotografia di matrimoni è radicato in un profondo apprezzamento per la luce, le texture e l'atmosfera distintive di New York. Avendo trascorso anni immerso in questa vibrante città, ho sviluppato una comprensione intima di come catturarne l'essenza in relazione alle storie umane che si svolgono qui.<br><br>Credo che una fotografia di matrimoni veramente eccezionale esista all'intersezione tra sofisticatezza editoriale ed emozione autentica. Il mio lavoro mira a creare un'eredità visiva che si sente sia timeless che profondamente personale—immagini che risuoneranno altrettanto potentemente tra decenni come oggi.<br><br>Quando non sto documentando matrimoni, mi troverai a esplorare gli angoli nascosti di New York, a studiare la qualità della luce in diversi momenti della giornata e a trarre ispirazione dal ricco patrimonio artistico della città.",
+              "Mein Ansatz zur Hochzeitsfotografie basiert auf einer tiefen Wertschätzung für das einzigartige Licht, die Texturen und die Atmosphäre von New York. Nach Jahren, in denen ich mich in dieser lebendigen Stadt immersiert habe, habe ich ein intimes Verständnis entwickelt, wie ich ihr Wesen in Bezug auf die menschlichen Geschichten, die sich hier abspielen, einfangen kann.<br><br>Ich glaube, dass außergewöhnliche Hochzeitsfotografie an der Schnittstelle von redaktioneller Raffinesse und authentischer Emotion liegt. Meine Arbeit zielt darauf ab, ein visuelles Erbe zu schaffen, das sowohl zeitlos als auch tief persönlich wirkt – Bilder, die in den kommenden Jahrzehnten genauso stark wirken werden wie heute.<br><br>Wenn ich keine Hochzeiten dokumentiere, findest du mich dabei, die versteckten Ecken von New York zu erkunden, die Qualität des Lichts zu untersuchen und Inspiration aus dem reichen künstlerischen Erbe der Stadt zu schöpfen.",
+              "Mi enfoque en la fotografía de bodas se basa en un profundo aprecio por la luz, texturas y atmósfera distintivas de New York. Después de pasar años inmerso en esta vibrante ciudad, he desarrollado una comprensión íntima de cómo capturar su esencia en relación con las historias humanas que se desarrollan aquí.<br><br>Creo que una fotografía de bodas verdaderamente excepcional existe en la intersección de la sofisticación editorial y la emoción auténtica. Mi trabajo busca crear un legado visual que se sienta tanto atemporal como profundamente personal — imágenes que resonarán con la misma fuerza en las próximas décadas como lo hacen hoy.<br><br>Cuando no estoy documentando bodas, me encontrarás explorando los rincones ocultos de New York, estudiando la calidad de la luz en diferentes momentos del día y extrayendo inspiración del rico patrimonio artístico de la ciudad.",
+              "Mon approche de la photographie de mariage est ancrée dans une profonde appréciation de la lumière, des textures et de l'atmosphère distinctives de New York. Ayant passé des années immergé dans cette ville vibrante, j'ai développé une compréhension intime de la façon de capturer son essence en relation avec les histoires humaines qui se déroulent ici.<br><br>Je crois que la photographie de mariage vraiment exceptionnelle existe à l'intersection de la sophistication éditoriale et de l'émotion authentique. Mon travail vise à créer un héritage visuel qui semble à la fois intemporel et profondément personnel — des images qui résonneront aussi puissamment dans des décennies que aujourd'hui.<br><br>Lorsque je ne documente pas de mariages, vous me trouverez en train d'explorer les coins cachés de New York, d'étudier la qualité de la lumière à différents moments de la journée et de puiser l'inspiration dans le riche patrimoine artistique de la ville."
             ],
             "image": {
-              "imagePath": "https://readdy.ai/api/search-image?query=Elegant%20portrait%20of%20professional%20photographer%20in%20Puglia%20setting.%20Fine%20art%20photography%20style%20with%20perfect%20lighting.%20The%20photographer%20stands%20with%20camera%20against%20Italian%20architecture%20backdrop.%20Editorial%20composition%20with%20artistic%20quality.%20Neutral%20color%20palette%20with%20sophisticated%20elements.%20Professional%20portrait%20with%20creative%20vision.&width=600&height=800&seq=10&orientation=portrait",
+              "imagePath": "https://images.pexels.com/photos/1686451/pexels-photo-1686451.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=800&w=600",
               "altText$L": [
                 "",
                 "",
@@ -9327,7 +9331,7 @@
               ""
             ],
             "description$PL": [
-              "I accept a limited number of commissions each year to ensure I can provide the highest level of service and attention to each couple. Let's start a conversation about your vision.&nbsp;",
+              "I accept a limited number of commissions each year to ensure I can provide the highest level of service and attention to each couple. Let's start a conversation about your vision.",
               "",
               "",
               "",
@@ -9375,7 +9379,7 @@
                 "required$B": true,
                 "fullWidth$B": "",
                 "name$L": [
-                  "Location",
+                  "Event's Location",
                   "",
                   "",
                   "",
@@ -9399,7 +9403,7 @@
                 "required$B": true,
                 "fullWidth$B": true,
                 "name$L": [
-                  "I would like to schedule an appointment",
+                  "I would like to book an appointment",
                   "",
                   "",
                   "",
@@ -9437,33 +9441,7 @@
         }
       ],
       "deferSections": "99",
-      "lazyLoading": true,
-      "jsonSEO$L": [
-        "{}",
-        "{}",
-        "{}",
-        "{}",
-        "{}"
-      ],
-      "metaData": [
-        {
-          "isProperty": false,
-          "nameOrProperty$L": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "content$L": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
+      "lazyLoading": true
     },
     "2": {
       "title$L": [
@@ -9745,37 +9723,30 @@
       "lazyLoading": true
     },
     "3": {
-      "title$L": [
-        "Fine-Art-Wedding-Photography-Approach",
-        "Fine-Art-Wedding-Photography-Approach",
-        "Fine-Art-Wedding-Photography-Approach",
-        "Fine-Art-Wedding-Photography-Approach",
-        "Fine-Art-Wedding-Photography-Approach"
-      ],
       "jsonSEO$L": [
-        "{}",
-        "{}",
-        "{}",
-        "{}",
-        "{}"
+        "Fine Art Wedding Photography Approach",
+        "Approccio alla Fotografia di Matrimoni Fine Art",
+        "Fine Art Hochzeitsfotografie Ansatz",
+        "Enfoque de Fotografía de Bodas Fine Art",
+        "Approche de la Photographie de Mariage Fine Art"
       ],
       "pathFolderId": 2,
       "metaData": [
         {
+          "content$L": [
+            "Explore the Fine Art approach to wedding photography by a New York-based photographer. Discover how artistic vision transforms your special day into timeless visual stories.",
+            "Esplora l'approccio Fine Art alla fotografia di matrimoni di un fotografo di New York. Scopri come la visione artistica trasforma il tuo giorno speciale in storie visive senza tempo.",
+            "Entdecken Sie den Fine Art-Ansatz der Hochzeitsfotografie eines Fotografen aus New York. Erfahren Sie, wie künstlerische Visionen Ihren besonderen Tag in zeitlose visuelle Geschichten verwandeln.",
+            "Explora el enfoque Fine Art en fotografía de bodas de un fotógrafo con base en Nueva York. Descubre cómo la visión artística transforma tu día especial en historias visuales atemporales.",
+            "Découvrez l'approche Fine Art en photographie de mariage d'un photographe basé à New York. Découvrez comment une vision artistique transforme votre journée spéciale en récits visuels intemporels."
+          ],
           "isProperty": false,
           "nameOrProperty$L": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "content$L": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "description",
+            "description",
+            "description",
+            "description",
+            "description"
           ]
         }
       ],
@@ -9783,16 +9754,16 @@
       "id": 3,
       "sections": [
         {
-          "id": 1,
+          "id": 2,
           "slotName": "default",
           "component": {
             "anchorName": "section1",
             "title$L": [
               "Fine Art Wedding Photography Approach",
-              "",
-              "",
-              "",
-              ""
+              "Approccio alla fotografia di matrimonio \"Fine Art\"",
+              "Ansatz der \"Fine Art\" Hochzeitsfotografie",
+              "Enfoque de la fotografía de bodas de bellas artes",
+              "Approche de la photographie de mariage \"Fine Art\""
             ],
             "subtitle$L": [
               "",
@@ -9802,59 +9773,14 @@
               ""
             ],
             "description$PL": [
-              "I capture the authentic emotions, delicate light, and timeless moments of your Puglia wedding day. My approach blends editorial sophistication with fine-art sensibility, creating images that transcend mere documentation to become cherished heirlooms.",
               "",
-              "",
-              "",
-              ""
-            ],
-            "image": {
-              "imagePath": "",
-              "altText$L": [
-                "",
-                "",
-                "",
-                "",
-                ""
-              ]
-            },
-            "themeId": 1,
-            "lazyLoading": false,
-            "enableOnlyAfterCookieConsent": false,
-            "delayAnimation": 0,
-            "component_type": "custom_section_block",
-            "blockEntityId": 56,
-            "dataStructureId": 16
-          }
-        },
-        {
-          "id": 3,
-          "slotName": "default",
-          "component": {
-            "anchorName": "section3",
-            "title$L": [
-              "Artist's Manifesto",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "subtitle$L": [
-              "Bringing ideas to life, one pixel at a time.",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "description$PL": [
-              "My approach to wedding photography is rooted in a deep appreciation for Puglia's distinctive light, textures, and atmosphere. Having spent years immersed in this enchanting region, I've developed an intimate understanding of how to capture its essence in relation to the human stories that unfold here.<br><br>I believe that truly exceptional wedding photography exists at the intersection of editorial sophistication and authentic emotion. My work aims to create a visual legacy that feels both timeless and deeply personal—images that will resonate as powerfully decades from now as they do today.<br><br>When I'm not documenting weddings, you'll find me exploring Puglia's hidden corners, studying the quality of light at different times of day, and drawing inspiration from the region's rich artistic heritage.<br>",
               "",
               "",
               "",
               ""
             ],
             "image": {
-              "imagePath": "https://readdy.ai/api/search-image?query=Elegant%20portrait%20of%20professional%20photographer%20in%20Puglia%20setting.%20Fine%20art%20photography%20style%20with%20perfect%20lighting.%20The%20photographer%20stands%20with%20camera%20against%20Italian%20architecture%20backdrop.%20Editorial%20composition%20with%20artistic%20quality.%20Neutral%20color%20palette%20with%20sophisticated%20elements.%20Professional%20portrait%20with%20creative%20vision.&width=600&height=800&seq=10&orientation=portrait",
+              "imagePath": "https://images.pexels.com/photos/752525/pexels-photo-752525.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
               "altText$L": [
                 "",
                 "",
@@ -9866,10 +9792,10 @@
             "button1": {
               "text$L": [
                 "Learn More",
-                "Button",
-                "Button",
-                "Button",
-                "Button"
+                "",
+                "",
+                "",
+                ""
               ],
               "description$L": [
                 "",
@@ -9880,25 +9806,28 @@
               ],
               "typeB": "internal",
               "externalLink": "",
-              "page": 0,
-              "section": "",
+              "page": "3",
+              "section": "section2",
+              "langCode": "en",
+              "themeSwitchCustom": "dark",
               "icon": {
-                "id": 1,
+                "id": 0,
                 "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
                 "themeId": 1
               },
               "themeId": 0,
+              "enableOnlyAfterCookieConsent": false,
               "id": 0,
-              "blockEntityId": 1,
+              "blockEntityId": 62,
               "generalSlotName": "button1"
             },
             "button2": {
               "text$L": [
-                "Get Started",
-                "Button",
-                "Button",
-                "Button",
-                "Button"
+                "",
+                "",
+                "",
+                "",
+                ""
               ],
               "description$L": [
                 "",
@@ -9910,51 +9839,210 @@
               "typeB": "internal",
               "externalLink": "",
               "page": 0,
-              "section": "",
+              "section": "1",
+              "langCode": "en",
+              "themeSwitchCustom": "dark",
               "icon": {
-                "id": 1,
+                "id": 0,
+                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                "themeId": 1
+              },
+              "themeId": 0,
+              "enableOnlyAfterCookieConsent": false,
+              "id": 0,
+              "blockEntityId": 62,
+              "generalSlotName": "button2"
+            },
+            "themeId": "0",
+            "blockEntityId": "34",
+            "lazyLoading": false,
+            "enableOnlyAfterCookieConsent": false,
+            "delayAnimation": "1000",
+            "component_type": "custom_section_block",
+            "dataStructureId": 8
+          },
+          "_$preventResendToIframe": true
+        },
+        {
+          "id": 1,
+          "slotName": "default",
+          "component": {
+            "anchorName": "section2",
+            "title$L": [
+              "Fine Art Wedding Photography Approach",
+              "Approccio alla Fotografia di Matrimoni Fine Art",
+              "Fine Art Hochzeitsfotografie Ansatz",
+              "Enfoque de Fotografía de Bodas Fine Art",
+              "Approche de la Photographie de Mariage Fine Art"
+            ],
+            "subtitle$L": [
+              "Capturing the Emotion and Artistry of Your Wedding Day",
+              "Catturare l'Emozione e l'Arte del Tuo Giorno di Nozze",
+              "Das Einfangen von Emotion und Kunst an Ihrem Hochzeitstag",
+              "Capturando la Emoción y el Arte de Tu Día de Boda",
+              "Capturer l'Émotion et l'Art de Votre Jour de Mariage"
+            ],
+            "description$PL": [
+              "Based in New York, our approach focuses on blending artistic vision with authentic emotion. Every image is carefully composed to create timeless memories that reflect the beauty and intimacy of your special day.<br><br>&nbsp;We emphasize natural light, elegant poses, and candid moments to craft stories that feel both genuine and visually stunning. Whether in iconic New York City locations or intimate venues, our photography transforms your wedding into fine art.",
+              "<p>Con sede a New York, il nostro approccio alla fotografia di matrimoni Fine Art si concentra sulla fusione della visione artistica con l'emozione autentica. Ogni immagine è composta con cura per creare ricordi senza tempo che riflettano la bellezza e l'intimità del tuo giorno speciale.</p><p>Diamo importanza alla luce naturale, alle pose eleganti e ai momenti spontanei per raccontare storie che risultano genuine e visivamente sorprendenti. Sia in iconici luoghi di New York che in location intime, la nostra fotografia trasforma il tuo matrimonio in arte Fine Art.</p>",
+              "<p>Mit Sitz in New York konzentriert sich unser Fine Art-Hochzeitsfotografie-Ansatz darauf, künstlerische Vision mit authentischer Emotion zu verbinden. Jedes Bild wird sorgfältig komponiert, um zeitlose Erinnerungen zu schaffen, die die Schönheit und Intimität Ihres besonderen Tages widerspiegeln.</p><p>Wir legen Wert auf natürliches Licht, elegante Posen und spontane Momente, um Geschichten zu schaffen, die sowohl echt als auch visuell beeindruckend sind. Ob an ikonischen New Yorker Orten oder in intimen Veranstaltungsorten – unsere Fotografie verwandelt Ihre Hochzeit in Fine Art.</p>",
+              "<p>Con sede en Nueva York, nuestro enfoque de fotografía de bodas Fine Art se centra en combinar la visión artística con la emoción auténtica. Cada imagen se compone cuidadosamente para crear recuerdos atemporales que reflejan la belleza y la intimidad de tu día especial.</p><p>Enfatizamos la luz natural, las poses elegantes y los momentos espontáneos para crear historias que sean genuinas y visualmente impresionantes. Ya sea en lugares icónicos de Nueva York o en lugares íntimos, nuestra fotografía convierte tu boda en arte Fine Art.</p>",
+              "<p>Basé à New York, notre approche de la photographie de mariage Fine Art se concentre sur la fusion de la vision artistique avec l'émotion authentique. Chaque image est soigneusement composée pour créer des souvenirs intemporels qui reflètent la beauté et l'intimité de votre journée spéciale.</p><p>Nous mettons l'accent sur la lumière naturelle, les poses élégantes et les moments spontanés pour raconter des histoires à la fois authentiques et visuellement saisissantes. Que ce soit dans des lieux emblématiques de New York ou dans des salles intimes, notre photographie transforme votre mariage en Fine Art.</p>"
+            ],
+            "image": {
+              "imagePath": "",
+              "altText$L": [
+                "Fine Art Wedding Photography in New York",
+                "Fotografia di Matrimoni Fine Art a New York",
+                "Fine Art Hochzeitsfotografie in New York",
+                "Fotografía de Bodas Fine Art en Nueva York",
+                "Photographie de Mariage Fine Art à New York"
+              ]
+            },
+            "themeId": "0",
+            "blockEntityId": 56,
+            "lazyLoading": false,
+            "enableOnlyAfterCookieConsent": false,
+            "delayAnimation": 0,
+            "component_type": "custom_section_block",
+            "dataStructureId": 16
+          }
+        },
+        {
+          "id": 3,
+          "slotName": "default",
+          "component": {
+            "anchorName": "section",
+            "title$L": [
+              "The Art of Photography",
+              "Esplorando l'arte della fotografia",
+              "Die Kunst der Fotografie entdecken",
+              "Explorando el arte de la fotografía",
+              "Explorer l'art de la photographie"
+            ],
+            "subtitle$L": [
+              "A visual journey through the lens",
+              "Un viaggio visivo attraverso l'obiettivo",
+              "Eine visuelle Reise durch die Linse",
+              "Un viaje visual a través del lente",
+              "Un voyage visuel à travers l'objectif"
+            ],
+            "description$PL": [
+              "Photography is more than just capturing images—it's about telling stories and expressing emotions through <b>visual art</b>. This blog dives into the creative process behind powerful photographs and how photographers use their unique perspective to frame the world around them. Join us as we explore techniques, inspirations, and the artistic vision that elevate photography to an art form.",
+              "La fotografia è più di un semplice catturare immagini: si tratta di raccontare storie ed esprimere emozioni attraverso l'<b>arte visiva</b>. Questo blog esplora il processo creativo dietro fotografie potenti e come i fotografi utilizzano la loro prospettiva unica per inquadrare il mondo che li circonda. Unisciti a noi mentre esploriamo tecniche, ispirazioni e la visione artistica che elevano la fotografia a una forma d'arte.",
+              "Fotografie ist mehr als nur das Festhalten von Bildern – es geht darum, Geschichten zu erzählen und Emotionen durch <b>visuelle Kunst</b> auszudrücken. Dieser Blog taucht in den kreativen Prozess hinter kraftvollen Fotografien ein und wie Fotografen ihre einzigartige Perspektive nutzen, um die Welt um sie herum einzufangen. Begleiten Sie uns, während wir Techniken, Inspirationen und die künstlerische Vision erforschen, die die Fotografie zur Kunstform erheben.",
+              "La fotografía es más que capturar imágenes; se trata de contar historias y expresar emociones a través del <b>arte visual</b>. Este blog profundiza en el proceso creativo detrás de fotografías impactantes y cómo los fotógrafos utilizan su perspectiva única para enmarcar el mundo que los rodea. Únete a nosotros mientras exploramos técnicas, inspiraciones y la visión artística que elevan la fotografía a una forma de arte.",
+              "La photographie est bien plus que la simple capture d'images : il s'agit de raconter des histoires et d'exprimer des émotions à travers l'<b>art visuel</b>. Ce blog explore le processus créatif derrière des photographies puissantes et comment les photographes utilisent leur perspective unique pour cadrer le monde qui les entoure. Rejoignez-nous pour découvrir les techniques, les inspirations et la vision artistique qui élèvent la photographie au rang d'art."
+            ],
+            "image": {
+              "imagePath": "https://images.pexels.com/photos/403495/pexels-photo-403495.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
+              "altText$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "button1": {
+              "text$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "description$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "typeB": "internal",
+              "externalLink": "",
+              "page": 0,
+              "section": "1",
+              "icon": {
+                "id": 0,
                 "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
                 "themeId": 1
               },
               "themeId": 0,
               "id": 0,
-              "blockEntityId": 1,
-              "generalSlotName": "button2"
+              "blockEntityId": 62,
+              "generalSlotName": "button1",
+              "langCode": "en",
+              "themeSwitchCustom": "dark",
+              "enableOnlyAfterCookieConsent": false
             },
-            "themeId": "0",
-            "lazyLoading": false,
-            "delayAnimation": "1000",
-            "dataStructureId": 8,
-            "component_type": "custom_section_block",
+            "button2": {
+              "text$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "description$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "typeB": "internal",
+              "externalLink": "",
+              "page": 0,
+              "section": "1",
+              "icon": {
+                "id": 0,
+                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                "themeId": 1
+              },
+              "themeId": 0,
+              "id": 0,
+              "blockEntityId": 62,
+              "generalSlotName": "button2",
+              "langCode": "en",
+              "themeSwitchCustom": "dark",
+              "enableOnlyAfterCookieConsent": false
+            },
+            "themeId": "1",
             "blockEntityId": 62,
-            "enableOnlyAfterCookieConsent": false
-          }
+            "lazyLoading": false,
+            "enableOnlyAfterCookieConsent": false,
+            "delayAnimation": "1000",
+            "component_type": "custom_section_block",
+            "dataStructureId": 8
+          },
+          "_$preventResendToIframe": true
         },
         {
           "id": 5,
           "slotName": "default",
           "component": {
-            "anchorName": "section5",
+            "anchorName": "test",
             "title$L": [
-              "Crafting Stunning Digital <span class=\"primary\">Experiences</span>",
-              "",
-              "",
-              "",
-              ""
+              "Exploring the Fusion of Art and Photography",
+              "Esplorando la fusione tra arte e fotografia",
+              "Die Verschmelzung von Kunst und Fotografie erkunden",
+              "Explorando la fusión del arte y la fotografía",
+              "Explorer la fusion de l'art et de la photographie"
             ],
             "subtitle$L": [
-              "Say goodbye to recurring subscription fees. With webTuyo, pay once, own your website forever, and unlock the power of free hosting tiers from the provider you trust.",
+              "",
               "",
               "",
               "",
               ""
             ],
             "description$PL": [
-              "Create stunning websites faster than ever with a platform designed for efficiency and flexibility. From a quick setup process to customizable themes, built-in multilingual support, and instant live previews, you’ll have all the tools you need to craft a site that’s both professional and globally accessible in minutes.\n<br><br>\nTake your web development to the next level with webTuyo - website builder. Whether you're a designer or a business owner, the tools are here to bring any vision to life – no compromises.",
-              "",
-              "",
-              "",
-              ""
+              "When it comes to fine art wedding photography, my approach transcends mere documentation. It's about crafting an exquisite visual narrative that intertwines the genuine emotions, candid interactions, and unique essence of your special day. <br><br>I believe that true beauty lies in the authentic, unposed moments, and my goal is to capture these fleeting instances with artistry and grace. Each photograph is meticulously composed, reflecting a timeless elegance and an ethereal quality that elevates your memories into works of art. <br><br>I use natural light to sculpt scenes, ensuring that every detail, from the delicate lace of a gown to the joyous tears in a parent's eyes, is rendered with breathtaking clarity and emotional depth. My unobtrusive presence allows me to observe and anticipate, capturing the unspoken connections and intimate subtleties that make your wedding story uniquely yours. <br><br>This approach is more than just taking pictures; it's about creating a legacy of love, an heirloom collection that will be cherished for generations, reminding you of the profound beauty and joy that defined your beginning.",
+              "Quando si tratta di fotografia di matrimonio d'arte, il mio approccio trascende la mera documentazione. Si tratta di creare una narrazione visiva squisita che intreccia le emozioni genuine, le interazioni sincere e l'essenza unica del vostro giorno speciale. Credo che la vera bellezza risieda nei momenti autentici e spontanei, e il mio obiettivo è catturare questi istanti fugaci con arte e grazia. Ogni fotografia è meticolosamente composta, riflettendo un'eleganza senza tempo e una qualità eterea che eleva i vostri ricordi a opere d'arte. Utilizzo la luce naturale per modellare le scene, assicurando che ogni dettaglio, dal delicato pizzo di un abito alle lacrime di gioia negli occhi di un genitore, sia reso con una chiarezza mozzafiato e una profondità emotiva. La mia presenza discreta mi permette di osservare e anticipare, catturando le connessioni non dette e le sottigliezze intime che rendono la vostra storia di matrimonio unicamente vostra. Questo approccio è più che scattare foto; si tratta di creare un'eredità d'amore, una collezione di cimeli che sarà custodita per generazioni, ricordandovi la profonda bellezza e gioia che hanno definito il vostro inizio.",
+              "Wenn es um Fine Art Hochzeitsfotografie geht, geht mein Ansatz über die bloße Dokumentation hinaus. Es geht darum, eine exquisite visuelle Erzählung zu schaffen, die die echten Emotionen, die spontanen Interaktionen und die einzigartige Essenz Ihres besonderen Tages miteinander verknüpft. Ich glaube, dass wahre Schönheit in den authentischen, ungestellten Momenten liegt, und mein Ziel ist es, diese flüchtigen Augenblicke mit Kunstfertigkeit und Anmut festzuhalten. Jedes Foto ist sorgfältig komponiert und spiegelt eine zeitlose Eleganz und eine ätherische Qualität wider, die Ihre Erinnerungen zu Kunstwerken erhebt. Ich nutze natürliches Licht, um Szenen zu formen und sicherzustellen, dass jedes Detail, von der zarten Spitze eines Kleides bis zu den Freudentränen in den Augen der Eltern, mit atemberaubender Klarheit und emotionaler Tiefe wiedergegeben wird. Meine unaufdringliche Präsenz ermöglicht es mir, zu beobachten und zu antizipieren, die unausgesprochenen Verbindungen und intimen Feinheiten einzufangen, die Ihre Hochzeitsgeschichte einzigartig machen. Dieser Ansatz ist mehr als nur Fotos machen; es geht darum, ein Erbe der Liebe zu schaffen, eine Erbstück-Sammlung, die über Generationen hinweg geschätzt wird und Sie an die tiefe Schönheit und Freude erinnert, die Ihren Anfang prägten.",
+              "Cuando se trata de fotografía de bodas de bellas artes, mi enfoque trasciende la mera documentación. Se trata de elaborar una narrativa visual exquisita que entrelaza las emociones genuinas, las interacciones sinceras y la esencia única de su día especial. Creo que la verdadera belleza reside en los momentos auténticos y sin posar, y mi objetivo es capturar estas instancias fugaces con arte y gracia. Cada fotografía está compuesta meticulosamente, reflejando una elegancia atemporal y una cualidad etérea que eleva sus recuerdos a obras de arte. Utilizo la luz natural para esculpir escenas, asegurando que cada detalle, desde el delicado encaje de un vestido hasta las lágrimas de alegría en los ojos de un padre, se capture con una claridad impresionante y una profundidad emocional. Mi presencia discreta me permite observar y anticipar, capturando las conexiones tácitas y las sutilezas íntimas que hacen que su historia de boda sea única. Este enfoque es más que solo tomar fotografías; se trata de crear un legado de amor, una colección de recuerdos que será atesorada por generaciones, recordándoles la profunda belleza y alegría que definieron su comienzo.",
+              "En matière de photographie de mariage fine art, mon approche transcende la simple documentation. Il s'agit de créer un récit visuel exquis qui entrelace les émotions véritables, les interactions spontanées et l'essence unique de votre journée spéciale. Je crois que la vraie beauté réside dans les moments authentiques et non posés, et mon objectif est de capturer ces instants éphémères avec art et grâce. Chaque photographie est méticuleusement composée, reflétant une élégance intemporelle et une qualité éthérée qui élève vos souvenirs au rang d'œuvres d'art. J'utilise la lumière naturelle pour sculpter les scènes, garantissant que chaque détail, de la dentelle délicate d'une robe aux larmes de joie dans les yeux d'un parent, est rendu avec une clarté époustouflante et une profondeur émotionnelle. Ma présence discrète me permet d'observer et d'anticiper, capturant les connexions tacites et les subtilités intimes qui rendent l'histoire de votre mariage unique. Cette approche est plus que de prendre des photos ; il s'agit de créer un héritage d'amour, une collection de souvenirs qui sera chérie pendant des générations, vous rappelant la profonde beauté et la joie qui ont défini votre commencement."
             ],
             "image": {
               "imagePath": "https://images.pexels.com/photos/417458/pexels-photo-417458.jpeg ",
@@ -9968,11 +10056,11 @@
             },
             "button1": {
               "text$L": [
-                "Learn More ",
-                "Button",
-                "Button",
-                "Button",
-                "Button"
+                "",
+                "",
+                "",
+                "",
+                ""
               ],
               "description$L": [
                 "",
@@ -9984,208 +10072,106 @@
               "typeB": "internal",
               "externalLink": "",
               "page": 0,
-              "section": "",
-              "icon": {
-                "iconPath": "/assets/icons/outline/arrows/chevron-right.svg",
-                "id": 1,
-                "themeId": 0
-              },
-              "themeId": 0,
-              "id": 0,
-              "blockEntityId": 1,
-              "generalSlotName": "button1",
+              "section": "1",
               "langCode": "en",
               "themeSwitchCustom": "dark",
-              "enableOnlyAfterCookieConsent": false
-            },
-            "button2": {
-              "text$L": [
-                "Get Started",
-                "Button",
-                "Button",
-                "Button",
-                "Button"
-              ],
-              "description$L": [
-                "",
-                "",
-                "",
-                "",
-                ""
-              ],
-              "typeB": "internal",
-              "externalLink": "",
-              "page": 0,
-              "section": "",
               "icon": {
-                "id": 1,
+                "id": 0,
                 "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
                 "themeId": 1
               },
               "themeId": 0,
+              "enableOnlyAfterCookieConsent": false,
               "id": 0,
-              "blockEntityId": 1,
-              "generalSlotName": "button2",
+              "blockEntityId": 36,
+              "generalSlotName": "button1"
+            },
+            "button2": {
+              "text$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "description$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "typeB": "internal",
+              "externalLink": "",
+              "page": 0,
+              "section": "1",
               "langCode": "en",
               "themeSwitchCustom": "dark",
-              "enableOnlyAfterCookieConsent": false
+              "icon": {
+                "id": 0,
+                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                "themeId": 1
+              },
+              "themeId": 0,
+              "enableOnlyAfterCookieConsent": false,
+              "id": 0,
+              "blockEntityId": 36,
+              "generalSlotName": "button2"
             },
             "themeId": "0",
-            "lazyLoading": false,
-            "delayAnimation": 0,
             "blockEntityId": 36,
+            "lazyLoading": false,
             "enableOnlyAfterCookieConsent": false,
-            "dataStructureId": 8,
-            "component_type": "custom_section_block"
+            "delayAnimation": 0,
+            "component_type": "custom_section_block",
+            "dataStructureId": 8
           }
         },
         {
           "id": 7,
           "slotName": "default",
           "component": {
-            "anchorName": "section7",
             "title$L": [
-              "A Visual Legacy",
-              "",
-              "",
-              "",
-              ""
+              "\"Capture Your Love Story with an Artistic Touch\"",
+              "Approccio alla fotografia di matrimonio d'arte",
+              "Ansatz der Fine Art Hochzeitsfotografie",
+              "Enfoque de fotografía de bodas de bellas artes",
+              "Approche de la photographie de mariage d'art"
             ],
             "subtitle$L": [
-              "subtitle here",
-              "",
-              "",
-              "",
-              ""
+              "bbnk",
+              "\"Cattura la tua storia d'amore con un tocco artistico\"",
+              "\"Halten Sie Ihre Liebesgeschichte mit einer künstlerischen Note fest\"",
+              "\"Captura tu historia de amor con un toque artístico\"",
+              "\"Capturez votre histoire d'amour avec une touche artistique\""
             ],
             "description$PL": [
-              "I capture the authentic emotions, delicate light, and timeless moments of your Puglia wedding day. My approach blends editorial sophistication with fine-art sensibility, creating images that transcend mere documentation to become cherished heirlooms.<br><br><span style=\"font-family: Montserrat, sans-serif;\">I capture the authentic emotions, delicate light, and timeless moments of your Puglia wedding day. My approach blends editorial sophistication with fine-art sensibility, creating images that transcend mere documentation to become cherished heirlooms.<br><br></span><span style=\"font-family: Montserrat, sans-serif;\">I capture the authentic emotions, delicate light, and timeless moments of your Puglia wedding day. My approach blends editorial sophistication with fine-art sensibility, creating images that transcend mere documentation to become cherished heirlooms.<br><br></span><span style=\"font-family: Montserrat, sans-serif;\">I capture the authentic emotions, delicate light, and timeless moments of your Puglia wedding day. My approach blends editorial sophistication with fine-art sensibility, creating images that transcend mere documentation to become cherished heirlooms.</span>",
-              "",
-              "",
-              "",
-              ""
+              "Our approach to wedding photography is rooted in the belief that your special day is a unique masterpiece, deserving of an artistic and timeless portrayal. We blend candid moments with carefully composed shots, creating a narrative that not only documents events but also evokes the emotions and atmosphere of your celebration.",
+              "Il nostro approccio alla fotografia di matrimonio si basa sulla convinzione che il vostro giorno speciale sia un capolavoro unico, meritevole di una rappresentazione artistica e senza tempo. Uniamo momenti spontanei a scatti attentamente composti, creando una narrazione che non solo documenta gli eventi ma evoca anche le emozioni e l'atmosfera della vostra celebrazione.",
+              "Unser Ansatz der Hochzeitsfotografie wurzelt in der Überzeugung, dass Ihr besonderer Tag ein einzigartiges Meisterwerk ist, das eine künstlerische und zeitlose Darstellung verdient. Wir verbinden spontane Momente mit sorgfältig komponierten Aufnahmen und schaffen so eine Erzählung, die nicht nur Ereignisse dokumentiert, sondern auch die Emotionen und die Atmosphäre Ihrer Feier hervorruft.",
+              "Nuestro enfoque de la fotografía de bodas se basa en la creencia de que su día especial es una obra maestra única, merecedora de un retrato artístico y atemporal. Combinamos momentos espontáneos con tomas cuidadosamente compuestas, creando una narrativa que no solo documenta los eventos, sino que también evoca las emociones y la atmósfera de su celebración.",
+              "Notre approche de la photographie de mariage est enracinée dans la conviction que votre journée spéciale est un chef-d'œuvre unique, méritant une représentation artistique et intemporelle. Nous mêlons les moments spontanés à des prises de vue soigneusement composées, créant un récit qui non seulement documente les événements mais évoque également les émotions et l'atmosphère de votre célébration."
             ],
             "image": {
               "imagePath": "",
               "altText$L": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Wedding couple laughing",
+                "Coppia di sposi che ride",
+                "Hochzeitspaar lachend",
+                "Pareja de novios riendo",
+                "Couple de mariés riant"
               ]
             },
             "themeId": 1,
+            "blockEntityId": 70,
+            "component_type": "custom_section_block",
+            "dataStructureId": 16,
+            "anchorName": "",
             "lazyLoading": false,
             "enableOnlyAfterCookieConsent": false,
-            "delayAnimation": 0,
-            "component_type": "custom_section_block",
-            "blockEntityId": 70,
-            "dataStructureId": 16
-          }
-        },
-        {
-          "id": 2,
-          "slotName": "default",
-          "component": {
-            "anchorName": "section2",
-            "title$L": [
-              "Artist's Manifesto",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "subtitle$L": [
-              "Bringing ideas to life, one pixel at a time.",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "description$PL": [
-              "My approach to wedding photography is rooted in a deep appreciation for Puglia's distinctive light, textures, and atmosphere. Having spent years immersed in this enchanting region, I've developed an intimate understanding of how to capture its essence in relation to the human stories that unfold here.<br><br>I believe that truly exceptional wedding photography exists at the intersection of editorial sophistication and authentic emotion. My work aims to create a visual legacy that feels both timeless and deeply personal—images that will resonate as powerfully decades from now as they do today.<br><br>When I'm not documenting weddings, you'll find me exploring Puglia's hidden corners, studying the quality of light at different times of day, and drawing inspiration from the region's rich artistic heritage.<br>",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "image": {
-              "imagePath": "https://readdy.ai/api/search-image?query=Elegant%20portrait%20of%20professional%20photographer%20in%20Puglia%20setting.%20Fine%20art%20photography%20style%20with%20perfect%20lighting.%20The%20photographer%20stands%20with%20camera%20against%20Italian%20architecture%20backdrop.%20Editorial%20composition%20with%20artistic%20quality.%20Neutral%20color%20palette%20with%20sophisticated%20elements.%20Professional%20portrait%20with%20creative%20vision.&width=600&height=800&seq=10&orientation=portrait",
-              "altText$L": [
-                "",
-                "",
-                "",
-                "",
-                ""
-              ]
-            },
-            "button1": {
-              "text$L": [
-                "Learn More",
-                "Button",
-                "Button",
-                "Button",
-                "Button"
-              ],
-              "description$L": [
-                "",
-                "",
-                "",
-                "",
-                ""
-              ],
-              "typeB": "internal",
-              "externalLink": "",
-              "page": 0,
-              "section": "",
-              "icon": {
-                "id": 1,
-                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                "themeId": 1
-              },
-              "themeId": 0,
-              "id": 0,
-              "blockEntityId": 1,
-              "generalSlotName": "button1"
-            },
-            "button2": {
-              "text$L": [
-                "Get Started",
-                "Button",
-                "Button",
-                "Button",
-                "Button"
-              ],
-              "description$L": [
-                "",
-                "",
-                "",
-                "",
-                ""
-              ],
-              "typeB": "internal",
-              "externalLink": "",
-              "page": 0,
-              "section": "",
-              "icon": {
-                "id": 1,
-                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                "themeId": 1
-              },
-              "themeId": 0,
-              "id": 0,
-              "blockEntityId": 1,
-              "generalSlotName": "button2"
-            },
-            "themeId": "0",
-            "lazyLoading": false,
-            "delayAnimation": "1000",
-            "dataStructureId": 8,
-            "component_type": "custom_section_block",
-            "blockEntityId": 62,
-            "enableOnlyAfterCookieConsent": false
-          }
+            "delayAnimation": 0
+          },
+          "_$preventResendToIframe": true
         },
         {
           "id": 6,
@@ -10193,7 +10179,7 @@
           "globalBlockId": "4",
           "globalBlockSettings": {
             "anchorName": "section6",
-            "themeId": 1,
+            "themeId": "0",
             "blockEntityId": 60,
             "delayAnimation": 0,
             "lazyLoading": false,
@@ -10204,7 +10190,14 @@
         }
       ],
       "deferSections": 99,
-      "lazyLoading": true
+      "lazyLoading": true,
+      "title$L": [
+        "Fine-Art-Wedding-Photography-Approach",
+        "Fine-Art-Wedding-Photography-Approach",
+        "Fine-Art-Wedding-Photography-Approach",
+        "Fine-Art-Wedding-Photography-Approach",
+        "Fine-Art-Wedding-Photography-Approach"
+      ]
     },
     "4": {
       "title$L": [
@@ -10789,177 +10782,6 @@
       ],
       "deferSections": 99,
       "lazyLoading": true
-    },
-    "7": {
-      "title$L": [
-        "Contact",
-        "Contact",
-        "Contact",
-        "Contact",
-        "Contact"
-      ],
-      "jsonSEO$L": [
-        "{}",
-        "{}",
-        "{}",
-        "{}",
-        "{}"
-      ],
-      "pathFolderId": 0,
-      "metaData": [
-        {
-          "isProperty": false,
-          "nameOrProperty$L": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "content$L": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "pageLayoutId": 0,
-      "id": 7,
-      "sections": [
-        {
-          "id": 1,
-          "slotName": "default",
-          "component": {
-            "anchorName": "section1",
-            "url": "https://",
-            "title$L": [
-              "Begin Your Story",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "subtitle$L": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "description$PL": [
-              "I accept a limited number of commissions each year to ensure I can provide the highest level of service and attention to each couple. Let's start a conversation about your vision.",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "fields": [
-              {
-                "type": "text",
-                "required$B": true,
-                "fullWidth$B": "",
-                "name$L": [
-                  "Name",
-                  "",
-                  "",
-                  "",
-                  ""
-                ]
-              },
-              {
-                "type": "email",
-                "required$B": true,
-                "fullWidth$B": "",
-                "name$L": [
-                  "Email",
-                  "",
-                  "",
-                  "",
-                  ""
-                ]
-              },
-              {
-                "type": "date",
-                "required$B": true,
-                "fullWidth$B": "",
-                "name$L": [
-                  "Event's Date",
-                  "",
-                  "",
-                  "",
-                  ""
-                ]
-              },
-              {
-                "type": "text",
-                "required$B": true,
-                "fullWidth$B": "",
-                "name$L": [
-                  "Event's Location",
-                  "",
-                  "",
-                  "",
-                  ""
-                ]
-              },
-              {
-                "type": "textarea",
-                "required$B": true,
-                "fullWidth$B": true,
-                "name$L": [
-                  "Your Vision",
-                  "",
-                  "",
-                  "",
-                  ""
-                ]
-              },
-              {
-                "type": "checkbox",
-                "required$B": true,
-                "fullWidth$B": true,
-                "name$L": [
-                  "I would like to schedule an appointment",
-                  "",
-                  "",
-                  "",
-                  ""
-                ]
-              },
-              {
-                "type": "checkbox",
-                "required$B": true,
-                "fullWidth$B": true,
-                "name$L": [
-                  "I consent to the collection and use of my personal data for the purpose of processing my request, in accordance with the Privacy Policy.\"",
-                  "",
-                  "",
-                  "",
-                  ""
-                ]
-              }
-            ],
-            "submit$L": [
-              "Send Inquiry",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "themeId": "0",
-            "lazyLoading": false,
-            "enableOnlyAfterCookieConsent": false,
-            "delayAnimation": 0,
-            "blockEntityId": 63,
-            "component_type": "custom_section_block",
-            "dataStructureId": 20
-          }
-        }
-      ],
-      "deferSections": 99,
-      "lazyLoading": true
     }
   },
   "pagesIds": [
@@ -10968,8 +10790,7 @@
     3,
     4,
     5,
-    6,
-    7
+    6
   ],
   "currentLanguage": "en",
   "languagesEntityMap": {
@@ -11651,11 +11472,14 @@
             "themeId": 0,
             "id": 0,
             "blockEntityId": 52,
-            "generalSlotName": "links.this"
+            "generalSlotName": "links.this",
+            "langCode": "en",
+            "themeSwitchCustom": "dark",
+            "enableOnlyAfterCookieConsent": false
           },
           {
             "text$L": [
-              "Porfolio",
+              "Contact Me",
               "",
               "",
               "",
@@ -11670,61 +11494,29 @@
             ],
             "typeL": "internal",
             "externalLink": "",
-            "page": "4",
-            "section": "",
+            "page": "0",
+            "section": "contact",
+            "langCode": "en",
+            "themeSwitchCustom": "dark",
             "icon": {
               "id": 1,
               "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
               "themeId": 1
             },
             "themeId": 0,
+            "enableOnlyAfterCookieConsent": false,
             "id": 1,
             "blockEntityId": 52,
-            "generalSlotName": "links.this",
-            "langCode": "en",
-            "themeSwitchCustom": "dark",
-            "enableOnlyAfterCookieConsent": false
-          },
-          {
-            "text$L": [
-              "Blog",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "description$L": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "typeL": "internal",
-            "externalLink": "",
-            "page": "5",
-            "section": "",
-            "icon": {
-              "id": 1,
-              "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-              "themeId": 1
-            },
-            "themeId": 0,
-            "id": 2,
-            "blockEntityId": 52,
-            "generalSlotName": "links.this",
-            "langCode": "en",
-            "themeSwitchCustom": "dark",
-            "enableOnlyAfterCookieConsent": false
+            "generalSlotName": "links.this"
           }
         ],
         "themeId": "0",
         "blockEntityId": "52",
         "lazyLoading": false,
         "delayAnimation": 0,
+        "enableOnlyAfterCookieConsent": false,
         "dataStructureId": 13,
-        "component_type": "custom_section_block",
-        "enableOnlyAfterCookieConsent": false
+        "component_type": "custom_section_block"
       }
     },
     "3": {
@@ -11735,7 +11527,7 @@
         "logoImage": {
           "imagePath": "",
           "altText$L": [
-            "Fotografo",
+            "",
             "",
             "",
             "",
@@ -11777,20 +11569,6 @@
             "generalSlotName": "mainLinks.this"
           },
           {
-            "text$L": [
-              "The Experience",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "description$L": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
             "typeL": "internal",
             "externalLink": "",
             "page": 0,
@@ -11806,7 +11584,21 @@
             "enableOnlyAfterCookieConsent": false,
             "id": 1,
             "blockEntityId": 54,
-            "generalSlotName": "mainLinks.this"
+            "generalSlotName": "mainLinks.this",
+            "text$L": [
+              "Experience",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "description$L": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
           },
           {
             "text$L": [
@@ -11842,7 +11634,7 @@
           },
           {
             "text$L": [
-              "Artist's Manifesto",
+              "Manifesto",
               "",
               "",
               "",
@@ -11934,20 +11726,6 @@
           "generalSlotName": "themeLight"
         },
         "themeDark": {
-          "typeL": "themeSwitchCustom",
-          "externalLink": "",
-          "page": 0,
-          "section": "",
-          "langCode": "en",
-          "themeSwitchCustom": "darkHide",
-          "icon": {
-            "iconPath": "moon"
-          },
-          "themeId": 0,
-          "enableOnlyAfterCookieConsent": false,
-          "id": 0,
-          "blockEntityId": 54,
-          "generalSlotName": "themeDark",
           "text$L": [
             "Dark",
             "",
@@ -11961,7 +11739,21 @@
             "",
             "",
             ""
-          ]
+          ],
+          "typeL": "themeSwitchCustom",
+          "externalLink": "",
+          "page": 0,
+          "section": "",
+          "langCode": "en",
+          "themeSwitchCustom": "darkHide",
+          "icon": {
+            "iconPath": "moon"
+          },
+          "themeId": 0,
+          "enableOnlyAfterCookieConsent": false,
+          "id": 0,
+          "blockEntityId": 54,
+          "generalSlotName": "themeDark"
         },
         "themeId": 1,
         "blockEntityId": "54",
@@ -11976,7 +11768,7 @@
       "globalBlockName": "Global Blogs Section",
       "id": 4,
       "block": {
-        "anchorName": "section",
+        "anchorName": "",
         "title$L": [
           "Journal",
           "",
@@ -12001,7 +11793,7 @@
         "images": [
           {
             "image": {
-              "imagePath": "https://readdy.ai/api/search-image?query=Luxury%20wedding%20venue%20in%20Puglia%2C%20Italy%20with%20ancient%20stone%20Masseria%20and%20olive%20trees.%20Fine%20art%20photography%20style%20with%20perfect%20lighting.%20The%20scene%20shows%20elegant%20outdoor%20reception%20setup%20with%20long%20tables.%20Editorial%20composition%20with%20artistic%20quality.%20Neutral%20color%20palette%20with%20Mediterranean%20elements.%20Professional%20venue%20photography%20with%20sophisticated%20atmosphere.&width=600&height=400&seq=5&orientation=landscape",
+              "imagePath": "https://images.pexels.com/photos/1616113/pexels-photo-1616113.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
               "altText$L": [
                 "",
                 "",
@@ -12025,11 +11817,11 @@
               ""
             ],
             "description$L": [
-              "Discover the enchanting allure of Puglia's historic masserias and how these centuries-old farmhouses create an unparalleled backdrop for luxury celebrations.",
-              "",
-              "",
-              "",
-              ""
+              "Discover the enchanting allure of New York's iconic landmarks and how these historic sites create an unparalleled backdrop for luxury celebrations.",
+              "Scopri l'incantevole fascino dei iconici luoghi di New York e come questi siti storici creano uno sfondo senza pari per celebrazioni di lusso.",
+              "Entdecken Sie den bezaubernden Reiz der ikonischen Wahrzeichen von New York und wie diese historischen Stätten eine unvergleichliche Kulisse für Luxusfeiern schaffen.",
+              "Descubre el encanto cautivador de los emblemáticos lugares de Nueva York y cómo estos sitios históricos crean un telón de fondo inigualable para celebraciones de lujo.",
+              "Découvrez l'attrait envoûtant des sites iconiques de New York et comment ces lieux historiques créent un cadre incomparable pour des célébrations de luxe."
             ],
             "link": {
               "text$L": [
@@ -12066,7 +11858,7 @@
           },
           {
             "image": {
-              "imagePath": "https://readdy.ai/api/search-image?query=Fine%20art%20wedding%20photography%20approach%20with%20photographer%20capturing%20bride%20in%20Puglia%20setting.%20Editorial%20photography%20style%20showing%20behind-the-scenes%20moment.%20The%20scene%20demonstrates%20artistic%20process%20with%20beautiful%20Italian%20architecture.%20Professional%20composition%20with%20perfect%20lighting.%20Elegant%20color%20palette%20with%20creative%20elements.%20Luxury%20wedding%20photography%20with%20artistic%20vision.&width=600&height=400&seq=6&orientation=landscape",
+              "imagePath": "https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
               "altText$L": [
                 "",
                 "",
@@ -12090,11 +11882,11 @@
               ""
             ],
             "description$L": [
-              "Discover the enchanting allure of Puglia's historic masserias and how these centuries-old farmhouses create an unparalleled backdrop for luxury celebrations.",
-              "",
-              "",
-              "",
-              ""
+              "Discover the enchanting allure of New York's iconic landmarks and how these historic sites create an unparalleled backdrop for luxury celebrations.",
+              "Scopri l'incantevole fascino dei iconici luoghi di New York e come questi siti storici creano uno sfondo senza pari per celebrazioni di lusso.",
+              "Entdecken Sie den bezaubernden Reiz der ikonischen Wahrzeichen von New York und wie diese historischen Stätten eine unvergleichliche Kulisse für Luxusfeiern schaffen.",
+              "Descubre el encanto cautivador de los emblemáticos lugares de Nueva York y cómo estos sitios históricos crean un telón de fondo inigualable para celebraciones de lujo.",
+              "Découvrez l'attrait envoûtant des sites iconiques de New York et comment ces lieux historiques créent un cadre incomparable pour des célébrations de luxe."
             ],
             "link": {
               "text$L": [
@@ -12131,7 +11923,7 @@
           },
           {
             "image": {
-              "imagePath": "https://readdy.ai/api/search-image?query=Puglia%20elopement%20planning%20scene%20with%20couple%20viewing%20location%20by%20the%20sea.%20Fine%20art%20photography%20style%20with%20dreamy%20atmosphere.%20The%20scene%20shows%20intimate%20moment%20of%20preparation%20with%20Italian%20coastal%20backdrop.%20Editorial%20composition%20with%20artistic%20quality.%20Warm%20color%20palette%20with%20Mediterranean%20elements.%20Professional%20wedding%20photography%20with%20romantic%20vision.&width=600&height=400&seq=7&orientation=landscape",
+              "imagePath": "https://images.pexels.com/photos/1128783/pexels-photo-1128783.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
               "altText$L": [
                 "",
                 "",
@@ -12141,7 +11933,7 @@
               ]
             },
             "title$L": [
-              "Planning Your Puglia Elopement",
+              "Planning Your New York Elopement",
               "",
               "",
               "",
@@ -12155,11 +11947,11 @@
               ""
             ],
             "description$L": [
-              "Discover the enchanting allure of Puglia's historic masserias and how these centuries-old farmhouses create an unparalleled backdrop for luxury celebrations.",
-              "",
-              "",
-              "",
-              ""
+              "Discover the enchanting allure of New York's iconic landmarks and how these historic sites create an unparalleled backdrop for luxury celebrations.",
+              "Scopri l'incantevole fascino dei iconici luoghi di New York e come questi siti storici creano uno sfondo senza pari per celebrazioni di lusso.",
+              "Entdecken Sie den bezaubernden Reiz der ikonischen Wahrzeichen von New York und wie diese historischen Stätten eine unvergleichliche Kulisse für Luxusfeiern schaffen.",
+              "Descubre el encanto cautivador de los emblemáticos lugares de Nueva York y cómo estos sitios históricos crean un telón de fondo inigualable para celebraciones de lujo.",
+              "Découvrez l'attrait envoûtant des sites iconiques de New York et comment ces lieux historiques créent un cadre incomparable pour des célébrations de luxe."
             ],
             "link": {
               "text$L": [
