@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2025-11-15T16:24:56.570Z",
+  "lastUpdate": "2025-11-15T16:34:46.638Z",
   "siteName": "webTuyo ",
   "siteDomain": "https://Your.Domain",
   "siteIcon": "favicon-32x32.png",
@@ -8498,7 +8498,7 @@
           "slotName": "default",
           "component": {
             "title$L": [
-              "Professional Photography Portfolio!",
+              "Professional Photography Portfolio!!!",
               "Portafoglio fotografico professionale",
               "Professionelles Fotografie-Portfolio",
               "Portafolio de fotografía profesional",
