@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2025-11-16T12:54:42.825Z",
+  "lastUpdate": "2025-11-16T13:01:16.885Z",
   "siteName": "webTuyo ",
   "siteDomain": "https://Your.Domain",
   "siteIcon": "favicon-32x32.png",
@@ -2181,7 +2181,7 @@
     "56": {
       "blockName": "Content Main",
       "blockType": 18,
-      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors custom-font background-section py-20\">\n    <div class=\"container mx-auto px-6\">\n        <div class=\"max-w-3xl mx-auto text-center\">\n            <h2 class=\"text-4xl mb-6 font-light\">{{title$L}}</h2>\n            <p class=\"mb-8 text-lg leading-relaxed\">{{description$PL}}</p>\n            <div class=\"w-20 h-px bg-primary mx-auto\"></div>\n        </div>\n    </div>\n</section>",
+      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors custom-font background-section py-20\">\n    <div class=\"container mx-auto px-6\">\n        <div class=\"max-w-3xl mx-auto text-center\">\n            <h2 onview-animate=\"fade-down visible\" class=\"invisible text-4xl mb-6 font-light\">{{title$L}}</h2>\n            <p onview-animate=\"fade-up visible\" class=\"invisible mb-8 text-lg leading-relaxed\">{{description$PL}}</p>\n            <div class=\"w-20 h-px bg-primary mx-auto\"></div>\n        </div>\n    </div>\n</section>",
       "cssCode": "",
       "id": 56,
       "objectPreview": {
@@ -3372,7 +3372,7 @@
     "70": {
       "blockName": "Content Page",
       "blockType": 18,
-      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors custom-font background-section py-20\">\n    <div class=\"container mx-auto px-6\">\n        <div class=\"max-w-3xl mx-auto text-center mb-8\">\n            <h1 class=\"text-4xl mb-2 font-light\">{{title$L}}</h2>\n            <h2 class=\"text-2xl font-light\">{{subtitle$L}}</h2>\n            <div class=\"w-20 h-px bg-primary mx-auto\"></div>\n        </div>\n        <p class=\"mb-8 text-lg leading-relaxed\">{{description$PL}}</p>\n    </div>\n</section>",
+      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors custom-font background-section py-20\">\n    <div class=\"container mx-auto px-6\">\n        <div class=\"max-w-3xl mx-auto text-center mb-8\">\n            <h1 onview-animate=\"fade-down visible\" class=\"invisible text-4xl mb-2 font-light\">{{title$L}}</h2>\n            <h2 onview-animate=\"fade-down animation-delay-020 visible\" class=\"invisible text-2xl font-light\">{{subtitle$L}}</h2>\n            <div class=\"w-20 h-px bg-primary mx-auto\"></div>\n        </div>\n        <p onview-animate=\"fade-up visible\" class=\"invisible mb-8 text-lg leading-relaxed\">{{description$PL}}</p>\n    </div>\n</section>",
       "cssCode": "",
       "id": 70,
       "objectPreview": {
@@ -5284,7 +5284,7 @@
               ]
             },
             "themeId": "0",
-            "blockEntityId": 56,
+            "blockEntityId": "70",
             "lazyLoading": false,
             "enableOnlyAfterCookieConsent": false,
             "delayAnimation": 0,
