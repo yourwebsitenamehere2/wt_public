@@ -1,13 +1,13 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2025-11-16T11:11:26.783Z",
+  "lastUpdate": "2025-11-16T12:27:20.569Z",
   "siteName": "webTuyo ",
   "siteDomain": "https://Your.Domain",
   "siteIcon": "favicon-32x32.png",
   "gitHubOwner": "yourwebsitenamehere2",
   "imageBlob": false,
   "staticFilesUrl": "",
-  "cookieBlockId": -1,
+  "cookieBlockId": 5,
   "imageCacheDuration": 1440,
   "serverSync": false,
   "version": "1.0.2",
@@ -11294,560 +11294,6 @@
     2
   ],
   "globalBlocksEntityMap": {
-    "0": {
-      "globalBlockName": "sdfsdfg",
-      "id": 0,
-      "block": {
-        "anchorName": "end",
-        "title$L": [
-          "TEST",
-          "",
-          "",
-          "",
-          ""
-        ],
-        "subtitle$L": [
-          "dfhdfghdfhdfbg hd",
-          "",
-          "",
-          "",
-          ""
-        ],
-        "description$PL": [
-          "test",
-          "",
-          "",
-          "",
-          ""
-        ],
-        "image": {
-          "imagePath": ""
-        },
-        "button1": {
-          "text$L": [
-            "Button",
-            "Button",
-            "Button",
-            "Button",
-            "Button"
-          ],
-          "description$L": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "typeB": "internal",
-          "externalLink": "",
-          "page": 0,
-          "section": "",
-          "langCode": "en",
-          "themeSwitchCustom": "dark",
-          "icon": {
-            "id": 1,
-            "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-            "themeId": 1
-          },
-          "themeId": 0,
-          "enableOnlyAfterCookieConsent": false,
-          "id": 0,
-          "blockEntityId": 0,
-          "generalSlotName": "button1"
-        },
-        "button2": {
-          "text$L": [
-            "Button",
-            "Button",
-            "Button",
-            "Button",
-            "Button"
-          ],
-          "description$L": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "typeB": "internal",
-          "externalLink": "",
-          "page": 0,
-          "section": "",
-          "langCode": "en",
-          "themeSwitchCustom": "dark",
-          "icon": {
-            "id": 1,
-            "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-            "themeId": 1
-          },
-          "themeId": 0,
-          "enableOnlyAfterCookieConsent": false,
-          "id": 0,
-          "blockEntityId": 0,
-          "generalSlotName": "button2"
-        },
-        "themeId": 1,
-        "blockEntityId": "32",
-        "lazyLoading": false,
-        "delayAnimation": 0,
-        "enableOnlyAfterCookieConsent": false,
-        "component_type": "custom_section_block",
-        "dataStructureId": 8
-      }
-    },
-    "1": {
-      "globalBlockName": "HeaderGlobalOLD",
-      "id": 1,
-      "block": {
-        "anchorName": "section",
-        "logoImage": {
-          "imagePath": ""
-        },
-        "logoText": "Your Website",
-        "mainLinks": [
-          {
-            "link": {
-              "text$L": [
-                "Home",
-                "Link",
-                "",
-                "Link",
-                "Link"
-              ],
-              "description$L": [
-                "...",
-                "...",
-                "...",
-                "...",
-                "..."
-              ],
-              "typeL": "internal",
-              "externalLink": "",
-              "page": 0,
-              "section": "",
-              "icon": {
-                "id": 1,
-                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                "themeId": 1
-              },
-              "themeId": 0,
-              "id": 0,
-              "blockEntityId": 0,
-              "generalSlotName": "mainLinks.link"
-            },
-            "subMenu": [
-              {
-                "text$L": [
-                  "Link",
-                  "Link",
-                  "Link",
-                  "Link",
-                  "Link"
-                ],
-                "description$L": [
-                  "...",
-                  "...",
-                  "...",
-                  "...",
-                  "..."
-                ],
-                "typeL": "internal",
-                "externalLink": "",
-                "page": 0,
-                "section": "",
-                "icon": {
-                  "id": 1,
-                  "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                  "themeId": 1
-                },
-                "themeId": 0,
-                "id": 0,
-                "blockEntityId": 0,
-                "generalSlotName": "mainLinks.subMenu.this"
-              },
-              {
-                "text$L": [
-                  "Link",
-                  "Link",
-                  "Link",
-                  "Link",
-                  "Link"
-                ],
-                "description$L": [
-                  "...",
-                  "...",
-                  "...",
-                  "...",
-                  "..."
-                ],
-                "typeL": "internal",
-                "externalLink": "",
-                "page": 0,
-                "section": "",
-                "icon": {
-                  "id": 1,
-                  "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                  "themeId": 1
-                },
-                "themeId": 0,
-                "id": 1,
-                "blockEntityId": 0,
-                "generalSlotName": "mainLinks.subMenu.this"
-              }
-            ]
-          },
-          {
-            "link": {
-              "text$L": [
-                "About",
-                "",
-                "",
-                "",
-                ""
-              ],
-              "description$L": [
-                "...",
-                "...",
-                "...",
-                "...",
-                "..."
-              ],
-              "typeL": "internal",
-              "externalLink": "",
-              "page": "2",
-              "section": "",
-              "icon": {
-                "id": 1,
-                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                "themeId": 1
-              },
-              "themeId": 0,
-              "id": 0,
-              "blockEntityId": 0,
-              "generalSlotName": "mainLinks.link"
-            },
-            "subMenu": [
-              {
-                "text$L": [
-                  "Link",
-                  "Link",
-                  "Link",
-                  "Link",
-                  "Link"
-                ],
-                "description$L": [
-                  "...",
-                  "...",
-                  "...",
-                  "...",
-                  "..."
-                ],
-                "typeL": "internal",
-                "externalLink": "",
-                "page": 0,
-                "section": "",
-                "icon": {
-                  "id": 1,
-                  "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                  "themeId": 1
-                },
-                "themeId": 0,
-                "id": 0,
-                "blockEntityId": 0,
-                "generalSlotName": "mainLinks.subMenu.this"
-              }
-            ]
-          },
-          {
-            "link": {
-              "text$L": [
-                "Gallery",
-                "",
-                "Galleria",
-                "",
-                ""
-              ],
-              "description$L": [
-                "...",
-                "...",
-                "...",
-                "...",
-                "..."
-              ],
-              "typeL": "internal",
-              "externalLink": "",
-              "page": "3",
-              "section": "",
-              "icon": {
-                "id": 1,
-                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                "themeId": 1
-              },
-              "themeId": 0,
-              "id": 0,
-              "blockEntityId": 0,
-              "generalSlotName": "mainLinks.link"
-            },
-            "subMenu": [
-              {
-                "text$L": [
-                  "Link",
-                  "Link",
-                  "Link",
-                  "Link",
-                  "Link"
-                ],
-                "description$L": [
-                  "...",
-                  "...",
-                  "...",
-                  "...",
-                  "..."
-                ],
-                "typeL": "internal",
-                "externalLink": "",
-                "page": 0,
-                "section": "",
-                "icon": {
-                  "id": 1,
-                  "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                  "themeId": 1
-                },
-                "themeId": 0,
-                "id": 0,
-                "blockEntityId": 0,
-                "generalSlotName": "mainLinks.subMenu.this"
-              }
-            ]
-          },
-          {
-            "link": {
-              "text$L": [
-                "Services",
-                "",
-                "",
-                "",
-                ""
-              ],
-              "description$L": [
-                "...",
-                "...",
-                "...",
-                "...",
-                "..."
-              ],
-              "typeL": "internal",
-              "externalLink": "",
-              "page": "4",
-              "section": "",
-              "icon": {
-                "id": 1,
-                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                "themeId": 1
-              },
-              "themeId": 0,
-              "id": 0,
-              "blockEntityId": 0,
-              "generalSlotName": "mainLinks.link"
-            },
-            "subMenu": [
-              {
-                "text$L": [
-                  "Link",
-                  "Link",
-                  "Link",
-                  "Link",
-                  "Link"
-                ],
-                "description$L": [
-                  "...",
-                  "...",
-                  "...",
-                  "...",
-                  "..."
-                ],
-                "typeL": "internal",
-                "externalLink": "",
-                "page": 0,
-                "section": "",
-                "icon": {
-                  "id": 1,
-                  "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                  "themeId": 1
-                },
-                "themeId": 0,
-                "id": 0,
-                "blockEntityId": 0,
-                "generalSlotName": "mainLinks.subMenu.this"
-              }
-            ]
-          },
-          {
-            "link": {
-              "text$L": [
-                "Product",
-                "",
-                "Prodotti",
-                "",
-                ""
-              ],
-              "description$L": [
-                "...",
-                "...",
-                "...",
-                "...",
-                "..."
-              ],
-              "typeL": "internal",
-              "externalLink": "",
-              "page": "5",
-              "section": "",
-              "icon": {
-                "id": 1,
-                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                "themeId": 1
-              },
-              "themeId": 0,
-              "id": 0,
-              "blockEntityId": 0,
-              "generalSlotName": "mainLinks.link"
-            },
-            "subMenu": [
-              {
-                "text$L": [
-                  "Link",
-                  "Link",
-                  "Link",
-                  "Link",
-                  "Link"
-                ],
-                "description$L": [
-                  "...",
-                  "...",
-                  "...",
-                  "...",
-                  "..."
-                ],
-                "typeL": "internal",
-                "externalLink": "",
-                "page": 0,
-                "section": "",
-                "icon": {
-                  "id": 1,
-                  "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                  "themeId": 1
-                },
-                "themeId": 0,
-                "id": 0,
-                "blockEntityId": 0,
-                "generalSlotName": "mainLinks.subMenu.this"
-              }
-            ]
-          },
-          {
-            "link": {
-              "text$L": [
-                "Test",
-                "",
-                "",
-                "",
-                ""
-              ],
-              "description$L": [
-                "...",
-                "...",
-                "...",
-                "...",
-                "..."
-              ],
-              "typeL": "internal",
-              "externalLink": "",
-              "page": "6",
-              "section": "",
-              "icon": {
-                "id": 1,
-                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                "themeId": 1
-              },
-              "themeId": 0,
-              "id": 0,
-              "blockEntityId": 0,
-              "generalSlotName": "mainLinks.link"
-            },
-            "subMenu": [
-              {
-                "text$L": [
-                  "Link",
-                  "Link",
-                  "Link",
-                  "Link",
-                  "Link"
-                ],
-                "description$L": [
-                  "...",
-                  "...",
-                  "...",
-                  "...",
-                  "..."
-                ],
-                "typeL": "internal",
-                "externalLink": "",
-                "page": 0,
-                "section": "",
-                "icon": {
-                  "id": 1,
-                  "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-                  "themeId": 1
-                },
-                "themeId": 0,
-                "id": 0,
-                "blockEntityId": 0,
-                "generalSlotName": "mainLinks.subMenu.this"
-              }
-            ]
-          }
-        ],
-        "rightLinks": [
-          {
-            "text$L": [
-              "Contact us",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "description$L": [
-              "...",
-              "...",
-              "...",
-              "...",
-              "..."
-            ],
-            "typeL": "internal",
-            "externalLink": "",
-            "page": 0,
-            "section": "",
-            "icon": {
-              "id": 1,
-              "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
-              "themeId": 1
-            },
-            "themeId": 0,
-            "id": 0,
-            "blockEntityId": 0,
-            "generalSlotName": "rightLinks.this"
-          }
-        ],
-        "themeId": "0",
-        "blockEntityId": "27",
-        "lazyLoading": false,
-        "delayAnimation": 0,
-        "component_type": "custom_section_block",
-        "dataStructureId": 1,
-        "enableOnlyAfterCookieConsent": false
-      }
-    },
     "2": {
       "globalBlockName": "FooterGlobal",
       "id": 2,
@@ -12419,13 +11865,121 @@
         "component_type": "custom_section_block",
         "dataStructureId": 18
       }
+    },
+    "5": {
+      "globalBlockName": "CookieGlobal",
+      "id": 5,
+      "block": {
+        "anchorName": "section",
+        "title$L": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "subtitle$L": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "description$PL": [
+          "We use our own cookies as well as third-party cookies on our websites to enhance your experience, analyze our traffic, and for security and marketing. Select \\\"Accept All\\\" to allow them to be used. Read our Cookie Policy.\\n",
+          "Utilizziamo i nostri cookie e cookie di terze parti sui nostri siti web per migliorare la tua esperienza, analizzare il nostro traffico e per sicurezza e marketing. Seleziona \\\"Accetta tutto\\\" per consentirne l'uso. Leggi la nostra Cookie Policy.\\n",
+          "Wir verwenden auf unseren Websites eigene Cookies sowie Cookies von Drittanbietern, um Ihre Erfahrung zu verbessern, unseren Verkehr zu analysieren und für Sicherheit und Marketing. Wählen Sie \\\"Alle akzeptieren\\\", um deren Nutzung zu erlauben. Lesen Sie unsere Cookie-Richtlinie.\\n",
+          "Utilizamos nuestras propias cookies así como cookies de terceros en nuestros sitios web para mejorar su experiencia, analizar nuestro tráfico y para seguridad y marketing. Seleccione \\\"Aceptar todo\\\" para permitir su uso. Lea nuestra Política de Cookies.\\n",
+          "Nous utilisons nos propres cookies ainsi que des cookies tiers sur nos sites Web pour améliorer votre expérience, analyser notre trafic, ainsi que pour la sécurité et le marketing. Sélectionnez \\\"Tout accepter\\\" pour autoriser leur utilisation. Lisez notre Politique de Cookies.\\n"
+        ],
+        "image": {
+          "imagePath": "",
+          "altText$L": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        "button1": {
+          "typeB": "acceptCookies",
+          "externalLink": "",
+          "page": 0,
+          "section": "",
+          "langCode": "en",
+          "themeSwitchCustom": "dark",
+          "icon": {
+            "id": 1,
+            "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+            "themeId": 1
+          },
+          "themeId": 0,
+          "enableOnlyAfterCookieConsent": false,
+          "id": 0,
+          "blockEntityId": 17,
+          "generalSlotName": "button1",
+          "text$L": [
+            "Accept",
+            "Accetta",
+            "Akzeptieren",
+            "Aceptar",
+            "Accepter"
+          ],
+          "description$L": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        "button2": {
+          "typeB": "declineCookies",
+          "externalLink": "",
+          "page": 0,
+          "section": "",
+          "langCode": "en",
+          "themeSwitchCustom": "dark",
+          "icon": {
+            "id": 1,
+            "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+            "themeId": 1
+          },
+          "themeId": 0,
+          "enableOnlyAfterCookieConsent": false,
+          "id": 0,
+          "blockEntityId": 17,
+          "generalSlotName": "button2",
+          "text$L": [
+            "Decline",
+            "Rifiuta",
+            "Ablehnen",
+            "Rechazar",
+            "Refuser"
+          ],
+          "description$L": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        "themeId": "0",
+        "blockEntityId": "17",
+        "lazyLoading": false,
+        "enableOnlyAfterCookieConsent": false,
+        "delayAnimation": 0,
+        "dataStructureId": 8,
+        "component_type": "custom_section_block"
+      }
     }
   },
   "globalBlocksIds": [
-    0,
-    1,
     2,
     3,
-    4
+    4,
+    5
   ]
 }
