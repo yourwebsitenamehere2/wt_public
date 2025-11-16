@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2025-11-16T10:18:03.944Z",
+  "lastUpdate": "2025-11-16T11:11:26.783Z",
   "siteName": "webTuyo ",
   "siteDomain": "https://Your.Domain",
   "siteIcon": "favicon-32x32.png",
@@ -10201,42 +10201,466 @@
     },
     "4": {
       "title$L": [
-        "Planning-Your-Puglia-Elopement",
-        "Planning-Your-Puglia-Elopement",
-        "Planning-Your-Puglia-Elopement",
-        "Planning-Your-Puglia-Elopement",
-        "Planning-Your-Puglia-Elopement"
+        "Planning-Your-Special-Event",
+        "Planning-Your-Special-Event",
+        "Planning-Your-Special-Event",
+        "Planning-Your-Special-Event",
+        "Planning-Your-Special-Event"
       ],
       "jsonSEO$L": [
-        "{}",
-        "{}",
-        "{}",
-        "{}",
-        "{}"
+        "Fine Art Wedding Photography Approach",
+        "Approccio alla Fotografia di Matrimoni Fine Art",
+        "Fine Art Hochzeitsfotografie Ansatz",
+        "Enfoque de Fotografía de Bodas Fine Art",
+        "Approche de la Photographie de Mariage Fine Art"
       ],
       "pathFolderId": 2,
       "metaData": [
         {
           "isProperty": false,
           "nameOrProperty$L": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "description",
+            "description",
+            "description",
+            "description",
+            "description"
           ],
           "content$L": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Explore the Fine Art approach to wedding photography by a New York-based photographer. Discover how artistic vision transforms your special day into timeless visual stories.",
+            "Esplora l'approccio Fine Art alla fotografia di matrimoni di un fotografo di New York. Scopri come la visione artistica trasforma il tuo giorno speciale in storie visive senza tempo.",
+            "Entdecken Sie den Fine Art-Ansatz der Hochzeitsfotografie eines Fotografen aus New York. Erfahren Sie, wie künstlerische Visionen Ihren besonderen Tag in zeitlose visuelle Geschichten verwandeln.",
+            "Explora el enfoque Fine Art en fotografía de bodas de un fotógrafo con base en Nueva York. Descubre cómo la visión artística transforma tu día especial en historias visuales atemporales.",
+            "Découvrez l'approche Fine Art en photographie de mariage d'un photographe basé à New York. Découvrez comment une vision artistique transforme votre journée spéciale en récits visuels intemporels."
           ]
         }
       ],
       "pageLayoutId": 0,
       "id": 4,
-      "sections": [],
+      "sections": [
+        {
+          "id": 2,
+          "slotName": "default",
+          "component": {
+            "anchorName": "section1",
+            "title$L": [
+              "Planning Your Special Event",
+              "Pianificare Il Tuo Evento Speciale",
+              "Planung Ihrer Sonderveranstaltung",
+              "Planificación de Su Evento Especial",
+              "Planification de Votre Événement Spécial"
+            ],
+            "subtitle$L": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "description$PL": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "image": {
+              "imagePath": "https://images.pexels.com/photos/2788488/pexels-photo-2788488.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
+              "altText$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "button1": {
+              "text$L": [
+                "Learn More",
+                "Per saperne di più",
+                "Mehr erfahren",
+                "Aprender más",
+                "En savoir plus"
+              ],
+              "description$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "typeB": "internal",
+              "externalLink": "",
+              "page": "4",
+              "section": "section2",
+              "langCode": "en",
+              "themeSwitchCustom": "dark",
+              "icon": {
+                "id": 0,
+                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                "themeId": 1
+              },
+              "themeId": 0,
+              "enableOnlyAfterCookieConsent": false,
+              "id": 0,
+              "blockEntityId": 62,
+              "generalSlotName": "button1"
+            },
+            "button2": {
+              "text$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "description$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "typeB": "internal",
+              "externalLink": "",
+              "page": 0,
+              "section": "1",
+              "langCode": "en",
+              "themeSwitchCustom": "dark",
+              "icon": {
+                "id": 0,
+                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                "themeId": 1
+              },
+              "themeId": 0,
+              "enableOnlyAfterCookieConsent": false,
+              "id": 0,
+              "blockEntityId": 62,
+              "generalSlotName": "button2"
+            },
+            "themeId": "0",
+            "blockEntityId": "34",
+            "lazyLoading": false,
+            "enableOnlyAfterCookieConsent": false,
+            "delayAnimation": "1000",
+            "component_type": "custom_section_block",
+            "dataStructureId": 8
+          },
+          "_$preventResendToIframe": true
+        },
+        {
+          "id": 1,
+          "slotName": "default",
+          "component": {
+            "title$L": [
+              "Planning Your Special Event",
+              "Pianificare il tuo evento speciale",
+              "Planen Sie Ihre besondere Veranstaltung",
+              "Planifica tu evento especial",
+              "Planifier votre événement spécial"
+            ],
+            "subtitle$L": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "description$PL": [
+              "Organizing a special event requires attention to detail and creativity to ensure every moment is perfect. From choosing the right venue to coordinating with vendors, careful planning helps capture unforgettable photographs that tell your unique story.",
+              "Organizzare un evento speciale richiede attenzione ai dettagli e creatività per garantire che ogni momento sia perfetto. Dalla scelta della location giusta alla coordinazione con i fornitori, una pianificazione attenta aiuta a catturare fotografie indimenticabili che raccontano la tua storia unica.",
+              "Die Organisation einer besonderen Veranstaltung erfordert Liebe zum Detail und Kreativität, um jeden Moment perfekt zu gestalten. Von der Auswahl des richtigen Veranstaltungsorts bis zur Koordination mit Anbietern sorgt eine sorgfältige Planung dafür, dass unvergessliche Fotos entstehen, die Ihre einzigartige Geschichte erzählen.",
+              "Organizar un evento especial requiere atención al detalle y creatividad para asegurar que cada momento sea perfecto. Desde elegir el lugar adecuado hasta coordinar con los proveedores, una planificación cuidadosa ayuda a capturar fotografías inolvidables que cuentan tu historia única.",
+              "Organiser un événement spécial nécessite une attention particulière aux détails et de la créativité pour que chaque instant soit parfait. Du choix du lieu à la coordination avec les prestataires, une planification minutieuse permet de capturer des photos inoubliables qui racontent votre histoire unique."
+            ],
+            "image": {
+              "imagePath": "",
+              "altText$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "themeId": "0",
+            "blockEntityId": 56,
+            "component_type": "custom_section_block",
+            "dataStructureId": 16,
+            "anchorName": "",
+            "lazyLoading": false,
+            "enableOnlyAfterCookieConsent": false,
+            "delayAnimation": 0
+          }
+        },
+        {
+          "id": 3,
+          "slotName": "default",
+          "component": {
+            "title$L": [
+              "Organizing Your Event with Professional Photography",
+              "Organizzare il tuo evento con la fotografia professionale",
+              "Organisation Ihrer Veranstaltung mit professioneller Fotografie",
+              "Organización de su evento con fotografía profesional",
+              "Organisation de votre événement avec photographie professionnelle"
+            ],
+            "subtitle$L": [
+              "Capturing Every Moment Perfectly",
+              "Catturare ogni momento alla perfezione",
+              "Jeden Moment perfekt einfangen",
+              "Capturando cada momento perfectamente",
+              "Capturer chaque moment parfaitement"
+            ],
+            "description$PL": [
+              "Planning an event can be stressful, but with our professional photography services, you can focus on enjoying your special day while we capture every important moment. From preparation to the final celebration, we ensure high-quality photos that tell your unique story.",
+              "Organizzare un evento può essere stressante, ma con i nostri servizi di fotografia professionale, puoi concentrarti sul goderti il tuo giorno speciale mentre catturiamo ogni momento importante. Dalla preparazione alla festa finale, garantiamo foto di alta qualità che raccontano la tua storia unica.",
+              "Die Organisation einer Veranstaltung kann stressig sein, aber mit unseren professionellen Fotoservices können Sie sich darauf konzentrieren, Ihren besonderen Tag zu genießen, während wir jeden wichtigen Moment festhalten. Von der Vorbereitung bis zur Abschlussfeier sorgen wir für hochwertige Fotos, die Ihre einzigartige Geschichte erzählen.",
+              "Planificar un evento puede ser estresante, pero con nuestros servicios profesionales de fotografía, puede centrarse en disfrutar su día especial mientras capturamos cada momento importante. Desde la preparación hasta la celebración final, garantizamos fotos de alta calidad que cuentan su historia única.",
+              "Planifier un événement peut être stressant, mais grâce à nos services de photographie professionnelle, vous pouvez vous concentrer sur la fête de votre journée spéciale pendant que nous capturons chaque moment important. De la préparation à la célébration finale, nous garantissons des photos de haute qualité qui racontent votre histoire unique."
+            ],
+            "image": {
+              "imagePath": "https://images.pexels.com/photos/1082024/pexels-photo-1082024.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
+              "altText$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "button1": {
+              "id": 0,
+              "text$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "description$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "typeB": "internal",
+              "externalLink": "",
+              "page": 0,
+              "section": "1",
+              "themeId": 0,
+              "blockEntityId": 62,
+              "generalSlotName": "button1",
+              "icon": {
+                "id": 0,
+                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                "themeId": 1
+              }
+            },
+            "button2": {
+              "id": 0,
+              "text$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "description$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "typeB": "internal",
+              "externalLink": "",
+              "page": 0,
+              "section": "1",
+              "themeId": 0,
+              "blockEntityId": 62,
+              "generalSlotName": "button2",
+              "icon": {
+                "id": 0,
+                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                "themeId": 1
+              }
+            },
+            "themeId": "1",
+            "blockEntityId": 62,
+            "component_type": "custom_section_block",
+            "dataStructureId": 8,
+            "anchorName": " ",
+            "lazyLoading": false,
+            "enableOnlyAfterCookieConsent": false,
+            "delayAnimation": "1000"
+          },
+          "_$preventResendToIframe": true
+        },
+        {
+          "id": 5,
+          "slotName": "default",
+          "component": {
+            "title$L": [
+              "Planning Your Perfect Event: A Guide by Your Trusted Photographer",
+              "Pianificare il tuo evento perfetto: una guida dal tuo fotografo di fiducia",
+              "Planen Sie Ihre perfekte Veranstaltung: Ein Leitfaden von Ihrem vertrauenswürdigen Fotografen",
+              "Planificación de tu evento perfecto: una guía de tu fotógrafo de confianza",
+              "Planifier votre événement parfait : un guide de votre photographe de confiance"
+            ],
+            "subtitle$L": [
+              "Capturing unforgettable moments starts with flawless event planning.",
+              "Catturare momenti indimenticabili inizia con una pianificazione impeccabile dell'evento.",
+              "Unvergessliche Momente festhalten beginnt mit einer makellosen Veranstaltungsplanung.",
+              "Capturar momentos inolvidables comienza con una planificación impecable del evento.",
+              "Capturer des moments inoubliables commence par une planification impeccable de l'événement."
+            ],
+            "description$PL": [
+              "Planning an event, especially a wedding, involves many details that come together to create a memorable day. <br><br>As a photographer dedicated to capturing the essence of your special moments, I believe that thoughtful planning not only ensures a smooth celebration but also allows me to preserve those memories beautifully. Begin by outlining your vision and priorities: consider the venue, guest list, themes, and timeline.<br><br>&nbsp;Communication with vendors, including your photographer, is key to synchronizing the day's flow. Make sure to allocate time for portraits and candid shots to truly capture the atmosphere. <br><br>With meticulous planning, your event will not only be a joy to experience but also a delight to remember through stunning photography.",
+              "Pianificare un evento, specialmente un matrimonio, comporta molti dettagli che si uniscono per creare una giornata memorabile.<br><br>Come fotografo dedicato a catturare l'essenza dei tuoi momenti speciali, credo che una pianificazione accurata non solo garantisca una celebrazione senza intoppi, ma permetta anche di conservare quei ricordi in modo meraviglioso.<br><br>&nbsp;Inizia delineando la tua visione e le tue priorità: considera la location, la lista degli ospiti, i temi e la tempistica. La comunicazione con i fornitori, incluso il fotografo, è fondamentale per sincronizzare lo svolgimento della giornata. <br><br>Assicurati di dedicare tempo ai ritratti e alle foto spontanee per catturare veramente l'atmosfera.<br><br>Con una pianificazione meticolosa, il tuo evento non sarà solo un piacere da vivere, ma anche un piacere da ricordare attraverso fotografie straordinarie.",
+              "Die Planung einer Veranstaltung, besonders einer Hochzeit, umfasst viele Details, die zusammenkommen, um einen unvergesslichen Tag zu gestalten. <br><br>Als Fotograf, der sich darauf spezialisiert hat, das Wesen Ihrer besonderen Momente einzufangen, glaube ich, dass eine durchdachte Planung nicht nur einen reibungslosen Ablauf gewährleistet, sondern mir auch ermöglicht, diese Erinnerungen wunderschön festzuhalten. Beginnen Sie mit der Skizzierung Ihrer Vision und Prioritäten: Berücksichtigen Sie den Veranstaltungsort, die Gästeliste, Themen und den Zeitplan. <br><br>Die Kommunikation mit den Anbietern, einschließlich Ihres Fotografen, ist der Schlüssel zur Synchronisation des Tagesablaufs. Stellen Sie sicher, dass Sie Zeit für Porträts und Schnappschüsse einplanen, um die Atmosphäre wirklich einzufangen. <br><br>Mit sorgfältiger Planung wird Ihre Veranstaltung nicht nur ein Vergnügen sein, sie zu erleben, sondern auch ein Vergnügen, sie durch atemberaubende Fotografien in Erinnerung zu behalten.",
+              "Planificar un evento, especialmente una boda, implica muchos detalles que se unen para crear un día memorable.<br><br>Como fotógrafo dedicado a capturar la esencia de tus momentos especiales, creo que una planificación cuidadosa no solo asegura una celebración sin contratiempos, sino que también me permite preservar esos recuerdos de manera hermosa. <br><br>Comienza delineando tu visión y prioridades: considera el lugar, la lista de invitados, los temas y el cronograma. La comunicación con los proveedores, incluido tu fotógrafo, es clave para sincronizar el desarrollo del día. Asegúrate de reservar tiempo para retratos y fotografías espontáneas para capturar verdaderamente el ambiente. <br><br>Con una planificación meticulosa, tu evento no solo será un placer para vivir, sino también un deleite para recordar mediante fotografías impresionantes.",
+              "Planifier un événement, surtout un mariage, implique de nombreux détails qui se réunissent pour créer une journée inoubliable. <br><br>En tant que photographe dédié à capturer l'essence de vos moments spéciaux, je crois qu'une planification réfléchie garantit non seulement une célébration sans accroc, mais me permet aussi de préserver ces souvenirs magnifiquement. <br><br>Commencez par définir votre vision et vos priorités : considérez le lieu, la liste des invités, les thèmes et le planning. La communication avec les prestataires, y compris votre photographe, est essentielle pour synchroniser le déroulement de la journée. Veillez à consacrer du temps aux portraits et aux clichés spontanés pour vraiment capturer l'atmosphère. <br><br>Avec une planification minutieuse, votre événement sera non seulement un plaisir à vivre, mais aussi un plaisir à se remémorer à travers de superbes photographies."
+            ],
+            "image": {
+              "imagePath": "https://images.pexels.com/photos/417458/pexels-photo-417458.jpeg ",
+              "altText$L": [
+                "Event planning concept with camera and notes",
+                "Concetto di pianificazione evento con macchina fotografica e appunti",
+                "Konzept der Veranstaltungsplanung mit Kamera und Notizen",
+                "Concepto de planificación de eventos con cámara y notas",
+                "Concept de planification d'événement avec appareil photo et notes"
+              ]
+            },
+            "button1": {
+              "id": 0,
+              "text$L": [
+                "View Portfolio",
+                "Visualizza Portfolio",
+                "Portfolio ansehen",
+                "Ver portafolio",
+                "Voir le portfolio"
+              ],
+              "description$L": [
+                "Explore my previous work and style.",
+                "Esplora i miei lavori precedenti e lo stile.",
+                "Entdecken Sie meine bisherigen Arbeiten und meinen Stil.",
+                "Explora mi trabajo anterior y estilo.",
+                "Explorez mes travaux précédents et mon style."
+              ],
+              "typeB": "internal",
+              "externalLink": "",
+              "page": 0,
+              "section": "1",
+              "themeId": 0,
+              "blockEntityId": 36,
+              "generalSlotName": "button1",
+              "icon": {
+                "id": 0,
+                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                "themeId": 1
+              }
+            },
+            "button2": {
+              "id": 0,
+              "text$L": [
+                "Contact Me",
+                "Contattami",
+                "Kontaktieren Sie mich",
+                "Contáctame",
+                "Contactez-moi"
+              ],
+              "description$L": [
+                "Get in touch to discuss your event photography needs.",
+                "Mettiamoci in contatto per discutere delle tue esigenze fotografiche per eventi.",
+                "Nehmen Sie Kontakt auf, um Ihre Veranstaltungsfotografie-Bedürfnisse zu besprechen.",
+                "Ponte en contacto para hablar sobre tus necesidades de fotografía de eventos.",
+                "Contactez-moi pour discuter de vos besoins en photographie d'événements."
+              ],
+              "typeB": "internal",
+              "externalLink": "",
+              "page": 0,
+              "section": "1",
+              "themeId": 0,
+              "blockEntityId": 36,
+              "generalSlotName": "button2",
+              "icon": {
+                "id": 0,
+                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                "themeId": 1
+              }
+            },
+            "themeId": "0",
+            "blockEntityId": 36,
+            "component_type": "custom_section_block",
+            "dataStructureId": 8,
+            "anchorName": " ",
+            "lazyLoading": false,
+            "enableOnlyAfterCookieConsent": false,
+            "delayAnimation": 0
+          }
+        },
+        {
+          "id": 7,
+          "slotName": "default",
+          "component": {
+            "title$L": [
+              "Expert Event Planning for Unforgettable Wedding Photography",
+              "Pianificazione esperta di eventi per una fotografia di nozze indimenticabile",
+              "Fachkundige Veranstaltungsplanung für unvergessliche Hochzeitsfotografie",
+              "Planificación experta de eventos para fotografía de bodas inolvidables",
+              "Planification d'événements experte pour une photographie de mariage inoubliable"
+            ],
+            "subtitle$L": [
+              "Seamless coordination ensures every magical moment is captured perfectly.",
+              "Un coordinamento senza soluzione di continuità garantisce che ogni momento magico venga catturato perfettamente.",
+              "Nahtlose Koordination stellt sicher, dass jeder magische Moment perfekt festgehalten wird.",
+              "Una coordinación perfecta asegura que cada momento mágico se capture a la perfección.",
+              "Une coordination sans faille garantit que chaque moment magique soit capturé parfaitement."
+            ],
+            "description$PL": [
+              "Planning an event requires great attention to detail, especially for weddings. Our photography service works closely with you to understand your vision, schedule, and key moments to capture. From the preparation to the last dance, we ensure a smooth experience that highlights the beauty and emotion of your special day.",
+              "La pianificazione di un evento richiede grande attenzione ai dettagli, soprattutto per i matrimoni. Il nostro servizio fotografico lavora a stretto contatto con te per comprendere la tua visione, il programma e i momenti chiave da catturare. Dalla preparazione all'ultimo ballo, garantiamo un'esperienza fluida che mette in risalto la bellezza e l'emozione del tuo giorno speciale.",
+              "Die Planung einer Veranstaltung erfordert größte Aufmerksamkeit für Details, insbesondere bei Hochzeiten. Unser Fotoservice arbeitet eng mit Ihnen zusammen, um Ihre Vision, Ihren Zeitplan und die wichtigsten Momente festzuhalten. Von den Vorbereitungen bis zum letzten Tanz sorgen wir für ein reibungsloses Erlebnis, das die Schönheit und Emotion Ihres besonderen Tages hervorhebt.",
+              "La planificación de un evento requiere gran atención al detalle, especialmente en bodas. Nuestro servicio de fotografía trabaja estrechamente contigo para entender tu visión, horario y momentos clave para capturar. Desde la preparación hasta el último baile, aseguramos una experiencia fluida que resalta la belleza y emoción de tu día especial.",
+              "La planification d'un événement exige une grande attention aux détails, surtout pour les mariages. Notre service de photographie collabore étroitement avec vous pour comprendre votre vision, votre planning et les moments clés à capturer. De la préparation à la dernière danse, nous assurons une expérience fluide qui met en valeur la beauté et l'émotion de votre journée spéciale."
+            ],
+            "image": {
+              "imagePath": "",
+              "altText$L": [
+                "Wedding event photography planning",
+                "Pianificazione della fotografia per eventi di matrimonio",
+                "Planung der Hochzeitsveranstaltungsfotografie",
+                "Planificación de la fotografía de eventos de boda",
+                "Planification de la photographie d'événements de mariage"
+              ]
+            },
+            "themeId": 1,
+            "blockEntityId": 70,
+            "component_type": "custom_section_block",
+            "dataStructureId": 16,
+            "anchorName": "",
+            "lazyLoading": false,
+            "enableOnlyAfterCookieConsent": false,
+            "delayAnimation": 0
+          },
+          "_$preventResendToIframe": true
+        },
+        {
+          "id": 6,
+          "slotName": "default",
+          "globalBlockId": "4",
+          "globalBlockSettings": {
+            "anchorName": "section6",
+            "themeId": "0",
+            "blockEntityId": 60,
+            "delayAnimation": 0,
+            "lazyLoading": false,
+            "enableOnlyAfterCookieConsent": false,
+            "index0": "",
+            "index1": ""
+          }
+        }
+      ],
       "deferSections": 99,
       "lazyLoading": true
     },
@@ -10792,7 +11216,7 @@
     5,
     6
   ],
-  "currentLanguage": "it",
+  "currentLanguage": "en",
   "languagesEntityMap": {
     "1": {
       "id": 1,
@@ -11768,7 +12192,7 @@
       "globalBlockName": "Global Blogs Section",
       "id": 4,
       "block": {
-        "anchorName": "",
+        "anchorName": " ",
         "title$L": [
           "Journal",
           "Giornale",
@@ -11867,27 +12291,6 @@
                 ""
               ]
             },
-            "title$L": [
-              "Fine Art Wedding Photography Approach",
-              "Approccio alla Fotografia di Matrimonio Fine Art",
-              "Fine Art Hochzeitsfotografie Ansatz",
-              "Enfoque de Fotografía de Bodas Fine Art",
-              "Approche Photographique de Mariage Fine Art"
-            ],
-            "subtitle$L": [
-              "Style Insight",
-              "Approfondimento sullo Stile",
-              "Stil-Einblick",
-              "Perspectiva de Estilo",
-              "Aperçu du Style"
-            ],
-            "description$L": [
-              "Discover the enchanting allure of New York's iconic landmarks and how these historic sites create an unparalleled backdrop for luxury celebrations.",
-              "Scopri l'incantevole fascino dei iconici luoghi di New York e come questi siti storici creano uno sfondo senza pari per celebrazioni di lusso.",
-              "Entdecken Sie den bezaubernden Reiz der ikonischen Wahrzeichen von New York und wie diese historischen Stätten eine unvergleichliche Kulisse für Luxusfeiern schaffen.",
-              "Descubre el encanto cautivador de los emblemáticos lugares de Nueva York y cómo estos sitios históricos crean un telón de fondo inigualable para celebraciones de lujo.",
-              "Découvrez l'attrait envoûtant des sites iconiques de New York et comment ces lieux historiques créent un cadre incomparable pour des célébrations de luxe."
-            ],
             "link": {
               "text$L": [
                 "Read More",
@@ -11905,7 +12308,7 @@
               ],
               "typeL": "internal",
               "externalLink": "",
-              "page": "3",
+              "page": "4",
               "section": "",
               "langCode": "en",
               "themeSwitchCustom": "dark",
@@ -11919,7 +12322,28 @@
               "id": 0,
               "blockEntityId": 60,
               "generalSlotName": "images.link"
-            }
+            },
+            "title$L": [
+              "Planning your special Event",
+              "Pianificare il tuo evento speciale",
+              "Planung Ihres besonderen Ereignisses",
+              "Planificando tu evento especial",
+              "Planifier votre événement spécial"
+            ],
+            "subtitle$L": [
+              "Style Insight",
+              "Approfondimento sullo Stile",
+              "Stil-Einblick",
+              "Perspectiva de Estilo",
+              "Aperçu du Style"
+            ],
+            "description$L": [
+              "Planning a memorable event requires attention to detail and heartfelt moments.",
+              "Pianificare un evento memorabile richiede attenzione ai dettagli e momenti sentiti.",
+              "Die Planung einer unvergesslichen Veranstaltung erfordert Aufmerksamkeit für Details und herzliche Momente.",
+              "Planificar un evento memorable requiere atención al detalle y momentos llenos de corazón.",
+              "Planifier un événement mémorable nécessite une attention aux détails et des moments sincères."
+            ]
           },
           {
             "image": {
@@ -11968,7 +12392,7 @@
                 "",
                 ""
               ],
-              "typeL": "internal",
+              "typeL": "disabled",
               "externalLink": "",
               "page": "4",
               "section": "",
