@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2025-11-15T20:57:23.978Z",
+  "lastUpdate": "2025-11-16T10:18:03.944Z",
   "siteName": "webTuyo ",
   "siteDomain": "https://Your.Domain",
   "siteIcon": "favicon-32x32.png",
@@ -52,7 +52,7 @@
       "selector": "head",
       "enabled": true,
       "loadOnlyWithCookieConsent": true,
-      "htmlCode": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-D1WYP0TZGM\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'G-D1WYP0TZGM');\r\n</script>",
+      "htmlCode": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'G-);\r\n</script>",
       "page": "-1",
       "id": 0
     }
@@ -8596,7 +8596,7 @@
             "blockEntityId": 55,
             "component_type": "custom_section_block",
             "dataStructureId": 14,
-            "anchorName": "",
+            "anchorName": " ",
             "lazyLoading": false,
             "enableOnlyAfterCookieConsent": false,
             "delayAnimation": 0
@@ -8606,13 +8606,13 @@
           "id": 7,
           "slotName": "default",
           "component": {
-            "anchorName": "section7",
+            "anchorName": "",
             "title$L": [
               "A Visual Legacy",
-              "",
-              "",
-              "",
-              ""
+              "Un'eredità Visiva",
+              "Ein Visuelles Erbe",
+              "Un Legado Visual",
+              "Un Héritage Visuel"
             ],
             "subtitle$L": [
               "",
@@ -8622,11 +8622,11 @@
               ""
             ],
             "description$PL": [
-              "I capture the authentic emotions, delicate light, and timeless moments of your Puglia wedding day. My approach blends editorial sophistication with fine-art sensibility, creating images that transcend mere documentation to become cherished heirlooms.",
-              "",
-              "",
-              "",
-              ""
+              "I capture the authentic emotions, delicate light, and timeless moments of your New York wedding day. My approach blends editorial sophistication with fine-art sensibility, creating images that transcend mere documentation to become cherished heirlooms.",
+              "Catturo le emozioni autentiche, la luce delicata e i momenti senza tempo del tuo giorno di nozze a New York. Il mio approccio unisce la sofisticazione editoriale con una sensibilità artistica, creando immagini che trascendono la semplice documentazione per diventare preziosi cimeli.",
+              "Ich fange die authentischen Emotionen, das zarte Licht und die zeitlosen Momente Ihres Hochzeitstages in New York ein. Mein Ansatz verbindet redaktionelle Raffinesse mit künstlerischem Feingefühl und schafft Bilder, die über reine Dokumentation hinausgehen und zu geschätzten Erbstücken werden.",
+              "Capturo las emociones auténticas, la luz delicada y los momentos atemporales del día de tu boda en Nueva York. Mi enfoque combina sofisticación editorial con sensibilidad artística, creando imágenes que trascienden la mera documentación para convertirse en preciados recuerdos.",
+              "Je capture les émotions authentiques, la lumière délicate et les moments intemporels de votre journée de mariage à New York. Mon approche allie sophistication éditoriale et sensibilité artistique, créant des images qui dépassent la simple documentation pour devenir des héritages précieux."
             ],
             "image": {
               "imagePath": "",
@@ -8862,129 +8862,129 @@
           "id": 10,
           "slotName": "default",
           "component": {
-            "anchorName": "experience",
+            "anchorName": "",
             "title$L": [
               "The Experience",
-              "",
-              "",
-              "",
-              ""
+              "L'esperienza",
+              "Das Erlebnis",
+              "La experiencia",
+              "L'expérience"
             ],
             "subTitle$L": [
               "adfgsdfgsdfg",
-              "",
-              "",
-              "",
-              ""
+              "adfgsdfgsdfg",
+              "adfgsdfgsdfg",
+              "adfgsdfgsdfg",
+              "adfgsdfgsdfg"
             ],
             "description$L": [
               "sdfgsdfg sdfg sdfgs dfgsdfgsdfg ",
-              "",
-              "",
-              "",
-              ""
+              "sdfgsdfg sdfg sdfgs dfgsdfgsdfg ",
+              "sdfgsdfg sdfg sdfgs dfgsdfgsdfg ",
+              "sdfgsdfg sdfg sdfgs dfgsdfgsdfg ",
+              "sdfgsdfg sdfg sdfgs dfgsdfgsdfg "
             ],
             "steps": [
               {
                 "title$L": [
                   "Initial Consultation",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Consultazione iniziale",
+                  "Erstberatung",
+                  "Consulta inicial",
+                  "Consultation initiale"
                 ],
                 "subtitle$L": [
                   "dfgsdfgs dfgsd",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "dfgsdfgs dfgsd",
+                  "dfgsdfgs dfgsd",
+                  "dfgsdfgs dfgsd",
+                  "dfgsdfgs dfgsd"
                 ],
                 "description$PL": [
                   "We begin with a thoughtful conversation about your vision, preferences, and the unique story you wish to tell. This is where we establish a connection and align our artistic approach with your desires.",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Iniziamo con una conversazione riflessiva sulla tua visione, preferenze e sull'unica storia che desideri raccontare. Qui è dove creiamo una connessione e allineiamo il nostro approccio artistico ai tuoi desideri.",
+                  "Wir beginnen mit einem nachdenklichen Gespräch über Ihre Vision, Vorlieben und die einzigartige Geschichte, die Sie erzählen möchten. Hier stellen wir eine Verbindung her und stimmen unseren künstlerischen Ansatz auf Ihre Wünsche ab.",
+                  "Comenzamos con una conversación reflexiva sobre tu visión, preferencias y la historia única que deseas contar. Aquí es donde establecemos una conexión y alineamos nuestro enfoque artístico con tus deseos.",
+                  "Nous commençons par une conversation réfléchie sur votre vision, vos préférences et l'histoire unique que vous souhaitez raconter. C'est là que nous établissons une connexion et alignons notre approche artistique avec vos désirs."
                 ]
               },
               {
                 "title$L": [
                   "Pre-Wedding Guidance",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Consigli prematrimoniali",
+                  "Vorhochzeitsberatung",
+                  "Orientación pre-boda",
+                  "Orientation avant le mariage"
                 ],
                 "subtitle$L": [
                   "dfgsdfgs dfgsd",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "dfgsdfgs dfgsd",
+                  "dfgsdfgs dfgsd",
+                  "dfgsdfgs dfgsd",
+                  "dfgsdfgs dfgsd"
                 ],
                 "description$PL": [
                   "I provide personalized guidance on location selection, timing considerations, and styling elements that will enhance your visual narrative. My intimate knowledge of Puglia's most captivating settings ensures we create something truly extraordinary.",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Fornisco consigli personalizzati sulla scelta della location, considerazioni sui tempi ed elementi di stile che miglioreranno la tua narrazione visiva. La mia conoscenza intima delle ambientazioni più affascinanti della Puglia garantisce che creiamo qualcosa di veramente straordinario.",
+                  "Ich gebe persönliche Ratschläge zur Standortauswahl, Zeitplanung und Stilelementen, die Ihre visuelle Erzählung verbessern werden. Mein tiefes Wissen über die faszinierendsten Orte Apuliens stellt sicher, dass wir etwas wirklich Außergewöhnliches schaffen.",
+                  "Proporciono orientación personalizada sobre la selección de la ubicación, consideraciones de tiempo y elementos de estilo que mejorarán tu narrativa visual. Mi conocimiento íntimo de los escenarios más cautivadores de Apulia asegura que creemos algo verdaderamente extraordinario.",
+                  "Je fournis des conseils personnalisés sur le choix de l'emplacement, les considérations de timing et les éléments de style qui amélioreront votre récit visuel. Ma connaissance intime des décors les plus captivants des Pouilles garantit que nous créons quelque chose de vraiment extraordinaire."
                 ]
               },
               {
                 "title$L": [
                   "The Wedding Day",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Il giorno del matrimonio",
+                  "Der Hochzeitstag",
+                  "El día de la boda",
+                  "Le jour du mariage"
                 ],
                 "subtitle$L": [
                   "dfgsdfgs dfgsd",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "dfgsdfgs dfgsd",
+                  "dfgsdfgs dfgsd",
+                  "dfgsdfgs dfgsd",
+                  "dfgsdfgs dfgsd"
                 ],
                 "description$PL": [
                   "I provide personalized guidance on location selection, timing considerations, and styling elements that will enhance your visual narrative. My intimate knowledge of Puglia's most captivating settings ensures we create something truly extraordinary.",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Fornisco consigli personalizzati sulla scelta della location, considerazioni sui tempi ed elementi di stile che miglioreranno la tua narrazione visiva. La mia conoscenza intima delle ambientazioni più affascinanti della Puglia garantisce che creiamo qualcosa di veramente straordinario.",
+                  "Ich gebe persönliche Ratschläge zur Standortauswahl, Zeitplanung und Stilelementen, die Ihre visuelle Erzählung verbessern werden. Mein tiefes Wissen über die faszinierendsten Orte Apuliens stellt sicher, dass wir etwas wirklich Außergewöhnliches schaffen.",
+                  "Proporciono orientación personalizada sobre la selección de la ubicación, consideraciones de tiempo y elementos de estilo que mejorarán tu narrativa visual. Mi conocimiento íntimo de los escenarios más cautivadores de Apulia asegura que creemos algo verdaderamente extraordinario.",
+                  "Je fournis des conseils personnalisés sur le choix de l'emplacement, les considérations de timing et les éléments de style qui amélioreront votre récit visuel. Ma connaissance intime des décors les plus captivants des Pouilles garantit que nous créons quelque chose de vraiment extraordinaire."
                 ]
               },
               {
                 "title$L": [
                   "Your Visual Legacy",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Il tuo lascito visivo",
+                  "Ihr visuelles Erbe",
+                  "Tu legado visual",
+                  "Votre héritage visuel"
                 ],
                 "subtitle$L": [
                   "dfgsdfgs dfgsd",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "dfgsdfgs dfgsd",
+                  "dfgsdfgs dfgsd",
+                  "dfgsdfgs dfgsd",
+                  "dfgsdfgs dfgsd"
                 ],
                 "description$PL": [
                   "Following meticulous editing and curation, your images are delivered as a cohesive visual narrative. From fine art prints to bespoke albums, I offer heirloom-quality products that transform your memories into tangible treasures.",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Dopo un'attenta modifica e selezione, le tue immagini vengono consegnate come una narrazione visiva coerente. Dalle stampe artistiche agli album su misura, offro prodotti di qualità da eredità che trasformano i tuoi ricordi in tesori tangibili.",
+                  "Nach sorgfältiger Bearbeitung und Auswahl werden Ihre Bilder als zusammenhängende visuelle Erzählung geliefert. Von Fine-Art-Drucken bis hin zu maßgeschneiderten Alben biete ich Erbstückqualität, die Ihre Erinnerungen in greifbare Schätze verwandelt.",
+                  "Tras una meticulosa edición y selección, tus imágenes se entregan como una narrativa visual coherente. Desde impresiones artísticas hasta álbumes personalizados, ofrezco productos de calidad hereditaria que transforman tus recuerdos en tesoros tangibles.",
+                  "Après un montage et une sélection minutieux, vos images sont livrées sous forme de récit visuel cohérent. Des tirages d'art aux albums sur mesure, j'offre des produits de qualité héritage qui transforment vos souvenirs en trésors tangibles."
                 ]
               }
             ],
             "link": {
               "text$L": [
                 "Begin Your Journey",
-                "",
-                "",
-                "",
-                ""
+                "Inizia il tuo viaggio",
+                "Beginnen Sie Ihre Reise",
+                "Comienza tu viaje",
+                "Commencez votre voyage"
               ],
               "description$L": [
                 "",
@@ -9314,14 +9314,14 @@
           "id": 14,
           "slotName": "default",
           "component": {
-            "anchorName": "contact",
+            "anchorName": " ",
             "url": "https://",
             "title$L": [
               "Begin Your Story",
-              "",
-              "",
-              "",
-              ""
+              "Inizia la Tua Storia",
+              "Beginne Deine Geschichte",
+              "Comienza Tu Historia",
+              "Commencez Votre Histoire"
             ],
             "subtitle$L": [
               "",
@@ -9332,10 +9332,10 @@
             ],
             "description$PL": [
               "I accept a limited number of commissions each year to ensure I can provide the highest level of service and attention to each couple. Let's start a conversation about your vision.",
-              "",
-              "",
-              "",
-              ""
+              "Accetto un numero limitato di commissioni ogni anno per garantire il massimo livello di servizio e attenzione a ogni coppia. Iniziamo una conversazione sulla tua visione.",
+              "Ich nehme jedes Jahr eine begrenzte Anzahl von Aufträgen an, um sicherzustellen, dass ich jedem Paar den besten Service und die größte Aufmerksamkeit bieten kann. Lassen Sie uns ein Gespräch über Ihre Vision beginnen.",
+              "Acepto un número limitado de encargos cada año para asegurar que puedo proporcionar el más alto nivel de servicio y atención a cada pareja. Comencemos una conversación sobre tu visión.",
+              "J'accepte un nombre limité de commandes chaque année afin de garantir le plus haut niveau de service et d'attention à chaque couple. Commençons une conversation sur votre vision."
             ],
             "fields": [
               {
@@ -9344,10 +9344,10 @@
                 "fullWidth$B": "",
                 "name$L": [
                   "Name",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Nome",
+                  "Name",
+                  "Nombre",
+                  "Nom"
                 ]
               },
               {
@@ -9356,10 +9356,10 @@
                 "fullWidth$B": "",
                 "name$L": [
                   "Email",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Email",
+                  "E-Mail",
+                  "Correo electrónico",
+                  "E-mail"
                 ]
               },
               {
@@ -9368,10 +9368,10 @@
                 "fullWidth$B": "",
                 "name$L": [
                   "Event's Date",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Data dell'evento",
+                  "Datum der Veranstaltung",
+                  "Fecha del evento",
+                  "Date de l'événement"
                 ]
               },
               {
@@ -9380,10 +9380,10 @@
                 "fullWidth$B": "",
                 "name$L": [
                   "Event's Location",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Luogo dell'evento",
+                  "Veranstaltungsort",
+                  "Ubicación del evento",
+                  "Lieu de l'événement"
                 ]
               },
               {
@@ -9392,10 +9392,10 @@
                 "fullWidth$B": true,
                 "name$L": [
                   "Your Vision",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "La Tua Visione",
+                  "Ihre Vision",
+                  "Tu Visión",
+                  "Votre Vision"
                 ]
               },
               {
@@ -9404,10 +9404,10 @@
                 "fullWidth$B": true,
                 "name$L": [
                   "I would like to book an appointment",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Vorrei prenotare un appuntamento",
+                  "Ich möchte einen Termin vereinbaren",
+                  "Me gustaría reservar una cita",
+                  "Je souhaite prendre rendez-vous"
                 ]
               },
               {
@@ -9416,19 +9416,19 @@
                 "fullWidth$B": true,
                 "name$L": [
                   "I consent to the collection and use of my personal data for the purpose of processing my request, in accordance with the Privacy Policy.",
-                  "",
-                  "",
-                  "",
-                  ""
+                  "Acconsento alla raccolta e all'uso dei miei dati personali per la gestione della mia richiesta, in conformità con l'Informativa sulla privacy.",
+                  "Ich stimme der Erhebung und Verwendung meiner personenbezogenen Daten zum Zweck der Bearbeitung meiner Anfrage gemäß der Datenschutzerklärung zu.",
+                  "Consiento la recopilación y el uso de mis datos personales para el procesamiento de mi solicitud, de acuerdo con la Política de privacidad.",
+                  "Je consens à la collecte et à l'utilisation de mes données personnelles aux fins du traitement de ma demande, conformément à la Politique de confidentialité."
                 ]
               }
             ],
             "submit$L": [
               "Send Inquiry",
-              "",
-              "",
-              "",
-              ""
+              "Invia Richiesta",
+              "Anfrage senden",
+              "Enviar Consulta",
+              "Envoyer la demande"
             ],
             "themeId": "0",
             "lazyLoading": false,
@@ -9536,13 +9536,13 @@
           "id": 1,
           "slotName": "default",
           "component": {
-            "anchorName": "section1",
+            "anchorName": "",
             "title$L": [
               "The Perfect Place",
-              "",
-              "",
-              "",
-              ""
+              "Il posto perfetto",
+              "Der perfekte Ort",
+              "El lugar perfecto",
+              "L'endroit parfait"
             ],
             "subtitle$L": [
               "",
@@ -9553,10 +9553,10 @@
             ],
             "description$PL": [
               "<span style=\"color: rgb(203, 213, 225); font-family: Montserrat, sans-serif; background-color: rgb(15, 23, 42);\">Discover the perfect blend of rustic charm and luxurious comfort with a Masseria wedding. These historic countryside estates offer a stunning backdrop for your ceremony and reception, surrounded by olive groves and ancient stone walls. From exquisite cuisine to personalized service, every detail is crafted to create an unforgettable experience. Embrace the romance of southern Italy with a celebration that reflects elegance, tradition, and sophistication.</span>",
-              "",
-              "",
-              "",
-              ""
+              "<span style=\"color: rgb(203, 213, 225); font-family: Montserrat, sans-serif; background-color: rgb(15, 23, 42);\">Scopri la perfetta combinazione di fascino rustico e comfort lussuoso con un matrimonio in Masseria. Queste storiche tenute di campagna offrono uno sfondo mozzafiato per la tua cerimonia e ricevimento, circondate da uliveti e antichi muri di pietra. Dalla cucina squisita al servizio personalizzato, ogni dettaglio è creato per offrire un'esperienza indimenticabile. Abbraccia il romanticismo del sud Italia con una celebrazione che riflette eleganza, tradizione e sofisticatezza.</span>",
+              "<span style=\"color: rgb(203, 213, 225); font-family: Montserrat, sans-serif; background-color: rgb(15, 23, 42);\">Entdecken Sie die perfekte Mischung aus rustikalem Charme und luxuriösem Komfort mit einer Masseria-Hochzeit. Diese historischen Landgüter bieten die perfekte Kulisse für Ihre Zeremonie und Ihren Empfang, umgeben von Olivenhainen und alten Steinmauern. Von exquisiter Küche bis hin zu persönlichem Service wird jedes Detail sorgfältig gestaltet, um ein unvergessliches Erlebnis zu schaffen. Genießen Sie die Romantik Süditaliens mit einer Feier, die Eleganz, Tradition und Raffinesse widerspiegelt.</span>",
+              "<span style=\"color: rgb(203, 213, 225); font-family: Montserrat, sans-serif; background-color: rgb(15, 23, 42);\">Descubra la mezcla perfecta de encanto rústico y comodidad lujosa con una boda en una Masseria. Estas históricas fincas rurales ofrecen un impresionante telón de fondo para su ceremonia y recepción, rodeadas de olivares y muros de piedra antiguos. Desde la exquisita cocina hasta el servicio personalizado, cada detalle está diseñado para crear una experiencia inolvidable. Abrace el romanticismo del sur de Italia con una celebración que refleja elegancia, tradición y sofisticación.</span>",
+              "<span style=\"color: rgb(203, 213, 225); font-family: Montserrat, sans-serif; background-color: rgb(15, 23, 42);\">Découvrez le mélange parfait de charme rustique et de confort luxueux avec un mariage dans une Masseria. Ces domaines historiques à la campagne offrent un cadre magnifique pour votre cérémonie et votre réception, entourés de champs d'oliviers et de vieux murs de pierre. De la cuisine raffinée au service personnalisé, chaque détail est conçu pour créer une expérience inoubliable. Embrassez la romance du sud de l'Italie avec une célébration qui reflète l'élégance, la tradition et la sophistication.</span>"
             ],
             "image": {
               "imagePath": "",
@@ -10131,6 +10131,7 @@
           "id": 7,
           "slotName": "default",
           "component": {
+            "anchorName": "section",
             "title$L": [
               "\"Capture Your Love Story with an Artistic Touch\"",
               "Approccio alla fotografia di matrimonio d'arte",
@@ -10140,10 +10141,10 @@
             ],
             "subtitle$L": [
               "",
-              "\"Cattura la tua storia d'amore con un tocco artistico\"",
-              "\"Halten Sie Ihre Liebesgeschichte mit einer künstlerischen Note fest\"",
-              "\"Captura tu historia de amor con un toque artístico\"",
-              "\"Capturez votre histoire d'amour avec une touche artistique\""
+              "",
+              "",
+              "",
+              ""
             ],
             "description$PL": [
               "Our approach to wedding photography is rooted in the belief that your special day is a unique masterpiece, deserving of an artistic and timeless portrayal. We blend candid moments with carefully composed shots, creating a narrative that not only documents events but also evokes the emotions and atmosphere of your celebration.",
@@ -10164,12 +10165,11 @@
             },
             "themeId": 1,
             "blockEntityId": 70,
-            "component_type": "custom_section_block",
-            "dataStructureId": 16,
-            "anchorName": "",
             "lazyLoading": false,
             "enableOnlyAfterCookieConsent": false,
-            "delayAnimation": 0
+            "delayAnimation": 0,
+            "component_type": "custom_section_block",
+            "dataStructureId": 16
           },
           "_$preventResendToIframe": true
         },
@@ -10548,24 +10548,24 @@
           "component": {
             "title$L": [
               "Hotel Resort Weddings",
-              "Matrimoni di Lusso in Masseria",
-              "Luxuriöse Masseria-Hochzeiten",
-              "Bodas de Lujo en Masseria",
-              "Mariages de Luxe dans une Masseria"
+              "Matrimoni in Resort Hotel",
+              "Hotel Resort Hochzeiten",
+              "Bodas en Resorts Hoteleros",
+              "Mariages en Hôtels Resorts"
             ],
             "subTitle$L": [
-              "Celebrate your special day in the timeless elegance of a traditional Masseria.",
-              "Celebra il tuo giorno speciale nell'eleganza senza tempo di una Masseria tradizionale.",
-              "Feiern Sie Ihren besonderen Tag in der zeitlosen Eleganz einer traditionellen Masseria.",
-              "Celebre su día especial en la elegancia atemporal de una Masseria tradicional.",
-              "Célébrez votre journée spéciale dans l'élégance intemporelle d'une Masseria traditionnelle."
+              "Capturing Your Unforgettable Moments in Luxurious Settings",
+              "Catturare i vostri momenti indimenticabili in ambienti di lusso",
+              "Unvergessliche Momente in luxuriösem Ambiente festhalten",
+              "Capturando sus momentos inolvidables en entornos lujosos",
+              "Capturer vos moments inoubliables dans des cadres luxueux"
             ],
             "description$L": [
-              "<font face=\"ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji\">Celebrate your special day in the timeless elegance of the best&nbsp;Hotel Resort&nbsp;</font>",
-              "Scopri la perfetta combinazione di fascino rustico e comfort di lusso con un matrimonio in Masseria. Queste storiche tenute di campagna offrono uno sfondo mozzafiato per la tua cerimonia e ricevimento, circondate da uliveti e antichi muri di pietra. Dalla cucina squisita al servizio personalizzato, ogni dettaglio è curato per creare un'esperienza indimenticabile. Abbraccia il romanticismo del sud Italia con una celebrazione che riflette eleganza, tradizione e raffinatezza.",
-              "Entdecken Sie die perfekte Kombination aus rustikalem Charme und luxuriösem Komfort mit einer Masseria-Hochzeit. Diese historischen Landgüter bieten eine atemberaubende Kulisse für Ihre Zeremonie und Ihren Empfang, umgeben von Olivenhainen und alten Steinmauern. Von exquisiter Küche bis hin zu persönlichem Service wird jedes Detail sorgfältig gestaltet, um ein unvergessliches Erlebnis zu schaffen. Erleben Sie die Romantik Süditaliens mit einer Feier, die Eleganz, Tradition und Raffinesse widerspiegelt.",
-              "Descubra la combinación perfecta de encanto rústico y comodidad lujosa con una boda en Masseria. Estas históricas fincas rurales ofrecen un escenario impresionante para su ceremonia y recepción, rodeadas de olivares y antiguos muros de piedra. Desde la exquisita gastronomía hasta el servicio personalizado, cada detalle está diseñado para crear una experiencia inolvidable. Abrace el romanticismo del sur de Italia con una celebración que refleja elegancia, tradición y sofisticación.",
-              "Découvrez le parfait mélange de charme rustique et de confort luxueux avec un mariage en Masseria. Ces propriétés campagnardes historiques offrent un cadre magnifique pour votre cérémonie et votre réception, entourées d'oliveraies et de murs de pierre anciens. De la cuisine raffinée au service personnalisé, chaque détail est conçu pour créer une expérience inoubliable. Embrassez la romance du sud de l'Italie avec une célébration qui reflète l'élégance, la tradition et la sophistication."
+              "Explore a curated selection of wedding photography set against the stunning backdrops of exquisite hotel resorts. Each image tells a unique story of love and celebration, capturing the elegance and joy of your special day. From intimate ceremonies by the pool to grand receptions in lavish ballrooms, witness how every moment is beautifully preserved through the lens.",
+              "Esplora una selezione curata di fotografie matrimoniali ambientate negli splendidi scenari di resort hotel esclusivi. Ogni immagine racconta una storia unica di amore e festa, catturando l'eleganza e la gioia del vostro giorno speciale. Dalle cerimonie intime a bordo piscina alle grandi ricevimenti in sontuosi saloni, guarda come ogni momento viene splendidamente conservato attraverso l'obiettivo.",
+              "Entdecken Sie eine sorgfältig ausgewählte Sammlung von Hochzeitsfotografien vor den atemberaubenden Kulissen exquisiter Hotelresorts. Jedes Bild erzählt eine einzigartige Geschichte von Liebe und Feier, die Eleganz und Freude Ihres besonderen Tages festhaltend. Von intimen Zeremonien am Pool bis zu großen Empfängen in prunkvollen Ballräumen sehen Sie, wie jeder Moment wunderschön durch die Linse bewahrt wird.",
+              "Explore una selección curada de fotografía de bodas con los impresionantes fondos de exclusivos resorts hoteleros. Cada imagen cuenta una historia única de amor y celebración, capturando la elegancia y alegría de su día especial. Desde ceremonias íntimas junto a la piscina hasta grandes recepciones en lujosos salones, observe cómo cada momento se conserva bellamente a través del lente.",
+              "Découvrez une sélection soignée de photographies de mariage dans les décors époustouflants d'hôtels resorts exquis. Chaque image raconte une histoire unique d'amour et de célébration, capturant l'élégance et la joie de votre jour spécial. Des cérémonies intimes au bord de la piscine aux grandes réceptions dans des salles somptueuses, voyez comment chaque instant est magnifiquement préservé à travers l'objectif."
             ],
             "image_aspect": "",
             "columns": 0,
@@ -10574,11 +10574,11 @@
                 "images": {
                   "imagePath": "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
                   "altText$L": [
-                    "",
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Bride and groom posing by the resort pool at sunset",
+                    "Sposa e sposo posano vicino alla piscina del resort al tramonto",
+                    "Braut und Bräutigam posieren am Pool des Resorts bei Sonnenuntergang",
+                    "Novia y novio posan junto a la piscina del resort al atardecer",
+                    "Mariée et marié posant près de la piscine du resort au coucher du soleil"
                   ]
                 }
               }
@@ -10587,7 +10587,7 @@
             "blockEntityId": 69,
             "component_type": "custom_section_block",
             "dataStructureId": 21,
-            "anchorName": "",
+            "anchorName": " ",
             "lazyLoading": false,
             "enableOnlyAfterCookieConsent": false,
             "delayAnimation": 0
@@ -10597,27 +10597,26 @@
           "id": 1,
           "slotName": "default",
           "component": {
-            "anchorName": "section1",
             "title$L": [
-              "The Perfect Place",
-              "",
-              "",
-              "",
-              ""
+              "Amazing Destinations for Your Special Day",
+              "Destinazioni Straordinarie per il Tuo Giorno Speciale",
+              "Erstaunliche Orte für Ihren Besonderen Tag",
+              "Destinos Asombrosos para Tu Día Especial",
+              "Destinations Incroyables pour Votre Journée Spéciale"
             ],
             "subtitle$L": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Experience the breathtaking beauty of stunning venues that make your wedding unforgettable.",
+              "Vivi la bellezza mozzafiato di location straordinarie che rendono il tuo matrimonio indimenticabile.",
+              "Erleben Sie die atemberaubende Schönheit atemberaubender Veranstaltungsorte, die Ihre Hochzeit unvergesslich machen.",
+              "Experimenta la belleza impresionante de lugares impresionantes que hacen que tu boda sea inolvidable.",
+              "Découvrez la beauté à couper le souffle des lieux magnifiques qui rendent votre mariage inoubliable."
             ],
             "description$PL": [
-              "<span style=\"color: rgb(203, 213, 225); font-family: Montserrat, sans-serif; background-color: rgb(15, 23, 42);\">Discover the perfect blend of rustic charm and luxurious comfort with a Masseria wedding. These historic countryside estates offer a stunning backdrop for your ceremony and reception, surrounded by olive groves and ancient stone walls. From exquisite cuisine to personalized service, every detail is crafted to create an unforgettable experience. Embrace the romance of southern Italy with a celebration that reflects elegance, tradition, and sophistication.</span>",
-              "",
-              "",
-              "",
-              ""
+              "Our selection showcases the most incredible venues, from luxurious resorts nestled in pristine natural landscapes to elegant hotels offering exquisite architecture and world-class amenities. Each place is chosen for its unique charm and ability to provide a stunning setting that perfectly complements your celebration. Whether you dream of a seaside escape, a mountain retreat, or a grand urban hotel, these destinations promise unforgettable moments and breathtaking views.",
+              "La nostra selezione mostra le location più incredibili, dai resort di lusso immersi in paesaggi naturali incontaminati agli eleganti hotel con architettura squisita e servizi di prima classe. Ogni luogo è scelto per il suo fascino unico e la capacità di offrire un'ambientazione mozzafiato che completi perfettamente la tua celebrazione. Che tu sogni una fuga sul mare, un rifugio in montagna o un grande hotel urbano, queste destinazioni promettono momenti indimenticabili e viste spettacolari.",
+              "Unsere Auswahl zeigt die unglaublichsten Veranstaltungsorte, von luxuriösen Resorts in unberührten Naturlandschaften bis hin zu eleganten Hotels mit exquisiter Architektur und erstklassigen Annehmlichkeiten. Jeder Ort wurde für seinen einzigartigen Charme und seine Fähigkeit ausgewählt, eine atemberaubende Kulisse zu bieten, die Ihre Feier perfekt ergänzt. Ob Sie von einer Flucht ans Meer, einem Bergrefugium oder einem großen Stadthotel träumen, diese Destinationen versprechen unvergessliche Momente und atemberaubende Aussichten.",
+              "Nuestra selección muestra los lugares más increíbles, desde lujosos resorts situados en paisajes naturales vírgenes hasta elegantes hoteles con arquitectura exquisita y servicios de primera clase. Cada lugar se elige por su encanto único y su capacidad para ofrecer un escenario impresionante que complementa perfectamente tu celebración. Ya sea que sueñes con una escapada junto al mar, un retiro en la montaña o un gran hotel urbano, estos destinos prometen momentos inolvidables y vistas impresionantes.",
+              "Notre sélection présente les lieux les plus incroyables, allant de resorts luxueux nichés dans des paysages naturels préservés à des hôtels élégants offrant une architecture exquise et des équipements de classe mondiale. Chaque lieu est choisi pour son charme unique et sa capacité à offrir un cadre magnifique qui complète parfaitement votre célébration. Que vous rêviez d'une escapade en bord de mer, d'un refuge en montagne ou d'un grand hôtel urbain, ces destinations promettent des moments inoubliables et des vues à couper le souffle."
             ],
             "image": {
               "imagePath": "",
@@ -10630,12 +10629,13 @@
               ]
             },
             "themeId": "0",
-            "lazyLoading": false,
-            "enableOnlyAfterCookieConsent": false,
-            "delayAnimation": 0,
             "blockEntityId": 56,
             "component_type": "custom_section_block",
-            "dataStructureId": 16
+            "dataStructureId": 16,
+            "anchorName": "",
+            "lazyLoading": false,
+            "enableOnlyAfterCookieConsent": false,
+            "delayAnimation": 0
           }
         },
         {
@@ -10644,11 +10644,11 @@
           "component": {
             "anchorName": "section3",
             "title$L": [
-              "&nbsp;",
-              "",
-              "",
-              "",
-              ""
+              "An Unforgettable Moment That Will Last Forever",
+              "Un momento indimenticabile che durerà per sempre",
+              "Ein unvergesslicher Moment, der für immer bleibt",
+              "Un momento inolvidable que durará para siempre",
+              "Un moment inoubliable qui durera pour toujours"
             ],
             "subTitle$L": [
               "",
@@ -10792,7 +10792,7 @@
     5,
     6
   ],
-  "currentLanguage": "en",
+  "currentLanguage": "it",
   "languagesEntityMap": {
     "1": {
       "id": 1,
@@ -11432,10 +11432,10 @@
         "webSiteName": "photographer",
         "description$PL": [
           "Your Website Descriptions here ",
-          "",
-          "",
-          "",
-          ""
+          "Le descrizioni del tuo sito web qui ",
+          "Ihre Website-Beschreibungen hier ",
+          "Sus descripciones del sitio web aquí ",
+          "Les descriptions de votre site Web ici "
         ],
         "copyrights$PL": [
           "Copyrights 2025. All rights reserved",
@@ -11464,18 +11464,18 @@
             "externalLink": "",
             "page": 0,
             "section": "",
+            "langCode": "en",
+            "themeSwitchCustom": "dark",
             "icon": {
               "id": 1,
               "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
               "themeId": 1
             },
             "themeId": 0,
+            "enableOnlyAfterCookieConsent": false,
             "id": 0,
             "blockEntityId": 52,
-            "generalSlotName": "links.this",
-            "langCode": "en",
-            "themeSwitchCustom": "dark",
-            "enableOnlyAfterCookieConsent": false
+            "generalSlotName": "links.this"
           },
           {
             "text$L": [
@@ -11523,7 +11523,7 @@
       "globalBlockName": "HeaderGlobal",
       "id": 3,
       "block": {
-        "anchorName": "section",
+        "anchorName": "",
         "logoImage": {
           "imagePath": "",
           "altText$L": [
@@ -11539,10 +11539,10 @@
           {
             "text$L": [
               "Portfolio",
-              "",
-              "",
-              "",
-              ""
+              "Portfolio",
+              "Portfolio",
+              "Portafolio",
+              "Portfolio"
             ],
             "description$L": [
               "",
@@ -11571,10 +11571,10 @@
           {
             "text$L": [
               "Experience",
-              "",
-              "",
-              "",
-              ""
+              "Esperienza",
+              "Erfahrung",
+              "Experiencia",
+              "Expérience"
             ],
             "description$L": [
               "",
@@ -11603,10 +11603,10 @@
           {
             "text$L": [
               "Journal",
-              "",
-              "",
-              "",
-              ""
+              "Giornale",
+              "Journal",
+              "Diario",
+              "Journal"
             ],
             "description$L": [
               "",
@@ -11635,10 +11635,10 @@
           {
             "text$L": [
               "Manifesto",
-              "",
-              "",
-              "",
-              ""
+              "Manifesto",
+              "Manifest",
+              "Manifiesto",
+              "Manifeste"
             ],
             "description$L": [
               "",
@@ -11665,10 +11665,10 @@
         ],
         "contact": {
           "text$L": [
-            "Inquire",
+            "Contact",
+            "Contattaci",
             "",
-            "",
-            "",
+            "Contáctenos",
             ""
           ],
           "description$L": [
@@ -11771,10 +11771,10 @@
         "anchorName": "",
         "title$L": [
           "Journal",
-          "",
-          "",
-          "",
-          ""
+          "Giornale",
+          "Journal",
+          "Diario",
+          "Journal"
         ],
         "subTitle$L": [
           "",
@@ -11804,17 +11804,17 @@
             },
             "title$L": [
               "Fine Art Wedding Photography Approach",
-              "",
-              "",
-              "",
-              ""
+              "Approccio alla Fotografia di Matrimonio Fine Art",
+              "Fine Art Hochzeitsfotografie Ansatz",
+              "Enfoque de Fotografía de Bodas Fine Art",
+              "Approche Photographique de Mariage Fine Art"
             ],
             "subtitle$L": [
               "Location Guide",
-              "",
-              "",
-              "",
-              ""
+              "Guida alla Location",
+              "Ortsführer",
+              "Guía de Ubicación",
+              "Guide de Lieu"
             ],
             "description$L": [
               "Discover the enchanting allure of New York's iconic landmarks and how these historic sites create an unparalleled backdrop for luxury celebrations.",
@@ -11826,10 +11826,10 @@
             "link": {
               "text$L": [
                 "Read More",
-                "",
-                "",
-                "",
-                ""
+                "Leggi di più",
+                "Weiterlesen",
+                "Leer Más",
+                "Lire la suite"
               ],
               "description$L": [
                 "",
@@ -11869,17 +11869,17 @@
             },
             "title$L": [
               "Fine Art Wedding Photography Approach",
-              "",
-              "",
-              "",
-              ""
+              "Approccio alla Fotografia di Matrimonio Fine Art",
+              "Fine Art Hochzeitsfotografie Ansatz",
+              "Enfoque de Fotografía de Bodas Fine Art",
+              "Approche Photographique de Mariage Fine Art"
             ],
             "subtitle$L": [
               "Style Insight",
-              "",
-              "",
-              "",
-              ""
+              "Approfondimento sullo Stile",
+              "Stil-Einblick",
+              "Perspectiva de Estilo",
+              "Aperçu du Style"
             ],
             "description$L": [
               "Discover the enchanting allure of New York's iconic landmarks and how these historic sites create an unparalleled backdrop for luxury celebrations.",
@@ -11891,10 +11891,10 @@
             "link": {
               "text$L": [
                 "Read More",
-                "",
-                "",
-                "",
-                ""
+                "Leggi di più",
+                "Weiterlesen",
+                "Leer Más",
+                "Lire la suite"
               ],
               "description$L": [
                 "",
@@ -11934,17 +11934,17 @@
             },
             "title$L": [
               "Planning Your New York Elopement",
-              "",
-              "",
-              "",
-              ""
+              "Organizzare la Tua Fuga a New York",
+              "Planung Ihres New Yorker Durchbrennens",
+              "Planificando tu Fuga en Nueva York",
+              "Planifier votre Évasion à New York"
             ],
             "subtitle$L": [
               "<div><span style=\"letter-spacing: 0.6px;\">Planning Resource</span></div>",
-              "",
-              "",
-              "",
-              ""
+              "<div><span style=\"letter-spacing: 0.6px;\">Risorsa per la Pianificazione</span></div>",
+              "<div><span style=\"letter-spacing: 0.6px;\">Planungsressource</span></div>",
+              "<div><span style=\"letter-spacing: 0.6px;\">Recurso de Planificación</span></div>",
+              "<div><span style=\"letter-spacing: 0.6px;\">Ressource de Planification</span></div>"
             ],
             "description$L": [
               "Discover the enchanting allure of New York's iconic landmarks and how these historic sites create an unparalleled backdrop for luxury celebrations.",
@@ -11956,10 +11956,10 @@
             "link": {
               "text$L": [
                 "Read More",
-                "",
-                "",
-                "",
-                ""
+                "Leggi di più",
+                "Weiterlesen",
+                "Leer Más",
+                "Lire la suite"
               ],
               "description$L": [
                 "",
